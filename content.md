@@ -1005,7 +1005,7 @@ otherwise noted on the card.
 > **ADVANCED RULES**\
 > \
 > **Become Anarch**
-> - Who can become Anarch: Any ready untitled non-Anarch vampire.
+> - Who can become Anarch: Any ready non-titled non-Anarch vampire.
 > - Cost: 2 blood, or 1 blood if the controller controls at least 1 other ready Anarch.
 > - Default target: None. Undirected action.
 > - Default stealth: +1 stealth.
