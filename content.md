@@ -1006,16 +1006,16 @@ otherwise noted on the card.
 > - Effect: If the action is successful, the acting vampire is now of the Anarch sect.
 
 ### **Equip Action**
-
+*Equipment cards are action cards that give minions an advantage through special tools or ancient relics.*\
+\
+There is no limit to the number of equipment cards a minion can have.
 - **Who can equip:** Any ready minion.
 - **Cost:** As listed on the equipment card.
 - **Default target:** None. Undirected action.
 - **Default stealth:** +1 stealth.
-- **Effect when equipping from your hand:** Equipment cards are action
-cards that give minions special abilities. If the action to equip with
+- **Effect when equipping from your hand:** If the action to equip with
 an equipment card from your hand is successful, the equipment card is
-placed on the acting minion. There is no limit to the number of
-equipment cards a minion can have.
+placed on the acting minion. 
 
 
 > **ADVANCED RULES**\
@@ -1040,18 +1040,20 @@ is.
 
 
 ### **Employ Retainer**
+*Retainers are action cards that represent a minions loyal servants or henchmen. Their presence gives minions an edge compared to others.*\
+\
+There is no limit to the number of retainers a minion can have. When a retainer is brought into play, it receives blood counters from the blood
+bank to represent its life (listed on the retainer's card). When a retainer loses their last life counter, they are burned.
 
 - **Who can employ a retainer:** Any ready minion.
 - **Cost:** As listed on the retainer card.
 - **Default target:** None. Undirected action.
 - **Default stealth:** +1 stealth.
-- **Effect:** Retainers are action cards that give minions special
-abilities. If the action is successful, the retainer is placed on the
-acting minion. There is no limit to the number of retainers a minion can
-have. Unlike equipment, a retainer cannot be transferred. When a
-retainer is brought into play, it receives blood counters from the blood
-bank to represent its life (listed on the retainer's card). When a
-retainer loses their last life counter, they are burned.
+- **Effect:**  If the action is successful, the retainer is placed on the
+acting minion. 
+
+> **ADVANCED RULES**
+> Unlike equipment, a retainer cannot be transferred. 
 
 
 ![](bin/media/image35.png)
@@ -1068,17 +1070,17 @@ retainer loses their last life counter, they are burned.
 
 ### **Recruit Ally**
 
+*Allies are action cards that become minions in their own right, capable of acting and blocking independently of the minion that
+recruits them.*\
+\
+When an ally is brought into play, they receive blood counters from the blood bank to represent
+their life (listed on the ally's card). When an ally loses their last life counter, they are burned.
 - **Who can recruit an ally:** Any ready minion.
 - **Cost:** As listed on the ally card.
 - **Default target:** None. Undirected action.
 - **Default stealth:** +1 stealth.
-- **Effect:** Allies are action cards that become minions in their own
-right, capable of acting and blocking independently of the minion that
-recruits them. If the action is successful, the ally is placed in your
-ready region, but they cannot act this turn. When an ally is brought
-into play, they receive blood counters from the blood bank to represent
-their life (listed on the ally's card). When an ally loses their last
-life counter, they are burned.
+- **Effect:** If the action is successful, the ally is placed in your
+ready region, but they cannot act this turn. 
 
 
 
@@ -1095,6 +1097,16 @@ life counter, they are burned.
 
 ### **Political Action**
 
+*Politics and diplomacy are as critical to vampires as hunting and
+feeding. Like mortal society, Kindred society has its own laws, creeds,
+and customs. Politics come into play when a vampire performs a political
+action or when a blood hunt is called (see [**The Blood Hunt**](https://www.vekn.net/rulebook#the-blood-hunt))*.
+
+
+**Important:** The specific terms of the referendum (the choices to be
+made, if any, by the Methuselah who calls the referendum) are not chosen
+until the action itself is successful. The resolution of the referendum is a subpart 
+of the general action resolution. 
 - **Who can take a political action:** Any ready vampire. A vampire
 cannot perform more than one political action each turn.
 - **Cost:** As listed on the political action card.
@@ -1472,42 +1484,27 @@ action modifiers and reaction cards are always paid when the cards are
 played, regardless of the success of the action.
 
 
-
-### **Politics**
-
-Politics and diplomacy are as critical to vampires as hunting and
-feeding. Like mortal society, Kindred society has its own laws, creeds,
-and customs. Politics come into play when a vampire performs a political
-action or when a blood hunt is called (see [**The Blood Hunt**](https://www.vekn.net/rulebook#the-blood-hunt)).
-
-**The Political Action**
-
-**Important:** The specific terms of the referendum (the choices to be
-made, if any, by the Methuselah who calls the referendum) are not chosen
-until the action itself is successful. The resolution of the referendum is a subpart 
-of the general action resolution. 
-
-**The Referendum**
-
-If a political action is successful, its cost is paid, and the
-referendum is called. The referendum consists of three steps:
-
-**1. Choose the terms**, if any, of the referendum.
-
-**2. Polling:** Cards that are usable "during the polling step" but
-"before votes and ballots are cast" are used at this time. Then, all
-Methuselahs may now cast any votes and ballots they have (see below) at
-this time, in any order. They call out their votes and ballots freely,
-and there is no obligation to cast votes or ballots. Once a vote or a
-ballot has been cast, however, it cannot be changed. The polling stage
-is completed only when all Methuselahs are finished casting votes and
-ballots. If you need a time limit, the Methuselahs can agree to wait 15
-seconds after the last vote or ballot cast to close the polling stage.
-
-**3. Resolve the Referendum:** If there are more votes for the
-referendum than against, it passes, and the effects take place.
-Otherwise, the referendum fails and has no effect. Tied referendums
-fail.
+> **The Referendum**\
+> If a **political action** is successful, its cost is paid, and the
+> referendum is called. The referendum consists of three steps:\
+> **1. Choose the terms**, if any, of the referendum.\
+> **2. Polling:**\
+> **2.a Before votes and ballots are cast**\
+> Cards that are usable "during the polling step" but
+> "before votes and ballots are cast" are used at this time.\
+> **2.b polling step**\
+> All Methuselahs may then cast any votes and ballots they have (see below) at
+> this time, in any order. They call out their votes and ballots freely,
+> and there is no obligation to cast votes or ballots. Once a vote or a
+> ballot has been cast, however, it cannot be changed. The polling stage
+> is completed only when all Methuselahs are finished casting votes and
+> ballots. If you need a time limit, the Methuselahs can agree to wait 15
+> seconds after the last vote or ballot cast to close the polling stage.\
+> **3. Resolve the Referendum:**\
+> If there are more votes for the
+> referendum than against, it passes, and the effects take place.
+> Otherwise, the referendum fails and has no effect. Tied referendums
+> fail.
 
 
 
@@ -1520,8 +1517,10 @@ cast is cast either "for" or "against" the referendum, and a Methuselah
 may cast some of their votes and ballots in favour and some against, as
 they choose, with the restriction that all of the votes and ballots from
 any given vampire or other source must be cast in agreement as a group.
-Once cast, a vote or a ballot cannot be changed. Methuselahs can gain
-votes and ballots in the following ways:
+Once cast, a vote or a ballot cannot be changed. 
+
+
+Methuselahs can gain votes and ballots in the following ways:
 
 - **Political Action Cards:** Each Methuselah may gain 1 vote by using a
 political action card. These cards say "1 vote" to indicate this.
@@ -1534,19 +1533,15 @@ political action cards.
 controls, they gain extra votes. The number of votes gained depends on
 the title.
 
+Whether or not a minion is locked or unlocked does not have any impact
+on their ability to vote. A minion's votes and ballots can be used only when the minion is ready.
+
 A Methuselah gains:
 
 - **1 vote** for each ready primogen
 - **2 votes** for each ready prince or baron
 - **3 votes** for each ready justicar
 - **4 votes** for each ready Inner Circle member
-
-Other minions may have a title worth votes or ballots (as listed on card text) without
-holding one of the titles listed above (see [**Other Vampire Sects**](https://www.vekn.net/rulebook/7-legacy-sets#other-vampire-sects)).
-A minion may have a special ability granting **additional** votes or ballots without being titled themselves. 
-A minion's votes and ballots can be used only when the minion is ready.
-Whether or not a minion is locked or unlocked does not have any impact
-on their ability to vote.
 
 - **The Edge:** The Methuselah who has the Edge can burn it (return it,
 uncontrolled, to the central area) to gain 1 vote.
@@ -1556,7 +1551,11 @@ rules of playing cards. Only the acting minion can play action modifiers
 and only ready unlocked minions controlled by Methuselahs other than the
 acting minion's controller can play reaction cards.
 
-
+> **ADVANCED RULES**\
+> \
+A minion may have a special ability granting **additional** votes or ballots without being titled themselves.\
+> Other minions may have a title worth votes or ballots (as listed on card text) without
+> holding one of the titles listed above (see [**Other Vampire Sects**](https://www.vekn.net/rulebook/7-legacy-sets#other-vampire-sects)).
 
 ### **Combat**
 
@@ -1764,6 +1763,7 @@ had only 1 additional strike. Wauneka takes 1 more damage.*
 
 Damage resolution has two steps: prevent damage and mend damage.
 
+**5.a Prevent Damage**
 First, the minion taking damage can play combat cards that prevent
 damage. These damage prevention cards are played one at a time until all
 the damage is prevented or until the minion chooses not to play any
@@ -1771,6 +1771,7 @@ more. Any unprevented damage is successfully inflicted. The damage is
 then mended, if the victim is a vampire, or burns life counters, if the
 victim is an ally or a retainer.
 
+**5.b Mend Damage**
 For each point of damage successfully inflicted on a vampire, they must burn 1 blood
 to mend the damage. A vampire can burn all of their blood if needed, and
 doing so does not have any other negative effects on the vampire. If a
@@ -1781,30 +1782,31 @@ damage they can, and the unmended damage leaves them wounded.
 A wounded vampire goes to torpor after all remaining damage is handled
 (see [**Torpor**](https://www.vekn.net/rulebook#torpor)).
 
-**Normal damage**: Any damage which is not specified otherwise.
-
-**Environmental damage:** Any damage not inflicted by a minion either as
-a strike, or by an explicit effect ("this minion inflicts...") is
-environmental. Environmental damage can have no source (such as the
-damage inflicted by a Carrion Crows) or a non-minion source (such as the
-damage inflicted by a retainer).
-
-Note that damage that is not inflicted by a strike (such as environmental 
-damage from Carrion Crows or Murder of Crows) cannot be dodged, since 
-dodging only protects from the opponent's strike.
-
-**Aggravated damage:** Some damage is described as aggravated damage,
-such as damage from fire, sunlight, or from the claws or fangs of some
-other supernatural creatures, including some vampires. Aggravated damage
-differs from normal damage in two ways: aggravated damage cannot be
-mended, and aggravated damage can burn a vampire if that vampire is
-already wounded. Since it cannot be mended, the vampire does not burn
-any blood to mend it, but instead becomes wounded (goes straight to
-torpor), unless the damage has been prevented.
-
-Aggravated damage done to a wounded vampire can burn the vampire
-outright. A wounded vampire is one that has taken damage that they
-failed to mend or one that is in torpor or on their way to torpor.
+> **DIFFERENT KINDS OF DAMAGE**\
+> \
+> **Normal damage**: Any damage which is not specified otherwise.\
+>\
+> **Environmental damage:** Any damage not inflicted by a minion either as
+> a strike, or by an explicit effect ("this minion inflicts...") is
+> environmental. Environmental damage can have no source (such as the
+> damage inflicted by a Carrion Crows) or a non-minion source (such as the
+> damage inflicted by a retainer).\
+>\
+> Note that damage that is not inflicted by a strike (such as environmental
+> damage from Carrion Crows or Murder of Crows) cannot be dodged, since
+> dodging only protects from the opponent's strike.\
+> \
+> **Aggravated damage:** Some damage is described as aggravated damage,
+> such as damage from fire, sunlight, or from the claws or fangs of some
+> other supernatural creatures, including some vampires. Aggravated damage
+> differs from normal damage in two ways: aggravated damage cannot be
+> mended, and aggravated damage can burn a vampire if that vampire is
+> already wounded. Since it cannot be mended, the vampire does not burn
+> any blood to mend it, but instead becomes wounded (goes straight to
+> torpor), unless the damage has been prevented.\
+> \
+> Aggravated damage done to a wounded vampire can burn the vampire outright. A wounded vampire is one that has taken damage that they
+> failed to mend or one that is in torpor or on their way to torpor.
 
 For each point of aggravated damage that is successfully inflicted on a
 wounded vampire, they must burn 1 blood to prevent their destruction. If
@@ -1812,7 +1814,7 @@ they do not have enough blood, they are burned. Destruction by this
 method does not constitute diablerie
 (see [**Diablerie**](https://www.vekn.net/rulebook#diablerie)).
 
-If both regular damage and aggravated damage are successfully inflicted
+If both normal damage and aggravated damage are successfully inflicted
 on a vampire at the same time, the normal damage is handled first. This
 only applies to unprevented damage; damage prevention effects can be
 used to prevent the aggravated damage before the normal damage. If a
