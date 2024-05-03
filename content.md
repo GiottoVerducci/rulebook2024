@@ -480,7 +480,7 @@ action (even if using a different Discipline level).
 
 Some action modifier cards are played by minions "other than the acting
 minion". Only minions controlled by the same Methuselah can play those
-cards. *The minion who plays those cards can play them even when they are locked.*
+cards, they can do so even if they are locked.
 
 **Ally cards:** Allies are minions other than vampires that you as a Methuselah can
 control. These cards are put into play with their starting life
@@ -1132,7 +1132,7 @@ to attacks from others of their kind. A vampire in torpor may be burned
 by a vampire through the act of diablerie
 (see [**Diablerie**](https://www.vekn.net/rulebook#diablerie) below).*
 
-If a vampire cannot mend their wounds, they go into torpor. Vampires in
+Vampires in
 torpor are placed in an area to one side of the uncontrolled region. Any
 retainers, equipment, and other cards on the vampire stay with the
 vampire when they go into torpor.
@@ -1144,8 +1144,7 @@ modifiers during their actions.
 A vampire in torpor is still considered controlled but is not ready.
 They still unlock at the start of the unlock phase.
 
-A vampire in torpor cannot cast any votes or ballots (they must
-abstain).
+A vampire in torpor cannot cast any votes or ballots.
 
 
 ### **Leave Torpor (See [Torpor](https://www.vekn.net/rulebook#torpor))**
