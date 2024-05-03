@@ -1813,10 +1813,10 @@ they do not have enough blood, they are burned. Destruction by this
 method does not constitute diablerie
 (see [**Diablerie**](https://www.vekn.net/rulebook#diablerie)).
 
-If both normal damage and aggravated damage are successfully inflicted
-on a vampire at the same time, the normal damage is handled first. This
+If both non-aggravated damage and aggravated damage are successfully inflicted
+on a vampire at the same time, the non-aggravated damage is handled first. This
 only applies to unprevented damage; damage prevention effects can be
-used to prevent the aggravated damage before the normal damage. If a
+used to prevent the aggravated damage before the non-aggravated damage. If a
 vampire is wounded, they go to torpor after all the damage is handled
 (see [**Torpor**](https://www.vekn.net/rulebook#torpor)). If
 aggravated damage burns them, they go directly to the ash heap. They do
@@ -1839,7 +1839,7 @@ wounded and cannot burn 1 blood to prevent his destruction.*
 
 > **ADVANCED RULES**
 > 
-> Allies and retainers treat aggravated damage the same as normal
+> Allies and retainers treat aggravated damage the same as non-aggravated
 > damage. For each point of damage successfully inflicted on an ally
 > or retainer, they burn 1 life counter. An ally or retainer who loses
 > all of their life counters is burned.
