@@ -2169,7 +2169,7 @@ victory point, and Lisa and Steve with 0 victory points.*
 > single blood or pool counter, even if you also gain enough to make up
 > for the loss.\
 > \
-> If you successfully withdraw, you receive 1 victory point to add to
+> If you successfully withdraw, you receive 0.5 victory point to add to
 > any victory points you have already gained. Your predator does not
 > get 1 victory point or any pool for your withdrawal.
 
