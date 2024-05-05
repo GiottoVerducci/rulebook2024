@@ -1716,8 +1716,10 @@ had only 1 additional strike. Wauneka takes 1 more damage.*
 
 **5. Damage Resolution**
 
+
 Damage resolution has two steps: prevent damage and mend damage.
 
+**5.a Prevent Damage**
 First, the minion taking damage can play combat cards that prevent
 damage. These damage prevention cards are played one at a time until all
 the damage is prevented or until the minion chooses not to play any
@@ -1725,6 +1727,7 @@ more. Any unprevented damage is successfully inflicted. The damage is
 then mended, if the victim is a vampire, or burns life counters, if the
 victim is an ally or a retainer.
 
+**5.b Mend Damage**
 For each point of damage successfully inflicted on a vampire, they must burn 1 blood
 to mend the damage. A vampire can burn all of their blood if needed, and
 doing so does not have any other negative effects on the vampire. If a
