@@ -1378,6 +1378,9 @@ says "Do you block?" Alexis decides not to block, so then Sarah plays
 Bonding (an action modifier that adds 1 to the bleed). Alexis is bled
 for 2 pool.*
 
+> **ADVANCED RULES**\
+> Some cards can make actions **fail**. Actions that fail are similar to actions that have been blocked except that
+> there is no blocker and no combat. Only cards playable "after action resolution" can still be played.
 
 > **DETAILED COURSE OF AN ACTION**
 > 
@@ -1423,7 +1426,9 @@ succeeds; the cost is not paid if the action is blocked. The costs of
 action modifiers and reaction cards are always paid when the cards are
 played, regardless of the success of the action.
 
-
+> **ADVANCED RULES**\
+> If an effect **ends the action** after block resolution, that makes the action end unsuccessfully.
+> Actions that are ended are over: action modifiers and reactions cannot be played anymore.
 
 ### **Politics**
 
