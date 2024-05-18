@@ -1427,7 +1427,7 @@ action modifiers and reaction cards are always paid when the cards are
 played, regardless of the success of the action.
 
 > **ADVANCED RULES**\
-> If an effect **ends the action** after block resoltion, that makes the action end unsuccessfully.
+> If an effect **ends the action** after block resolution, that makes the action end unsuccessfully.
 > Actions that are ended are over: action modifiers and reactions cannot be played anymore.
 
 ### **Politics**
