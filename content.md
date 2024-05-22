@@ -309,6 +309,9 @@ cards in hand. Whenever an effect changes your hand size or adds or
 removes cards from your hand, immediately discard down to or draw up to
 match your hand size.
 
+> **ADVANCED**
+> Some effects take place "as a card is played". All cards played during that time are not replaced until all effects during that window are handeled.
+
 ### **Requirements for Playing Cards**
 
 Each library card has symbols on the attribute bar (the marble stripe on
