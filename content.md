@@ -83,26 +83,6 @@ figurine, trinket or a glove will do.
 
 ![](bin/media/image4.png)
 
-> **TURN SEQUENCE**\
-> \
-> Turns proceed clockwise around the playing area, starting with the first Methuselah. Each Methuselah’s turn is composed of the following five phases, in order:
-> **Start of Turn**
-> In this instance, effects which take place before your unlock phase, are handeled.
-> 1. **Unlock Phase**\
-> Unlock all your cards and deal with any active **contests**. If you have the **Edge**, you may gain 1 pool from the *blood bank*.
-> 2. **Master Phase**\
-> Take **master phase actions**, representing your direct influence in the World of Darkness.
-> 3. **Minion Phase**\
-> This is generally the longest part of your turn as your minions perform a wide variety of **actions** using abilities or cards. Actions can be **blocked** which may result in combat.
-> 4. **Influence Phase**\
-> Gain control of vampires in your **uncontrolled region** by using your pool and **transfers**.
-> 5. **Discard Phase**\
-> Use a **discard phase action** to **discard** a card from your hand and draw another, or (Advanced Rules) to play an **event card**.
-> **End of Turn**
-> Some effects take place at the end of your turn, after your Discard Phase.
-> 
-> Each of the phases is described in full detail later in this rulebook (see Detailed Turn Sequence, p. 17).
-
 # [**2. Card Types**](https://www.vekn.net/rulebook/2-card-types)
 
 
@@ -266,96 +246,6 @@ allies) the Methuselah controls.
 > to represent events that affect the World of Darkness as a whole
 > (see [**Event Card**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#event-card)).
 
-
-### **Playing a Card**
-
-A card is played by announcing its effects, showing the card and placing
-it from the hand in the ash heap upon resolution. Sometimes a card will state to put it
-into play, you should announce its effects and place the card in the
-play area upon resolution.
-Some cards such as action cards are not resolved immediately; in that case, they are temporarily out of play between the moment they are played and the moment they reach resolution.
-
-> **ADVANCED RULES**\
-> Some effects can cancel a card "as it is played." These effects, as
-> well as [**wake effects**](https://www.vekn.net/rulebook/8-glossaries#wake),
-> are the only effects allowed during the "as played" time period of
-> another card. Even drawing to replace cards, comes after this time
-> period.
-
-
-### **Drawing Cards**
-
-Whenever you play a card from your hand, you draw another from your
-library to replace it (unless card text says otherwise). If your library
-is empty, then you do not draw to replenish your hand, but you do
-continue to play. The number of cards in your hand should always match
-your hand size (cards that are replaced later reduce your hand size for
-the duration of the effect). The starting default hand size is seven
-cards in hand. Whenever an effect changes your hand size or adds or
-removes cards from your hand, immediately discard down to or draw up to
-match your hand size.
-
-### **Requirements for Playing Cards**
-
-Each library card has symbols on the attribute bar (the marble stripe on
-the left side) for the card type (except for master cards), the clan, or
-Discipline (if any) required to play the card, and the cost (if any) of
-playing that card.
-
-
-
-![](bin/media/image15.png)
-
-
-
-Some cards will have other requirements (such as capacity or title)
-stated in the card text. Only a minion who meets the requirements given
-on a minion card can play it, whereas only a Methuselah who controls a
-ready minion who meets the requirements of a master card can play it.
-
-Some of the effects listed on cards may require one of the Disciplines
-listed, while other effects require another listed Discipline, and some
-effects may require the vampire to possess several Disciplines. Each
-effect shows the icon(s) of the Discipline(s) required.
-
-A number in a red drop represents blood cost (the amount of blood the
-vampire must burn). Only a vampire with enough blood on them can play a
-card with a blood cost. A number in a white diamond with a skull
-represents pool cost (the amount of pool the Methuselah must burn). Only
-a Methuselah with enough pool can play a card with a pool cost.
-
-Costs may only be paid with the Methuselah's or the minion's own resources. For instance, 
-some cards or effects have an alternative cost such as burning the Edge or discarding a card; 
-the Methuselah must control the Edge to burn it for a cost, or discard one of their own card in hand.
-Minions controlled by a Methuselah have access to that Methuselah's resources in order to pay costs: for instance,
-a minion can discard a card from their controller's hand.
-
-Optional cost reducers can be used when the card is played (in order to play the card) or upon resolution (you may wait until you know the action is successful). If the card is cancelled, then the effect is not used.
-
-![](bin/media/image16.png)
-
-
-
-### **Targeting of Cards**
-
-If a card is played on another card, or targets another card, the target
-card must be in play (that is, controlled). Vampires in the torpor
-region are eligible targets by default, but vampires in the uncontrolled
-region and contested cards are not.
-
->**ADVANCED RULES**\
-> **Sequencing**\
-> If two or more Methuselahs want to play a card or effect, the acting
-> Methuselah plays first. At every stage, the acting Methuselah always
-> has the opportunity (called "impulse") to play the next card or effect. So after playing
-> one effect, they may play another and another. Once they are
-> finished, the impulse passes to the next Methuselah in the following order: 
-> during combat or an action directed at a single Methuselah, the defending Methuselah first; 
-> during an action directed at a set of Methuselas, those Methuselahs in clockwise order; 
-> during an undirected action, the prey first and the predator second. 
-> Then every other Methuselah in clockwise order gets the impulse until everyone passes.
-> Note that if at any point any Methuselah uses a card or effect, the acting Methuselah
-> again gets the impulse back.
 
 ### **Master Cards**
 
@@ -647,8 +537,101 @@ uncontrolled region at any time during the game.
 
 
 
-## **IMPORTANT TERMS IN THE GAME**
+## **GENERAL RULES**
 
+### **Drawing Cards**
+Whenever you play a card from your hand, you draw another from your
+library to replace it (unless card text says otherwise). If your library
+is empty, then you do not draw to replenish your hand, but you do
+continue to play. The number of cards in your hand should always match
+your hand size (cards that are replaced later reduce your hand size for
+the duration of the effect). The starting default hand size is seven
+cards in hand. Whenever an effect changes your hand size or adds or
+removes cards from your hand, immediately discard down to or draw up to
+match your hand size.
+
+> **ADVANCED RULES**\
+> Some effects can cancel a card "as it is played." These effects, as
+> well as [**wake effects**](https://www.vekn.net/rulebook/8-glossaries#wake),
+> are the only effects allowed during the "as played" time period of
+> another card. Even drawing to replace cards, comes after this time
+> period.
+
+### **Playing a Card**
+
+A card is played by announcing its effects, showing the card and placing
+it from the hand in the ash heap upon resolution. Sometimes a card will state to put it
+into play, you should announce its effects and place the card in the
+play area upon resolution.
+Some cards such as action cards are not resolved immediately; in that case, they are temporarily out of play between the moment they are played and the moment they reach resolution.
+
+### **Requirements for Playing Cards**
+
+Each library card has symbols on the attribute bar (the marble stripe on
+the left side) for the card type (except for master cards), the clan, or
+Discipline (if any) required to play the card, and the cost (if any) of
+playing that card.
+
+
+
+![](bin/media/image15.png)
+
+
+
+Some cards will have other requirements (such as capacity or title)
+stated in the card text. Only a minion who meets the requirements given
+on a minion card can play it, whereas only a Methuselah who controls a
+ready minion who meets the requirements of a master card can play it.
+
+Some of the effects listed on cards may require one of the Disciplines
+listed, while other effects require another listed Discipline, and some
+effects may require the vampire to possess several Disciplines. Each
+effect shows the icon(s) of the Discipline(s) required.
+
+A number in a red drop represents blood cost (the amount of blood the
+vampire must burn). Only a vampire with enough blood on them can play a
+card with a blood cost. A number in a white diamond with a skull
+represents pool cost (the amount of pool the Methuselah must burn). Only
+a Methuselah with enough pool can play a card with a pool cost.
+
+Costs may only be paid with the Methuselah's or the minion's own resources. For instance, 
+some cards or effects have an alternative cost such as burning the Edge or discarding a card; 
+the Methuselah must control the Edge to burn it for a cost, or discard one of their own card in hand.
+Minions controlled by a Methuselah have access to that Methuselah's resources in order to pay costs: for instance,
+a minion can discard a card from their controller's hand.
+
+Optional cost reducers can be used when the card is played (in order to play the card) or upon resolution (you may wait until you know the action is successful). If the card is cancelled, then the effect is not used.
+
+![](bin/media/image16.png)
+
+
+
+### **Targeting of Cards**
+
+If a card is played on another card, or targets another card, the target
+card must be in play (that is, controlled). Vampires in the torpor
+region are eligible targets by default, but vampires in the uncontrolled
+region and contested cards are not. 
+
+**Target:** A Methuselah or a card being affected by another card or effect (usually an action) that is not a referendum. Many cards or effects will have one or more targets, and the specific 
+eligible targets are defined in their card texts. 
+Targeting a card attached to another card does not target the latter, it is therefore possible to target a card on a vampire with a directed action, even when the vampire cannot be the target of directed actions. Sets of counters on a card (such as blood on a vampire) or possessed by a Methuselah (such as pool) are never targeted directly: they can only be targeted as a quantity via the card or the Methuselah. The card or Methuselah does not need to have that exact quantity: if they not have enough of these counters, then as many counters as possible are affected. For instance, a card that steals 2 blood from a vampire targets that vampire, whatever quantity of blood they have, and moves as much blood as possible if there is 1 or 0 blood counters.
+
+
+### SEQUENCING
+If two or more Methuselahs want to play a card or effect, the acting
+Methuselah plays first. At every stage, the acting Methuselah always
+has the opportunity (called "impulse") to play the next card or effect. So after playing
+one effect, they may play another and another. Once they are
+finished, the impulse passes to the next Methuselah in the following order: 
+during combat or an action directed at a single Methuselah, the defending Methuselah first; 
+during an action directed at a set of Methuselas, those Methuselahs in clockwise order; 
+during an undirected action, the prey first and the predator second. 
+Then every other Methuselah in clockwise order gets the impulse until everyone passes.
+Note that if at any point any Methuselah uses a card or effect, the acting Methuselah
+again gets the impulse back.
+
+### **IMPORTANT TERMS IN THE GAME**
 > **The Golden Rule for Cards:** Whenever the cards contradict the rules,
 > the cards take precedence.
 
@@ -677,16 +660,6 @@ that Methuselah.
 Control can change through game effects and this is clearly noted when
 using those effects.
 
-**Targeting of Cards**
-If a card is played on another card, or targets another card, the target
-card must be in play (that is, controlled). Vampires in the torpor
-region are eligible targets by default, but vampires in the uncontrolled
-region and contested cards are not.
-
-**Target:** A Methuselah or a card being affected by another card or effect (usually an action) that is not a referendum. Many cards or effects will have one or more targets, and the specific 
-eligible targets are defined in their card texts. 
-Targeting a card attached to another card does not target the latter, it is therefore possible to target a card on a vampire with a directed action, even when the vampire cannot be the target of directed actions. Sets of counters on a card (such as blood on a vampire) or possessed by a Methuselah (such as pool) are never targeted directly: they can only be targeted as a quantity via the card or the Methuselah. The card or Methuselah does not need to have that exact quantity: if they not have enough of these counters, then as many counters as possible are affected. For instance, a card that steals 2 blood from a vampire targets that vampire, whatever quantity of blood they have, and moves as much blood as possible if there is 1 or 0 blood counters.
-
 **Burn:** When a card is burned, it is placed into its owner's ash heap
 (discard pile). The ash heap can be examined by any Methuselah at any
 time. When a counter is burned, it is returned to the blood bank.
@@ -711,8 +684,6 @@ more than one card or effect (a source) to gain additional strikes per
 round of combat. Those rules are reminded on those cards by the
 "(limited)" card text. (See [**Bleed**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#bleed)
 and [**Additional Strikes**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#additional-strikes)).
-
-
 
 ### **Wording templates**
 
@@ -752,7 +723,24 @@ another minion they control). You cannot steal a card from yourself.
 > played it must choose a strike which may come from another strike
 > card.
 
-# [**4. Detailed Turn Sequence**](https://www.vekn.net/rulebook/4-detailed-turn-sequence)
+
+# [**4. Turn Sequence**](https://www.vekn.net/rulebook/4-detailed-turn-sequence)
+
+> Turns proceed clockwise around the playing area, starting with the first Methuselah. Each Methuselah’s turn is composed of the following five phases, in order:
+> **Start of Turn**
+> In this instance, effects which take place before your unlock phase, are handeled.
+> 1. **Unlock Phase**\
+> Unlock all your cards and deal with any active **contests**. If you have the **Edge**, you may gain 1 pool from the *blood bank*.
+> 2. **Master Phase**\
+> Take **master phase actions**, representing your direct influence in the World of Darkness.
+> 3. **Minion Phase**\
+> This is generally the longest part of your turn as your minions perform a wide variety of **actions** using abilities or cards. Actions can be **blocked** which may result in combat.
+> 4. **Influence Phase**\
+> Gain control of vampires in your **uncontrolled region** by using your pool and **transfers**.
+> 5. **Discard Phase**\
+> Use a **discard phase action** to **discard** a card from your hand and draw another, or (Advanced Rules) to play an **event card**.
+> **End of Turn**
+> Some effects take place at the end of your turn, after your Discard Phase.
 
 Each of the phases is described in full detail in the following sections.
 
