@@ -86,6 +86,8 @@ figurine, trinket or a glove will do.
 > **TURN SEQUENCE**\
 > \
 > Turns proceed clockwise around the playing area, starting with the first Methuselah. Each Methuselah’s turn is composed of the following five phases, in order:
+> **Start of Turn**
+> In this instance, effects which take place before your unlock phase, are handeled.
 > 1. **Unlock Phase**\
 > Unlock all your cards and deal with any active **contests**. If you have the **Edge**, you may gain 1 pool from the *blood bank*.
 > 2. **Master Phase**\
@@ -96,6 +98,8 @@ figurine, trinket or a glove will do.
 > Gain control of vampires in your **uncontrolled region** by using your pool and **transfers**.
 > 5. **Discard Phase**\
 > Use a **discard phase action** to **discard** a card from your hand and draw another, or (Advanced Rules) to play an **event card**.
+> **End of Turn**
+> Some effects take place at the end of your turn, after your Discard Phase.
 > 
 > Each of the phases is described in full detail later in this rulebook (see Detailed Turn Sequence, p. 17).
 
@@ -645,6 +649,44 @@ uncontrolled region at any time during the game.
 
 ## **IMPORTANT TERMS IN THE GAME**
 
+> **The Golden Rule for Cards:** Whenever the cards contradict the rules,
+> the cards take precedence.
+
+**Rules of Card Ownership:** The cards you start the game with are
+referred to as "owned". Your cards can become controlled by other
+Methuselahs but are never owned by them. At the end of the game, the
+cards you own are returned to you. If you are ousted before the end of
+the game, any cards that you own that other Methuselahs control remain
+in play until burned as normal.
+
+**Locking and Unlocking:** During play, you will turn cards sideways 90º
+to lock them, indicating that the cards have been used for some
+particular purpose or effect. Unlocking a card restores it to its
+original position, indicating that the card is reset and will be able to
+be locked again later. Only unlocked minions can perform actions or
+block the actions of other minions.
+
+**Control:** Vampires put into play by a Methuselah are controlled by
+that Methuselah.
+* A master card in play is controlled by the Methuselah who played it,
+  even if it is played on a card controlled by another Methuselah.
+* A minion card in play is controlled by the controller of the minion it
+  is on. If a minion card is just in play and not on another controlled
+  card, then it is controlled by the Methuselah who played it.
+
+Control can change through game effects and this is clearly noted when
+using those effects.
+
+**Targeting of Cards**
+If a card is played on another card, or targets another card, the target
+card must be in play (that is, controlled). Vampires in the torpor
+region are eligible targets by default, but vampires in the uncontrolled
+region and contested cards are not.
+
+**Target:** A Methuselah or a card being affected by another card or effect (usually an action) that is not a referendum. Many cards or effects will have one or more targets, and the specific 
+eligible targets are defined in their card texts. 
+Targeting a card attached to another card does not target the latter, it is therefore possible to target a card on a vampire with a directed action, even when the vampire cannot be the target of directed actions. Sets of counters on a card (such as blood on a vampire) or possessed by a Methuselah (such as pool) are never targeted directly: they can only be targeted as a quantity via the card or the Methuselah. The card or Methuselah does not need to have that exact quantity: if they not have enough of these counters, then as many counters as possible are affected. For instance, a card that steals 2 blood from a vampire targets that vampire, whatever quantity of blood they have, and moves as much blood as possible if there is 1 or 0 blood counters.
+
 **Burn:** When a card is burned, it is placed into its owner's ash heap
 (discard pile). The ash heap can be examined by any Methuselah at any
 time. When a counter is burned, it is returned to the blood bank.
@@ -654,42 +696,25 @@ are removed from the game cannot be retrieved or affected in any way.
 When a card is burned or removed from the game, any counters or other
 cards on it are burned.
 
-**Control:** Vampires put into play by a Methuselah are controlled by
-that Methuselah.
+**Unique:** Only one copy of a unique card can be in play at a time. If
+another Methuselah puts a copy of the card into play, the copies will be
+contested (and out of play) until all but one is yielded
+(see [**Contested Cards**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#contested-cards)).
+Vampires are unique, by default.
 
-A master card in play is controlled by the Methuselah who played it,
-even if it is played on a card controlled by another Methuselah.
-
-A minion card in play is controlled by the controller of the minion it
-is on. If a minion card is just in play and not on another controlled
-card, then it is controlled by the Methuselah who played it.
-
-Control can change through game effects and this is clearly noted when
-using those effects.
-
-**Locking and Unlocking:** During play, you will turn cards sideways 90º
-to lock them, indicating that the cards have been used for some
-particular purpose or effect. Unlocking a card restores it to its
-original position, indicating that the card is reset and will be able to
-be locked again later. Only unlocked minions can perform actions or
-block the actions of other minions.
-
-**Rules of Card Ownership:** The cards you start the game with are
-referred to as "owned". Your cards can become controlled by other
-Methuselahs but are never owned by them. At the end of the game, the
-cards you own are returned to you. If you are ousted before the end of
-the game, any cards that you own that other Methuselahs control remain
-in play until burned as normal.
-
-**The Golden Rule for Cards:** Whenever the cards contradict the rules,
-the cards take precedence.
+**Limited:** Some cumulative effects are forbidden by the rules. For
+instance, during a bleed action, an action modifier card cannot be played 
+to increase the bleed if the bleed amount is already being increased 
+by another action modifier card (unless any of them does not
+count against that limit). Similarly, a minion cannot use
+more than one card or effect (a source) to gain additional strikes per
+round of combat. Those rules are reminded on those cards by the
+"(limited)" card text. (See [**Bleed**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#bleed)
+and [**Additional Strikes**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#additional-strikes)).
 
 
 
 ### **Wording templates**
-
-You may come across cards which use certain templates. For a better understanding, the most important templates are
-listed below\
 
 **"During X, do Y":** The "during X do Y" template is used in several
 cards. When this template is used, only one Y can be done per X with
@@ -697,12 +722,21 @@ this card. For instance, you may move blood from your vampire to your
 pool with Vessel only once per unlock phase.
 
 **"Lock X to do Y":** These effects require an unlocked minion to be
-used, they cannot be used by locked minions.
+used, they cannot be used by locked minions. "Lock X. Do Y" effects are usable by locked
+minions under a wake effect.
 
 **"Search":** Some effects have you search your library or crypt. You do
 not have to announce the card you are searching, and searching can
 result in not finding the card. If you search your library or crypt, you
 must shuffle it afterwards.
+
+**Steal (a card):** A Methuselah who steals a card takes permanent
+control of it. The card stays in the same region as it was before (for
+instance, if a vampire in torpor is stolen, it stays in torpor). If the
+stolen card is attached to another card, the Methuselah who steals it
+can attach the stolen card to a card of the same type they control (for
+instance, a location that is attached to a minion will be moved to
+another minion they control). You cannot steal a card from yourself.
 
 > **ADVANCED RULES**\
 > \
@@ -718,15 +752,16 @@ must shuffle it afterwards.
 > played it must choose a strike which may come from another strike
 > card.
 
-
 # [**4. Detailed Turn Sequence**](https://www.vekn.net/rulebook/4-detailed-turn-sequence)
 
 Each of the phases is described in full detail in the following sections.
 
+## START OF TURN
+In this instance, effects which take place before your unlock phase, are handeled.
+
 ## **1. UNLOCK PHASE**
 
-You start your turn with your unlock phase. At the beginning of your
-unlock phase, you must unlock all of your cards. Any cards or effects
+At the beginning of your unlock phase, you must unlock all of your cards. Any cards or effects
 that require or allow you to do something during your unlock phase take
 effect after you have unlocked your cards. You may choose the order in
 which these effects take place. Along with effects generated by cards,
@@ -822,10 +857,7 @@ used during this phase are lost.
 > actions than normal (see [[Master Cards](https://www.vekn.net/rulebook/2-card-types#master-cards)).
 
 
-
-
 ## **3. MINION PHASE**
-
 *During your minion phase, you may command your minions to perform actions in your struggle for power over the other Methuselahs.* 
 
 Most of the activity in the game occurs in the minion phase. 
@@ -2023,7 +2055,8 @@ be saved for later.
 >
 > Each event card may only be played once each game.
 
-
+## **END OF TURN**
+Some effects take place at the end of your turn, after your Discard Phase.
 
 # [**5. Ending the Game**](https://www.vekn.net/rulebook/5-ending-the-game)
 
