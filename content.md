@@ -695,8 +695,164 @@ in play until burned as normal.
 
 **The Golden Rule for Cards:** Whenever the cards contradict the rules,
 the cards take precedence.
+## **GENERAL RULES**
+
+### **The Golden Rule for Cards:** 
+Whenever the cards contradict the rules, the cards take precedence.
+
+### **Rules of Card Ownership:** 
+The cards you start the game with are referred to as "owned". Your cards can become controlled by other
+Methuselahs but are never owned by them. At the end of the game, the
+cards you own are returned to you. If you are ousted before the end of
+the game, any cards that you own that other Methuselahs control remain
+in play until burned as normal.
+
+### **Drawing Cards**
+Whenever you play a card from your hand, you draw another from your
+library to replace it (unless card text says otherwise). If your library
+is empty, then you do not draw to replenish your hand, but you do
+continue to play. The number of cards in your hand should always match
+your hand size (cards that are replaced later reduce your hand size for
+the duration of the effect). The starting default hand size is seven
+cards in hand. Whenever an effect changes your hand size or adds or
+removes cards from your hand, immediately discard down to or draw up to
+match your hand size.
+
+> **ADVANCED RULES**\
+> Some effects can cancel a card "as it is played." These effects, as
+> well as [**wake effects**](https://www.vekn.net/rulebook/8-glossaries#wake),
+> are the only effects allowed during the "as played" time period of
+> another card. Even drawing to replace cards, comes after this time
+> period.
+
+### **Playing a Card**
+
+A card is played by announcing its effects, showing the card and placing
+it from the hand in the ash heap upon resolution. Sometimes a card will state to put it
+into play, you should announce its effects and place the card in the
+play area upon resolution.
+Some cards such as action cards are not resolved immediately; in that case, they are temporarily out of play between the moment they are played and the moment they reach resolution.
+
+### **Requirements for Playing Cards**
+
+Each library card has symbols on the attribute bar (the marble stripe on
+the left side) for the card type (except for master cards), the clan, or
+Discipline (if any) required to play the card, and the cost (if any) of
+playing that card.
 
 
+
+![](bin/media/image15.png)
+
+
+
+Some cards will have other requirements (such as capacity or title)
+stated in the card text. Only a minion who meets the requirements given
+on a minion card can play it, whereas only a Methuselah who controls a
+ready minion who meets the requirements of a master card can play it.
+
+Some of the effects listed on cards may require one of the Disciplines
+listed, while other effects require another listed Discipline, and some
+effects may require the vampire to possess several Disciplines. Each
+effect shows the icon(s) of the Discipline(s) required.
+
+A number in a red drop represents blood cost (the amount of blood the
+vampire must burn). Only a vampire with enough blood on them can play a
+card with a blood cost. A number in a white diamond with a skull
+represents pool cost (the amount of pool the Methuselah must burn). Only
+a Methuselah with enough pool can play a card with a pool cost.
+
+Costs may only be paid with the Methuselah's or the minion's own resources. For instance, 
+some cards or effects have an alternative cost such as burning the Edge or discarding a card; 
+the Methuselah must control the Edge to burn it for a cost, or discard one of their own card in hand.
+Minions controlled by a Methuselah have access to that Methuselah's resources in order to pay costs: for instance,
+a minion can discard a card from their controller's hand.
+
+Optional cost reducers can be used when the card is played (in order to play the card) or upon resolution (you may wait until you know the action is successful). If the card is cancelled, then the effect is not used.
+
+![](bin/media/image16.png)
+
+
+
+### **Targeting of Cards**
+
+If a card is played on another card, or targets another card, the target
+card must be in play (that is, controlled). Vampires in the torpor
+region are eligible targets by default, but vampires in the uncontrolled
+region and contested cards are not. 
+
+**Target:** A Methuselah or a card being affected by another card or effect (usually an action) that is not a referendum. Many cards or effects will have one or more targets, and the specific 
+eligible targets are defined in their card texts. 
+Targeting a card attached to another card does not target the latter, it is therefore possible to target a card on a vampire with a directed action, even when the vampire cannot be the target of directed actions. Sets of counters on a card (such as blood on a vampire) or possessed by a Methuselah (such as pool) are never targeted directly: they can only be targeted as a quantity via the card or the Methuselah. The card or Methuselah does not need to have that exact quantity: if they not have enough of these counters, then as many counters as possible are affected. For instance, a card that steals 2 blood from a vampire targets that vampire, whatever quantity of blood they have, and moves as much blood as possible if there is 1 or 0 blood counters.
+
+### Non-Repeat Rules
+**Actions**
+Some actions cannot be repeated more than once per turn by the same minion, even if the unlock.
+* A minion cannot perform more than **one bleed action** 
+* A vampire cannot perform more than **one political action** 
+* A minion cannot perform an action with the **same action card** from hand or in play.
+
+**Action modifier cards:**\
+A minion cannot play the **same action modifier** card more than once during a single
+action (even if using a different Discipline level). 
+
+### Sequencing
+If two or more Methuselahs want to play a card or effect, the acting
+Methuselah plays first. At every stage, the acting Methuselah always
+has the opportunity (called "impulse") to play the next card or effect. So after playing
+one effect, they may play another and another. Once they are
+finished, the impulse passes to the next Methuselah in the following order: 
+during combat or an action directed at a single Methuselah, the defending Methuselah first; 
+during an action directed at a set of Methuselas, those Methuselahs in clockwise order; 
+during an undirected action, the prey first and the predator second. 
+Then every other Methuselah in clockwise order gets the impulse until everyone passes.
+Note that if at any point any Methuselah uses a card or effect, the acting Methuselah
+again gets the impulse back.
+
+### **IMPORTANT TERMS IN THE GAME**
+
+**Locking and Unlocking:** During play, you will turn cards sideways 90º
+to lock them, indicating that the cards have been used for some
+particular purpose or effect. Unlocking a card restores it to its
+original position, indicating that the card is reset and will be able to
+be locked again later. Only unlocked minions can perform actions or
+block the actions of other minions.
+
+**Control:** Vampires put into play by a Methuselah are controlled by
+that Methuselah.
+* A master card in play is controlled by the Methuselah who played it,
+  even if it is played on a card controlled by another Methuselah.
+* A minion card in play is controlled by the controller of the minion it
+  is on. If a minion card is just in play and not on another controlled
+  card, then it is controlled by the Methuselah who played it.
+
+Control can change through game effects and this is clearly noted when
+using those effects.
+
+**Burn:** When a card is burned, it is placed into its owner's ash heap
+(discard pile). The ash heap can be examined by any Methuselah at any
+time. When a counter is burned, it is returned to the blood bank.
+Sometimes, an instruction may say to remove a card from the game. While
+some cards and effects can retrieve cards from the ash heap, cards that
+are removed from the game cannot be retrieved or affected in any way.
+When a card is burned or removed from the game, any counters or other
+cards on it are burned.
+
+**Unique:** Only one copy of a unique card can be in play at a time. If
+another Methuselah puts a copy of the card into play, the copies will be
+contested (and out of play) until all but one is yielded
+(see [**Contested Cards**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#contested-cards)).
+Vampires are unique, by default.
+
+**Limited:** Some cumulative effects are forbidden by the rules. For
+instance, during a bleed action, an action modifier card cannot be played 
+to increase the bleed if the bleed amount is already being increased 
+by another action modifier card (unless any of them does not
+count against that limit). Similarly, a minion cannot use
+more than one card or effect (a source) to gain additional strikes per
+round of combat. Those rules are reminded on those cards by the
+"(limited)" card text. (See [**Bleed**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#bleed)
+and [**Additional Strikes**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#additional-strikes)).
 
 ### **Wording templates**
 
@@ -706,12 +862,21 @@ this card. For instance, you may move blood from your vampire to your
 pool with Vessel only once per unlock phase.
 
 **"Lock X to do Y":** These effects require an unlocked minion to be
-used, they cannot be used by locked minions.
+used, they cannot be used by locked minions. "Lock X. Do Y" effects are usable by locked
+minions under a wake effect.
 
 **"Search":** Some effects have you search your library or crypt. You do
 not have to announce the card you are searching, and searching can
 result in not finding the card. If you search your library or crypt, you
 must shuffle it afterwards.
+
+**Steal (a card):** A Methuselah who steals a card takes permanent
+control of it. The card stays in the same region as it was before (for
+instance, if a vampire in torpor is stolen, it stays in torpor). If the
+stolen card is attached to another card, the Methuselah who steals it
+can attach the stolen card to a card of the same type they control (for
+instance, a location that is attached to a minion will be moved to
+another minion they control). You cannot steal a card from yourself.
 
 > **ADVANCED RULES**\
 > \
