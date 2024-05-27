@@ -1440,6 +1440,8 @@ until the action itself is successful.
 
 **The Referendum**
 
+> A referendum is always part of action resolution.
+
 If a political action is successful, its cost is paid, and the
 referendum is called. The referendum consists of three steps:
 
@@ -1513,6 +1515,8 @@ acting minion's controller can play reaction cards.
 
 
 ### **Combat**
+
+> Combat is always part of action resolution.
 
 Combat results when a minion blocks the action of a ready minion. Also,
 some cards may cause combat. Whatever caused the combat, it is important
