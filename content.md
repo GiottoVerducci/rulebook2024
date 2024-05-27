@@ -364,17 +364,16 @@ Action cards cannot be used to modify other actions.
 **Action modifier cards:** The acting minion can play these cards to
 modify their action at any time before action resolution. A minion
 cannot play the same action modifier card more than once during a single
-action (even if using a different Discipline level).
+action (even if using a different Discipline level). Some action modifier cards are played by minions "other than the acting
+minion". Only minions controlled by the same Methuselah can play those
+cards, they can do so even if they are locked.
+
 
 
 
 ![](bin/media/image21.png)
 
 
-
-Some action modifier cards are played by minions "other than the acting
-minion". Only minions controlled by the same Methuselah can play those
-cards, they can do so even if they are locked.
 
 **Ally cards:** Allies are minions other than vampires that you as a Methuselah can
 control. These cards are put into play with their starting life
@@ -539,6 +538,16 @@ uncontrolled region at any time during the game.
 
 ## **GENERAL RULES**
 
+### **The Golden Rule for Cards:** 
+Whenever the cards contradict the rules, the cards take precedence.
+
+### **Rules of Card Ownership:** 
+The cards you start the game with are referred to as "owned". Your cards can become controlled by other
+Methuselahs but are never owned by them. At the end of the game, the
+cards you own are returned to you. If you are ousted before the end of
+the game, any cards that you own that other Methuselahs control remain
+in play until burned as normal.
+
 ### **Drawing Cards**
 Whenever you play a card from your hand, you draw another from your
 library to replace it (unless card text says otherwise). If your library
@@ -617,8 +626,18 @@ region and contested cards are not.
 eligible targets are defined in their card texts. 
 Targeting a card attached to another card does not target the latter, it is therefore possible to target a card on a vampire with a directed action, even when the vampire cannot be the target of directed actions. Sets of counters on a card (such as blood on a vampire) or possessed by a Methuselah (such as pool) are never targeted directly: they can only be targeted as a quantity via the card or the Methuselah. The card or Methuselah does not need to have that exact quantity: if they not have enough of these counters, then as many counters as possible are affected. For instance, a card that steals 2 blood from a vampire targets that vampire, whatever quantity of blood they have, and moves as much blood as possible if there is 1 or 0 blood counters.
 
+### Non-Repeat Rules
+**Actions**
+Some actions cannot be repeated more than once per turn by the same minion, even if the unlock.
+* A minion cannot perform more than **one bleed action** 
+* A vampire cannot perform more than **one political action** 
+* A minion cannot perform an action with the **same action card** from hand or in play.
 
-### SEQUENCING
+**Action modifier cards:**\
+A minion cannot play the **same action modifier** card more than once during a single
+action (even if using a different Discipline level). 
+
+### Sequencing
 If two or more Methuselahs want to play a card or effect, the acting
 Methuselah plays first. At every stage, the acting Methuselah always
 has the opportunity (called "impulse") to play the next card or effect. So after playing
@@ -632,15 +651,6 @@ Note that if at any point any Methuselah uses a card or effect, the acting Methu
 again gets the impulse back.
 
 ### **IMPORTANT TERMS IN THE GAME**
-> **The Golden Rule for Cards:** Whenever the cards contradict the rules,
-> the cards take precedence.
-
-**Rules of Card Ownership:** The cards you start the game with are
-referred to as "owned". Your cards can become controlled by other
-Methuselahs but are never owned by them. At the end of the game, the
-cards you own are returned to you. If you are ousted before the end of
-the game, any cards that you own that other Methuselahs control remain
-in play until burned as normal.
 
 **Locking and Unlocking:** During play, you will turn cards sideways 90º
 to lock them, indicating that the cards have been used for some
@@ -939,18 +949,18 @@ bleeding as paying bribes, changing bank records, spreading rumors, or
 the like.*
 
 A bleed can be made with an action card or through the basic bleed
-action. 
+action. You can never bleed yourself. A minion cannot perform more than
+one bleed action each turn, even if they unlock.
 
 > By default, all vampires have a **bleed of 1**.\
 > During a bleed action, an action modifier card or other effects can increase the bleed (**+ x bleed**).\
 > Only one action modifier card can be played to increase the bleed. This rule is reminded on those cards by the "(limited)" card text.
 
-- **Who can bleed:** Any ready minion. A minion cannot perform more than
-one bleed action each turn, even if they unlock.
+- **Who can bleed:** Any ready minion. 
 - **Default cost:** None.
 - **Default target:** Your prey. Directed action. However some cards or
 effects may allow or force you to bleed a Methuselah other than your
-prey. You can never bleed yourself.
+prey. 
 - **Default stealth:** 0 stealth.
 - **Effect:** If the action succeeds, the target Methuselah burns an
 amount of pool equal to the total bleed amount. If the bleed amount is 1 or
@@ -993,9 +1003,7 @@ action card to perform the action indicated on the card. Some action
 cards are enhanced versions of the basic bleed or hunt actions, while
 others are original types of actions.
 
-- **Who can perform an action by default:** Any ready minion. A minion
-cannot perform an action with the same action card from hand or in play
-more than once each turn, even if they unlock.
+- **Who can perform an action by default:** Any ready minion. 
 - **Cost:** As listed on the card.
 - **Default target:** As listed on the card.
 - **Default stealth:** Unless otherwise noted on the card, these actions
@@ -1018,18 +1026,18 @@ Politics come into play when a vampire performs a political action or when a blo
 
 **The Political Action**
 
-**Important:** The specific terms of the referendum (the choices to be
+**Important:** A political action is an action that is used to call a
+referendum. The specific terms of the referendum (the choices to be
 made, if any, by the Methuselah who calls the referendum) are not chosen
-until the action itself is successful.
+until the action itself is successful. 
+A vampire cannot perform more than one political action each turn.
 
 
-- **Who can take a political action:** Any ready vampire. A vampire
-cannot perform more than one political action each turn.
+- **Who can take a political action:** Any ready vampire. 
 - **Cost:** As listed on the political action card.
 - **Default target:** None. Undirected action.
 - **Default stealth:** +1 stealth.
-- **Effect:** A political action is an action that is used to call a
-referendum. If the action is successful, the terms of the referendum are
+- **Effect:** If the action is successful, the terms of the referendum are
 chosen and votes are cast and tallied to see if the referendum passes or
 fails
 (see [**Politics**](https://www.vekn.net/rulebook#politics)).
@@ -1466,6 +1474,8 @@ resolution. This is considered the final step of the action.
 
 #### **REFERENDUM**
 
+> The referendum is always part of action resolution.
+
 If a **political action** is successful, its cost is paid, and the referendum is called. The referendum consists of three steps:
 
 > **1. Choose the terms**, if any, of the referendum.\
@@ -1530,6 +1540,8 @@ A Methuselah gains votes by their ready titled vampires.
 
 
 ### **Combat**
+
+> Combat is always part of action resolution.
 
 Combat results when a minion blocks the action of a ready minion. Also,
 some cards may cause combat. Whatever caused the combat, it is important
