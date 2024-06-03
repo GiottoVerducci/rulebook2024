@@ -711,6 +711,8 @@ not have to announce the card you are searching, and searching can
 result in not finding the card. If you search your library or crypt, you
 must shuffle it afterwards.
 
+**"Until X":** Such effects take effect as long as X has not started. As soon as X begins, the effect ends.
+
 **Steal (a card):** A Methuselah who steals a card takes permanent
 control of it. The card stays in the same region as it was before (for
 instance, if a vampire in torpor is stolen, it stays in torpor). If the
