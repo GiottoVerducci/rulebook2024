@@ -865,6 +865,8 @@ pool with Vessel only once per unlock phase.
 used, they cannot be used by locked minions. "Lock X. Do Y" effects are usable by locked
 minions under a wake effect.
 
+**"Until X":** Such effects take effect as long as X has not started. As soon as X begins, the effect ends.
+
 **"Search":** Some effects have you search your library or crypt. You do
 not have to announce the card you are searching, and searching can
 result in not finding the card. If you search your library or crypt, you
