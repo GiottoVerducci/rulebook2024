@@ -1900,11 +1900,12 @@ combat begins.
 
 
 **7. End of Round**
-
 In this step you use the combat cards or other effects that are only
 usable at the end of a round of combat, after the press step.
 
-Note that this step also occurs even if combat ends prematurely.
+> **Reminder**
+> This step occurs even if combat ends prematurely.
+
 
 
 
