@@ -685,6 +685,17 @@ contested (and out of play) until all but one is yielded
 (see [**Contested Cards**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#contested-cards)).
 Vampires are unique, by default.
 
+**Wake:** A vampire that wakes during an action can attempt to block
+that action and/or play reaction cards as though unlocked for the
+duration of the action. Wake effects can always be played during the "as
+a card is played" window, in order to play other reaction cards that
+must be played in that window. A reaction card that unlocks a vampire
+but does not wake it is not considered as a wake effect and cannot be
+played during the "as a card is played" window.
+
+**Wounded:** A vampire who has received damage that they have not mended
+or a vampire in torpor or on their way to torpor is said to be wounded. 
+
 **Limited:** Some cumulative effects are forbidden by the rules. For
 instance, during a bleed action, an action modifier card cannot be played 
 to increase the bleed if the bleed amount is already being increased 
@@ -1476,7 +1487,9 @@ resolution. This is considered the final step of the action.
 
 #### **REFERENDUM**
 
-> The referendum is always part of action resolution.
+> The referendum is always part of action resolution.\
+> Being locked or unlocked does not matter for the referendum. Locked minions can vote the same as unlocked minions.
+
 
 If a **political action** is successful, its cost is paid, and the referendum is called. The referendum consists of three steps:
 
@@ -1542,22 +1555,74 @@ A Methuselah gains votes by their ready titled vampires.
 
 
 ### **Combat**
-
-> Combat is always part of action resolution.
-
-Combat results when a minion blocks the action of a ready minion. Also,
-some cards may cause combat. Whatever caused the combat, it is important
-to remember that only ready minions can participate in combat and that
-your minions cannot enter combat with other minions you control.
-
-Being locked or unlocked does not matter for combat. Locked minions
-fight just the same as unlocked minions.
-
+*Combat results when a minion blocks the action of a ready minion. Also, some cards may cause combat.
 The two minions being involved in combat are called **combatants**; each one of
-them is considered to be **opposing** the other one.
+them is considered to be **opposing** the other one.*
+\
+> Combat is always part of action resolution.\
+> Being locked or unlocked does not matter for combat. Locked minions fight just the same as unlocked minions.
 
-**Note:** The only minion cards that can be played during combat are combat
-cards.
+**General Combat Rules:**
+- Only ready minions can participate in combat.
+- Your minions cannot enter combat with other minions you control.
+- If one or both of the combatants are wounded, combat ends and no cards to continue combat can be played.
+- Whenever combat ends prematurely, all remaining steps are skipped until the End of Round step. 
+- The only minion cards that can be played during combat are combat cards.
+
+If a combat card played by a minion has a maneuver or press as part of an effect,
+they must be used that round of combat. If a combat card played
+by a minion has an "optional maneuver" or an "optional press" as part of the effect, then the
+minion may decline to use the effect.
+
+> **REMINDER:**\
+> A vampire who has received damage that they have not mended
+> or a vampire in torpor or on their way to torpor is said to be wounded.
+
+**Basic Combat Terms**
+- **Maneuver:** The efforts of a minion in combat to move away from or to close in on the opposing minion.
+- **Strike:** The effort of a minion in combat to harm their opponent or to avoid being struck by their opponent. Most strikes are effective only at close range, unless the strike is identified as ranged, does "R" damage, or is a defensive strike such as dodge or combat ends. Ranged strikes and strikes that do "R" damage can be used at any range, close or long.
+- **Press:** The efforts of a minion in combat to escape from or to give chase to the opposing minion.
+
+
+> **Hand Strike:** When a minion strikes with a hand strike at close range, they do an amount of damage
+> equal to their strength to the opposing minion.\
+> **Dodge:** A strike that protects a minion and the cards on him from an
+> opposing minion's strike. ~~Retainers are not protected.~~\
+> **Combat Ends:** A strike that ends combat before any damage or other
+> strike effects happen.\
+> **Steal Blood:** This effect moves blood counters or life counters from
+> the target to the striking minion.
+
+\
+
+>> **Additional Strikes:** Some cards and effects allow a minion to make
+>> additional strikes during the current round of combat.
+
+
+\
+
+> **Different Kinds of Damage**\
+> **Normal damage**: Any damage which is not specified otherwise.\
+> **Environmental damage:** Any damage not inflicted by a minion either as
+> a strike, or by an explicit effect ("this minion inflicts...") is
+> environmental. Environmental damage can have no source (such as the
+> damage inflicted by a Carrion Crows) or a non-minion source (such as the
+> damage inflicted by a retainer).\
+> **Aggravated damage:** Some damage is described as aggravated damage,
+> such as damage from fire, sunlight, or from the claws or fangs of some
+> other supernatural creatures, including some vampires.\
+> Aggravated damage done to a wounded vampire can burn the vampire outright. 
+\
+**Immune to damage**: if a minion is immune to damage from a source, any unprevented damage from that source that is inflicted on the minion is inflicted unsuccessfully: the minion does not have to burn blood or life to mend the damage or to prevent destruction, nor
+become wounded because of damage.\
+
+**Retainers and Combat**\
+A retainer is not normally harmed in combat, unless the minion employing
+it is burned. However, an attacker can choose to target one of the
+opposing minion's retainers with a strike rather than striking at the
+opposing minion. This can only be done at long range. To target a
+retainer with a ranged strike, the striking minion must announce their
+intended target when the strike is announced.
 
 > **ADVANCED RULES**\
 > Some combat cards are played by minions "not involved in the current
@@ -1602,43 +1667,28 @@ maneuver.
 
 **2. Determine Range**
 
-Each round of combat is fought at either close range or long range.
-Close range is the default for each round. The range determines which
-strikes and other strike resolution step effects can be used. Some
-effects can only be used at close range, some only at long range, and
-the rest at either close or long range.
+*Each round of combat is fought at either close range or long range. 
+Typically, a minion that can attack at long range will want to maneuver to long range against an opponent that they suspect can only attack at
+close range. The ability to maneuver can come from combat cards, weapons, or other cards in play.*
+\
+> Close range is the default for each round.\
+> A minion has no maneuvers by default; they must use a card or other effect to gain a maneuver. 
 
-A minion in combat can use a maneuver to get to long range, or they can
-maneuver to get back to close range if their opponent maneuvers to long.
-The two combatants can continue playing maneuvers to keep offsetting the
-effects of their opponent's last maneuver for as long as they wish. A
-minion cannot play two maneuvers in a row, which would effectively
-cancel each other.
+The range determines which strikes and other strike resolution step effects can be used. Some
+effects can only be used at close range, some only at long range, and the rest at either close or long range. 
+The two combatants can continue playing maneuvers to keep offsetting the effects of their opponent's last maneuver for as long as they wish.
 
-A minion has no maneuvers by default; they must use a card or other
-effect to gain a maneuver. The ability to maneuver can come from combat
-cards, weapons, or other cards in play. To use a maneuver from a strike
-card, the minion plays the strike card during this step instead of
-during the choose strike step. If a minion uses the maneuver from a
-strike card or a weapon, they are effectively choosing their strike as
-well. As such, they cannot use a second strike card or weapon to
-maneuver again in the same round.
-
-If a combat card played by a minion has a maneuver as part of an effect,
-the maneuver must be used that round of combat. If a combat card played
-by a minion has an "optional maneuver" as part of the effect, then the
-minion may decline to use the maneuver.
-
-Typically, a minion that can attack at long range will want to maneuver
-to long range against an opponent that they suspect can only attack at
-close range.
+> **ADVANCED**\
+> To use a maneuver from a strike card, the minion plays the strike card during this step instead of
+> during the choose strike step. If a minion uses the maneuver from a
+> strike card or a weapon, they are choosing their strike as
+> well. As such, they cannot use a second strike card or weapon to
+> maneuver again in the same round.
 
 *Ayelech has just blocked Colette, and combat ensues. Ayelech has a .44
 Magnum that allows her to strike for 2 damage at either close or long
 range, and gives her an optional maneuver. Colette, as the acting
-minion, declines to*
-
-*maneuver. Ayelech uses the maneuver from the gun to move to long range,
+minion, declines to maneuver. Ayelech uses the maneuver from the gun to move to long range,
 where she cannot be harmed by Colette's hand strike. Colette plays a
 maneuver card to get back to close range. However, Ayelech has another
 maneuver card as well, and she plays it to move back to long range.
@@ -1651,79 +1701,48 @@ Colette has no more maneuvers to play, so the range is set to long.*
 Some combat cards are only playable after range has been set but before
 strikes have been chosen.
 
-
-
 **4. Strike**
 
-During the strike step, the minions strike each other or make an effort
-to avoid being struck.
+*During the strike step, the minions strike each other or make an effort
+to avoid being struck.*
 
-Note that not all strikes are aggressive. Defensive effects such as
-dodges are also considered strikes (see [**Strike Effects**](https://www.vekn.net/rulebook#strike-effects)).
-
-Normally, each minion gets only one strike per round. One strike from
-each minion is considered a "pair".
-
-> **ADVANCED RULES**\
-> 
-> Some cards may allow a minion to get additional strikes during a
-> round of combat, these are resolved after the normal pair of strikes.
-> If only one minion has additional strikes these are resolved on their
-> own after the normal pair of strikes.
-
+Each minion gets only one strike per round per default. One strike from each minion is considered a **pair**.\
 
 During each pair of strikes, the minions first choose their respective
 strikes (the acting minion first, then their opponent), and then the
 strikes are resolved. Strike resolution occurs simultaneously, except
 for a few special cases (see [**Strike Effects**](https://www.vekn.net/rulebook#strike-effects)).
 
-- **Choose Strike:** Each minion chooses their strike. The strike can be
-from a combat card, from a weapon the minion possesses, by default from
-a hand strike, or can be from any other card providing this minion a
-strike. If a minion has used a maneuver from a strike (either a strike
-card or a weapon) this round, then they cannot choose any other strike
-for their initial strike of the round.
+- **4.a Choose Strike:** Each minion chooses their strike. The default strike can be substituted
+from a combat card, from a weapon the minion possesses or any other card providing this minion a
+strike.
 
-> **ADVANCED RULES**\
-> \
-> For additional strikes, any strike can be chosen, even if a maneuver
-> of a strike card or a weapon has been used.
+> The default strike is a **hand strike**\
+> Vampires have a **default strength of 1**.
 
- - **Resolve Strike:** The effects of the strikes from both minions are
-resolved simultaneously. Most strikes are effective only at close range,
-unless the strike is identified as ranged, does "R" damage, or is a
-defensive strike such as dodge or combat ends. Ranged strikes and
-strikes that do "R" damage can be used at any range, close or long.
-
-When a minion or retainer takes damage (either from a strike or from
-other means), they must burn blood or life, as appropriate (see [**Damage Resolution**](https://www.vekn.net/rulebook#damage-resolution)).
-Note that the effects of a strike are applied and then damage is
-resolved. This timing is important for some special strikes. If one or
-both of the combatants are no longer ready, because one has taken too
-much damage, for instance, then the round and the combat end
-immediately.
-
-This is true at any point during combat, not just during strike
-resolution.
+ - **4.b Resolve Strike:** The strikes from both minions are
+resolved simultaneously. Note that the effects of a strike are applied and then damage is
+resolved. This timing is important for some special strikes.
 
 > **ADVANCED RULES**\
 > \
 > If a strike card is cancelled, the minion who played it must choose a
 > strike, which might come from another strike card.\
+
+When a minion or retainer takes damage (either from a strike or from
+other means), they must burn blood or life, as appropriate (see [**Damage Resolution**](https://www.vekn.net/rulebook#damage-resolution)).
+
+> **ADDITIONAL STRIKES**\
+> 
+> Some cards may allow a minion to get additional strikes during a
+> round of combat, these are resolved after the normal pair of strikes. All additional strikes take place at
+> the same range. Only the minions with additional strikes may play strike cards.\
 > \
-> **Additional Strikes:** Some cards and effects allow a minion to make
-> additional strikes during the current round of combat. Additional
-> strikes are announced and performed only after the first pair of
-> strikes is completed. The acting minion decides whether or not to
-> gain additional strikes before the opposing minion, as usual.\
-> \
-> Additional strikes are handled by having another choose strike step
-> and resolve strike step in which only the minions with additional
-> strikes may play strike cards. All additional strikes take place at
-> the same range. This is repeated as necessary. A minion cannot use
-> more than one card or effect to gain additional strikes per round of
-> combat. This rule is reminded on those cards by the "(limited)" card
-> text.
+> If only one minion has additional strikes these are resolved on their
+> own after the normal pair of strikes. For additional strikes, any strike can be chosen, even if a maneuver
+> of a strike card or a weapon has been used.\
+> Additional strikes are handled by repeating the strike
+> and damage resolution steps. 
 
 *Wauneka is blocked by Flávio Gonçalves, and they enter combat. Neither
 of them maneuvers, so the round is at close range. Wauneka announces he
@@ -1740,165 +1759,22 @@ uses his hand strike also. Both take 1 damage. Flávio Gonçalves then
 uses his hands one more time, and Wauneka cannot use a strike because he
 had only 1 additional strike. Wauneka takes 1 more damage.*
 
-
-
-**5. Damage Resolution**
-
-Damage resolution has two steps: prevent damage and mend damage.
-
-**5.a Prevent Damage**
-First, the minion taking damage can play combat cards that prevent
-damage. These damage prevention cards are played one at a time until all
-the damage is prevented or until the minion chooses not to play any
-more. Any unprevented damage is successfully inflicted. The damage is
-then mended, if the victim is a vampire, or burns life counters, if the
-victim is an ally or a retainer.
-
-**5.b Mend Damage**
-For each point of damage successfully inflicted on a vampire, they must burn 1 blood
-to mend the damage. A vampire can burn all of their blood if needed, and
-doing so does not have any other negative effects on the vampire. If a
-vampire cannot mend all the damage (that is, more damage is successfully inflicted
-than they have blood with which to mend), they burn blood to mend what
-damage they can, and the unmended damage leaves them wounded.
-
-A wounded vampire goes to torpor after all remaining damage is handled
-(see [**Torpor**](https://www.vekn.net/rulebook#torpor)).
-
-> **DIFFERENT KINDS OF DAMAGE**\
-> \
-> **Normal damage**: Any damage which is not specified otherwise.\
->\
-> **Environmental damage:** Any damage not inflicted by a minion either as
-> a strike, or by an explicit effect ("this minion inflicts...") is
-> environmental. Environmental damage can have no source (such as the
-> damage inflicted by a Carrion Crows) or a non-minion source (such as the
-> damage inflicted by a retainer).\
->\
-> Note that damage that is not inflicted by a strike (such as environmental
-> damage from Carrion Crows or Murder of Crows) cannot be dodged, since
-> dodging only protects from the opponent's strike.\
-> \
-> **Aggravated damage:** Some damage is described as aggravated damage,
-> such as damage from fire, sunlight, or from the claws or fangs of some
-> other supernatural creatures, including some vampires. Aggravated damage
-> differs from normal damage in two ways: aggravated damage cannot be
-> mended, and aggravated damage can burn a vampire if that vampire is
-> already wounded. Since it cannot be mended, the vampire does not burn
-> any blood to mend it, but instead becomes wounded (goes straight to
-> torpor), unless the damage has been prevented.\
-> \
-> Aggravated damage done to a wounded vampire can burn the vampire outright. A wounded vampire is one that has taken damage that they
-> failed to mend or one that is in torpor or on their way to torpor.
-
-For each point of aggravated damage that is successfully inflicted on a
-wounded vampire, they must burn 1 blood to prevent their destruction. If
-they do not have enough blood, they are burned. Destruction by this
-method does not constitute diablerie
-(see [**Diablerie**](https://www.vekn.net/rulebook#diablerie)).
-
-If both non-aggravated damage and aggravated damage are successfully inflicted
-on a vampire at the same time, the non-aggravated damage is handled first. This
-only applies to unprevented damage; damage prevention effects can be
-used to prevent the aggravated damage before the non-aggravated damage. If a
-vampire is wounded, they go to torpor after all the damage is handled
-(see [**Torpor**](https://www.vekn.net/rulebook#torpor)). If
-aggravated damage burns them, they go directly to the ash heap. They do
-not go through torpor first.
-
-*Nassir is ready and has 1 blood when he receives 1 point of aggravated
-damage. He cannot mend this damage, so he is wounded and goes to torpor
-with 1 blood.*
-
-*Tamoszius is ready and has 2 blood when he receives 3 points of
-aggravated damage. He cannot mend any of it. He becomes wounded by 1
-point, and so he must burn 2 blood to prevent destruction from the other
-2 points (1 blood per point), leaving him empty and in torpor.*
-
-*Ryan is ready and has 1 blood when he receives 2 normal damage and 1
-aggravated damage. He burns 1 blood to mend the first point of normal
-damage. He does not have enough blood to mend the second point and
-becomes wounded. The aggravated damage burns him, since he already is
-wounded and cannot burn 1 blood to prevent his destruction.*
-
-> **ADVANCED RULES**
-> 
-> Allies and retainers treat aggravated damage the same as non-aggravated
-> damage. For each point of damage successfully inflicted on an ally
-> or retainer, they burn 1 life counter. An ally or retainer who loses
-> all of their life counters is burned.
-
-Immune to damage: if a minion is immune to damage from a source, any unprevented damage from that source that is inflicted on the minion is inflicted unsuccessfully: the minion does not have to burn blood or life to mend the damage or to prevent destruction, nor
-become wounded because of damage.
-
-**6. Press**
-
-At the end of a round of combat, if both combatants are still ready, the
-combatants will either go their separate ways or one of them will give
-chase. Presses can be used to continue combat or to end combat by
-cancelling a press to continue. This is similar to the way maneuvers are
-used to determine range.
-
-The two combatants can continue playing presses, to keep offsetting the
-effects of their opponent's last press, for as long as they wish. A
-minion cannot play two presses in a row (which would effectively cancel
-each other).
-
-If there is an uncancelled press to continue, then another round of
-combat begins.
-
-
-
-**7. End of Round**
-
-In this step you use the combat cards or other effects that are only
-usable at the end of a round of combat, after the press step.
-
-Note that this step also occurs even if combat ends prematurely.
-
-
-
-**Retainers and Combat**
-
-A retainer is not normally harmed in combat, unless the minion employing
-it is burned. However, an attacker can choose to target one of the
-opposing minion's retainers with a strike rather than striking at the
-opposing minion. This can only be done at long range. To target a
-retainer with a ranged strike, the striking minion must announce their
-intended target when the strike is announced.
-
-
-
-
-
-### **Strike Effects**
-
-**Hand Strike:** The default strike is a hand strike. When a minion
-strikes with a hand strike at close range, they do an amount of damage
-equal to their strength to the opposing minion. Vampires have a default
-strength of 1.
+**Strike Effects**\
+Most strikes will inflict damage as an effect. However, this is not applied until Damage resolution (Step 5). The following strike effects are resolved during the Resolve Strike Step (step 4b):
 
 **Dodge:** A dodge strike deals no damage, but it protects the dodging
-minion and their possessions from the effects of the opposing strike.
-Retainers are not protected, however. A dodge is effective at any range.
-A dodge protects even from the effects of a strike done with first
-strike (see [**First Strike**](https://www.vekn.net/rulebook#first-strike)). A
-dodge is a strike, even though it is solely defensive. It represents the
-activity of the minion during that pair of strikes.
+minion and their possessions from the effects of the opposing strike.\
+~~Retainers are not protected, however.~~ A dodge is effective at any range and protects from all damage (even First Strike).
 
-**Combat Ends:** This effect ends combat immediately. This type of
-strike is always the first to resolve, even before a strike done with
-first strike (see [**First Strike**](https://www.vekn.net/rulebook#first-strike)), and
-it ends combat before other strikes or other strike resolution effects
-are resolved. Combat ends is effective at any range. Combat ends is not
+**Combat Ends:** This type of strike is always the first to resolve and ends combat before other strikes or other strike resolution effects
+are resolved.\
+Combat ends is effective at any range. Combat ends is not
 affected by a dodge, since dodge only cancels effects that are directed
 at the dodging minion.
 
 **Steal Blood:** This effect moves blood counters or life counters from
-the target to the striking minion. This does not count as damage, so the
-effect cannot be prevented with damage prevention effects. This effect
-occurs before the mend damage step of damage resolution, so the stolen
-blood can be used to mend damage even if the damage is inflicted
+the target to the striking minion. This does not count as damage and resolves during the "resolve strike" step. The effect cannot be prevented with damage prevention effects.\
+The stolen blood can be used to mend damage even if the damage is inflicted
 simultaneously. If the stolen blood causes the striking vampire to have
 more blood than their capacity, the excess drains off immediately.
 
@@ -1928,8 +1804,7 @@ damage, leaving her with 4 blood.*
 > during the current round of combat. The equipment is kept by the
 > stealing minion after combat ends.
 > 
-> **First Strike:** A strike done with first strike is resolved before
-> a normal strike. Thus, if the opposing minion is burned or sent to
+> **First Strike:** A strike done with first strike is resolved before a normal strike. Thus, if the opposing minion is burned or sent to
 > torpor by a strike done with first strike, their strike will not be
 > resolved at all. If the opposing minion was striking with a weapon
 > that is stolen or destroyed with first strike, then the opposing
@@ -1938,6 +1813,103 @@ damage, leaving her with 4 blood.*
 > strike done with first strike will still not resolve before a combat
 > ends effect (which always resolves first), and a dodge still works
 > against the effects of a strike done with first strike.
+
+**5. Damage Resolution**
+
+Damage resolution has two steps: prevent damage and mend damage.\
+\
+If a vampire cannot mend all damage, they become wounded. A wounded vampire goes to torpor after all remaining damage related to the current pair of strikes is handled
+(see [**Torpor**](https://www.vekn.net/rulebook#torpor)). 
+
+> **Resolving different kinds of damage**\
+> **Environmental damage:** Damage that is not inflicted by a strike (such as environmental
+> damage from Carrion Crows or Murder of Crows) cannot be dodged, since
+> dodging only protects from the opponent's strike. Enviromental damage resolves with the first pair of strikes.\
+> **Aggravated damage:** Aggravated damage
+> differs from normal damage in two ways: aggravated damage cannot be
+> mended, and aggravated damage can burn a vampire outright if that vampire is
+> already wounded.\
+> \
+> Since it cannot be mended, the vampire does not burn
+> any blood to mend it, but instead becomes wounded by the first point of aggravated damage (goes to
+> torpor), unless all aggravated damage has been prevented.
+> For each point of aggravated damage that is successfully inflicted on a
+> wounded vampire, they must burn 1 blood to prevent their destruction. If
+> they do not have enough blood, they are burned. Destruction by this method does not constitute diablerie
+> (see [**Diablerie**](https://www.vekn.net/rulebook#diablerie)).
+
+
+**5.a Prevent Damage**
+> damage prevention effects can be used to prevent the aggravated damage before the non-aggravated damage.
+
+The minion taking damage can play combat cards that prevent
+damage. These damage prevention cards are played one at a time until all
+the damage is prevented or until the minion chooses not to play any
+more. Any unprevented damage is successfully inflicted. 
+
+**5.b Mend Damage**
+> If both non-aggravated damage and aggravated damage are successfully inflicted
+> on a vampire at the same time, the non-aggravated damage is handled first.
+
+For each point of damage successfully inflicted on a vampire, they must burn 1 blood
+to mend the damage.\
+\
+A vampire can burn all of their blood if needed, and
+doing so does not have any other negative effects on the vampire. If a
+vampire cannot mend all the damage (that is, more damage is successfully inflicted
+than they have blood with which to mend), they burn blood to mend what
+damage they can, and the unmended damage leaves them wounded.
+
+> **ADVANCED RULES**
+> 
+> Allies and retainers treat aggravated damage the same as non-aggravated
+> damage. For each point of damage successfully inflicted on an ally
+> or retainer, they burn 1 life counter. An ally or retainer who loses
+> all of their life counters is burned.
+
+*Nassir is ready and has 1 blood when he receives 1 point of aggravated
+damage. He cannot mend this damage, so he is wounded and goes to torpor
+with 1 blood.*
+
+*Tamoszius is ready and has 2 blood when he receives 3 points of
+aggravated damage. He cannot mend any of it. He becomes wounded by 1
+point, and so he must burn 2 blood to prevent destruction from the other
+2 points (1 blood per point), leaving him empty and in torpor.*
+
+*Ryan is ready and has 1 blood when he receives 2 normal damage and 1
+aggravated damage. He burns 1 blood to mend the first point of normal
+damage. He does not have enough blood to mend the second point and
+becomes wounded. The aggravated damage burns him, since he already is
+wounded and cannot burn 1 blood to prevent his destruction.*
+
+**6. Press**
+
+At the end of a round of combat, if both combatants are still ready, the
+combatants will either go their separate ways or one of them will give
+chase. Presses can be used to continue combat or to end combat by
+cancelling a press to continue. This is similar to the way maneuvers are
+used to determine range.
+
+The two combatants can continue playing presses, to keep offsetting the
+effects of their opponent's last press, for as long as they wish. A
+minion cannot play two presses in a row (which would effectively cancel
+each other).
+
+If there is an uncancelled press to continue, then another round of
+combat begins.
+
+
+**7. End of Round**
+
+In this step you use the combat cards or other effects that are only
+usable at the end of a round of combat, after the press step.
+
+Note that this step also occurs even if combat ends prematurely.
+
+
+
+
+
 
 
 
