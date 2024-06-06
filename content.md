@@ -1883,20 +1883,15 @@ becomes wounded. The aggravated damage burns him, since he already is
 wounded and cannot burn 1 blood to prevent his destruction.*
 
 **6. Press**
-
-At the end of a round of combat, if both combatants are still ready, the
+*At the end of a round of combat, if both combatants are still ready, the
 combatants will either go their separate ways or one of them will give
-chase. Presses can be used to continue combat or to end combat by
-cancelling a press to continue. This is similar to the way maneuvers are
-used to determine range.
+chase.* 
 
-The two combatants can continue playing presses, to keep offsetting the
-effects of their opponent's last press, for as long as they wish. A
-minion cannot play two presses in a row (which would effectively cancel
-each other).
-
-If there is an uncancelled press to continue, then another round of
-combat begins.
+Presses can be used to continue combat or to end combat, cancelling a press to continue. This is similar to the way maneuvers are
+used to determine range. A minion cannot play two presses in a row. The two combatants can continue playing presses, to keep offsetting the
+effects of their opponent's last press, for as long as they wish.\
+\
+If there is an uncancelled press to continue, another round of combat begins.
 
 
 **7. End of Round**
