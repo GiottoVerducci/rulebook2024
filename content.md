@@ -1423,7 +1423,8 @@ succeeds; the cost is not paid if the action is blocked. The costs of
 action modifiers and reaction cards are always paid when the cards are
 played, regardless of the success of the action.
 
-
+> **ADVANCED RULES**\
+> An action cannot be undertaken if its cost or requirements cannot be met: but sometimes, things change during the action itself. If an action is successful (ie. not blocked), but its cost cannot be paid or its requirements are not met anymore, it fizzles. Its cost is paid to the extent possible and it has no effect. It is still considered successful.
 
 ### **Politics**
 
