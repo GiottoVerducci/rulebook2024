@@ -353,7 +353,7 @@ Optional cost reducers can be used when the card is played (in order to play the
 ### **Targeting of Cards**
 
 If a card is played on another card, or targets another card, the target
-card must be in play (that is, controlled). Vampires in the torpor
+card must be controlled. Vampires in the torpor
 region are eligible targets by default, but vampires in the uncontrolled
 region and contested cards are not.
 
