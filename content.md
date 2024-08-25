@@ -784,6 +784,11 @@ If you have the Edge, you may gain 1 pool from the blood bank.
 > effect would force you to contest a card with yourself, then you
 > simply burn the incoming copy of the unique card). On the other hand,
 > you may wish to have a second copy handy in case the first is burned.
+> Unique cards that are already attached to another card are not considered 
+> being put into play voluntarily when that other card is put into play: for instance,
+> a vampire in your uncontrolled region can be put into play
+> even if they already have a unique card on them that would contest, and if you control another copy
+> of that unique card, the incoming copy is burned instead of contesting with yourself.
 
 
 > **ADVANCED RULES**\
