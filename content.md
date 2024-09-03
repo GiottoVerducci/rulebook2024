@@ -705,8 +705,12 @@ cards. When this template is used, only one Y can be done per X with
 this card. For instance, you may move blood from your vampire to your
 pool with Vessel only once per unlock phase.
 
-**"Lock X to do Y":** These effects require an unlocked minion to be
-used, they cannot be used by locked minions.
+**"Cost X to do Y":** The "cost X to do Y" template is used on several
+cards. A minion or Methuselah playing a card or using an effect with
+this template will have to pay cost X in order to play the card or use
+the effect Y. For example, an effect with "lock a location to lock
+a minion" require the Methuselah to lock an unlocked location they
+control to lock a minion.
 
 **"Search":** Some effects have you search your library or crypt. You do
 not have to announce the card you are searching, and searching can
@@ -2692,9 +2696,12 @@ and [**Additional Strikes**](https://www.vekn.net/rulebook/4-detailed-turn-seque
 **Lock:** Turn a card sideways. Typically done to indicate that the card
 has been activated for some purpose.
 
-**"Lock X to do Y" effects:** Such effects cannot be used by locked
-minions under a wake effect. "Lock X. Do Y" effects are usable by locked
-minions under a wake effect.
+**"Cost X to do Y":** The "cost X to do Y" template is used on several
+cards. A minion or Methuselah playing a card or using an effect with
+this template will have to pay cost X in order to play the card or use
+the effect Y. For example, an effect with "lock a location to lock
+a minion" require the Methuselah to lock an unlocked location they
+control to lock a minion.
 
 **Maneuver:** The efforts of a minion in combat to move away from or to
 close in on the opposing minion.
