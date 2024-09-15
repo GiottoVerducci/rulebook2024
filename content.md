@@ -2824,9 +2824,10 @@ at the end of the game wins.
 that action and/or play reaction cards as though unlocked for the
 duration of the action. Wake effects can always be played during the "as
 a card is played" window, in order to play other reaction cards that
-must be played in that window. A reaction card that unlocks a vampire
-but does not wake it is not considered as a wake effect and cannot be
-played during the "as a card is played" window.
+must be played in that window. Wake effects can always be played during
+action resolution and after action resolution. A reaction card that unlocks
+a vampire but does not wake it is not considered as a wake effect and cannot
+be played during the "as a card is played" window.
 
 **Withdraw:** An attempt to leave the game by a Methuselah who has run
 out of cards in their library.
