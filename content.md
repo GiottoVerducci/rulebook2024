@@ -1845,13 +1845,9 @@ strikes with a hand strike at close range, they do an amount of damage
 equal to their strength to the opposing minion. Vampires have a default
 strength of 1.
 
-**Dodge:** A dodge strike deals no damage, but it protects the dodging
-minion and their possessions from the effects of the opposing strike.
-Retainers are not protected, however. A dodge is effective at any range.
-A dodge protects even from the effects of a strike done with first
-strike (see [**First Strike**](https://www.vekn.net/rulebook#first-strike)). A
-dodge is a strike, even though it is solely defensive. It represents the
-activity of the minion during that pair of strikes.
+**Dodge:** A dodge is a strike that is effective at any range and deals no damage. 
+It protects the dodging minion from all effects of the opposing minion's strike, even strikes done with First Strike or from additional effects of an opposing minion's Strike: Combat Ends.
+Dodge protects the dodging minion and their possessions, but does not protect any attached retainers.
 
 **Combat Ends:** This effect ends combat immediately. This type of
 strike is always the first to resolve, even before a strike done with
