@@ -1854,7 +1854,7 @@ strike is always the first to resolve, even before a strike done with
 first strike (see [**First Strike**](https://www.vekn.net/rulebook#first-strike)), and
 it ends combat before other strikes or other strike resolution effects
 are resolved. Combat ends is effective at any range. Combat ends is not
-affected by a dodge, since dodge only cancels effects that are directed
+affected by a dodge, since dodge protects only against effects that are directed
 at the dodging minion.
 
 **Steal Blood:** This effect moves blood counters or life counters from
