@@ -1853,9 +1853,7 @@ Dodge protects the dodging minion and their possessions, but does not protect an
 strike is always the first to resolve, even before a strike done with
 first strike (see [**First Strike**](https://www.vekn.net/rulebook#first-strike)), and
 it ends combat before other strikes or other strike resolution effects
-are resolved. Combat ends is effective at any range. Combat ends is not
-affected by a dodge, since dodge protects only against effects that are directed
-at the dodging minion.
+are resolved. Strike: Combat ends is effective at any range. It ends combat even if the opponent dodges.
 
 **Steal Blood:** This effect moves blood counters or life counters from
 the target to the striking minion. This does not count as damage, so the
