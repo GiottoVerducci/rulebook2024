@@ -290,8 +290,7 @@ play area upon resolution.
 Some cards such as action cards are not resolved immediately; in that case, they are temporarily out of play between the moment they are played and the moment they reach resolution.
 
 > **ADVANCED RULES**\
-> Some effects can cancel a card "as it is played." These effects, as
-> well as [**wake effects**](https://www.vekn.net/rulebook/8-glossaries#wake),
+> Some effects can cancel a card "as it is played." These effects
 > are the only effects allowed during the "as played" time period of
 > another card. Even drawing to replace cards, comes after this time
 > period.
