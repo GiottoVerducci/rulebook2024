@@ -401,13 +401,7 @@ them.
 
 
 
-**Trifle:** Some master cards are identified as trifles. When a
-Methuselah successfully plays a trifle, they gain an additional master
-phase action. For an out-of-turn trifle, they gain a master phase action
-in their next master phase. A Methuselah can gain only one master phase
-action from trifles in a given master phase; any subsequent trifles act
-like regular master cards.
-
+**Trifle:** A trifle is a special type of master card which can be played by using a trifle action.
 
 
 ![](bin/media/image18.png)
@@ -434,9 +428,7 @@ effects described on them.
 > is on, and it cannot be awarded again.\
 > \
 > **Out-of-turn:** You may play an out-of-turn master card whenever
-> appropriate during another Methuselah's turn. Doing so counts against
-> the allotted number of master phase actions you receive in your next
-> master phase, even if the out-of-turn master card is cancelled
+> appropriate during another Methuselah's turn. Doing so counts against one master phase and and one trifle action even if the out-of-turn master card is cancelled
 > (see [**Master Phase**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#master-phase)).\
 > \
 > Regardless of the number of master phase actions you normally have,
@@ -818,8 +810,8 @@ You receive master phase actions during your master phase. A master
 phase action represents your personal activity during the turn as a
 Methuselah.
 
-By default, you receive only one master phase action, but some cards may
-change this amount. You may use a master phase action to play a master
+By default, you receive only one master phase action and one trifle action. A trifle action can only be used to play trifles. A master phase action can be used for both regular master cards and trifles.
+Some cards may change this amount. You may use a master phase action to play a master
 card, and some cards can give you alternate ways to use your master
 phase actions.
 
