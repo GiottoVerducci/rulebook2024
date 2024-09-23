@@ -290,8 +290,7 @@ play area upon resolution.
 Some cards such as action cards are not resolved immediately; in that case, they are temporarily out of play between the moment they are played and the moment they reach resolution.
 
 > **ADVANCED RULES**\
-> Some effects can cancel a card "as it is played." These effects, as
-> well as [**wake effects**](https://www.vekn.net/rulebook/8-glossaries#wake),
+> Some effects can cancel a card "as it is played." These effects
 > are the only effects allowed during the "as played" time period of
 > another card. Even drawing to replace cards, comes after this time
 > period.
@@ -2822,11 +2821,7 @@ at the end of the game wins.
 
 **Wake:** A vampire that wakes during an action can attempt to block
 that action and/or play reaction cards as though unlocked for the
-duration of the action. Wake effects can always be played during the "as
-a card is played" window, in order to play other reaction cards that
-must be played in that window. A reaction card that unlocks a vampire
-but does not wake it is not considered as a wake effect and cannot be
-played during the "as a card is played" window.
+duration of the action.
 
 **Withdraw:** An attempt to leave the game by a Methuselah who has run
 out of cards in their library.
