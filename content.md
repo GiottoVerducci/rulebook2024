@@ -298,7 +298,7 @@ Some cards such as action cards are not resolved immediately; in that case, they
 
 Effects can only be used if their requirements are met. They always resolve in full. They are not interruptible nor pre-emptible, and their resolution cannot be split unless they set up an explicit sequence. 
 For example, "Discard X cards" requires you to discard all X cards at once: you cannot discard them one by one and replace in between.
-On the other hand, "Combat ends, and inflict 1 damage to the opposing minion" sets up an explicit sequence: if another card played afterward prevents the combat from ending, the rest of the sequence is not executed (the vampire does not unlock).
+"Combat ends, and inflict 1 damage to the opposing minion" sets up an explicit sequence: if a card played afterward prevents the combat from ending, the rest of the sequence is not executed (damage is not inflicted).
 
 ### **Drawing Cards**
 
