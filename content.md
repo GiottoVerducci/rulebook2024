@@ -296,7 +296,7 @@ Some cards such as action cards are not resolved immediately; in that case, they
 > another card. Even drawing to replace cards, comes after this time
 > period.
 
-Cards effects resolve in full: they are not interruptible nor pre-emptible, and their effects cannot be "split up" in a sequence unless they are in an explicit sequence.
+Any effect can only be used if all of its requirements are met. The resolution of a single effect always resolves in full. They are not interruptible nor pre-emptible, and their resolution cannot be split unless they are in an explicit sequence. 
 For example, "Discard X cards" requires you to discard all X cards at once: you cannot discard them one by one and replace in between.
 On the other hand, "Combat ends, and inflict 1 damage to the opposing minion" sets up an explicit sequence: if another card played afterward prevents the combat from ending, the rest of the sequence is not executed (the vampire does not unlock).
 
