@@ -566,6 +566,11 @@ match your hand size.
 > another card. Even drawing to replace cards, comes after this time
 > period.
 
+### **Using effects**
+Effects can only be used if their requirements are met. They always resolve in full. They are not interruptible nor pre-emptible, and their resolution cannot be split unless they set up an explicit sequence. 
+For example, "Discard X cards" requires you to discard all X cards at once: you cannot discard them one by one and replace in between.
+"Combat ends, and inflict 1 damage to the opposing minion" sets up an explicit sequence: if a card played afterward prevents the combat from ending, the rest of the sequence is not executed (damage is not inflicted).
+
 ### **Playing a Card**
 
 A card is played by announcing its effects, showing the card and placing
@@ -618,7 +623,7 @@ Optional cost reducers can be used when the card is played (in order to play the
 ### **Targeting of Cards**
 
 If a card is played on another card, or targets another card, the target
-card must be in play (that is, controlled). Vampires in the torpor
+card must be controlled. Vampires in the torpor
 region are eligible targets by default, but vampires in the uncontrolled
 region and contested cards are not. 
 
@@ -849,7 +854,12 @@ You receive master phase actions during your master phase.
 By default, you receive only one master phase action, but some cards may
 change this amount. You may use a master phase action to play a master
 card, and some cards can give you alternate ways to use your master
-phase actions.
+phase actions. When a Methuselah successfully plays a trifle, they gain an additional master
+phase action. For an out-of-turn trifle, they gain a master phase action
+in their next master phase. A Methuselah can gain only one master phase
+action from trifles in a given master phase; any subsequent trifles act
+like regular master cards.
+
 
 If other effects happen during your master phase, you choose the order
 in which these effects and your master phase actions are performed.
@@ -1476,6 +1486,11 @@ If the action cannot take effect, but it has not been blocked, it is still succe
 **unsuccessful action / successful block**\
 The effects of the action do not take place when the action is blocked. The blocking minion is locked and enters combat with the acting minion (see [**Combat**](https://www.vekn.net/rulebook#combat)).
 
+> **ADVANCED RULES**\
+> Although an action cannot be undertaken if its cost or requirements cannot be met, it is possible that those requirements could not be met upon resolution. If an action is successful (ie. not blocked),
+> but its cost cannot be paid or its requirements are no longer met, it fizzles. This is also true if all targets become invalid over the course of the action. The actions cost is paid to the extent possible and it has no effect.
+> It is stillconsidered successful.
+
 **After Action Resolution**
 After all effects are handeled, there is a chance to play cards which are only usable after action
 resolution. This is considered the final step of the action.
@@ -1762,15 +1777,15 @@ had only 1 additional strike. Wauneka takes 1 more damage.*
 **Strike Effects**\
 Most strikes will inflict damage as an effect. However, this is not applied until Damage resolution (Step 5). The following strike effects are resolved during the Resolve Strike Step (step 4b):
 
-**Dodge:** A dodge strike deals no damage, but it protects the dodging
-minion and their possessions from the effects of the opposing strike.\
-~~Retainers are not protected, however.~~ A dodge is effective at any range and protects from all damage (even First Strike).
+**Dodge:** A dodge is a strike that is effective at any range and deals no damage. 
+It protects the dodging minion from all effects of the opposing minion's strike, even strikes done with First Strike or from additional effects of an opposing minion's Strike: Combat Ends. 
+Dodge protects the dodging minion and their possessions, but does not protect any attached retainers.
 
-**Combat Ends:** This type of strike is always the first to resolve and ends combat before other strikes or other strike resolution effects
-are resolved.\
-Combat ends is effective at any range. Combat ends is not
-affected by a dodge, since dodge only cancels effects that are directed
-at the dodging minion.
+**Combat Ends:** This effect ends combat immediately. This type of
+strike is always the first to resolve, even before a strike done with
+first strike (see [**First Strike**](https://www.vekn.net/rulebook#first-strike)), and
+it ends combat before other strikes or other strike resolution effects
+are resolved. Strike: Combat ends is effective at any range. It ends combat even if the opponent dodges.
 
 **Steal Blood:** This effect moves blood counters or life counters from
 the target to the striking minion. This does not count as damage and resolves during the "resolve strike" step. The effect cannot be prevented with damage prevention effects.\
@@ -1821,6 +1836,10 @@ Damage resolution has two steps: prevent damage and mend damage.\
 If a vampire cannot mend all damage, they become wounded. A wounded vampire goes to torpor after all remaining damage related to the current pair of strikes is handled
 (see [**Torpor**](https://www.vekn.net/rulebook#torpor)). 
 
+> ADVANCED RULES\
+> Some cards or effects can inflict damage in other steps than strike resolution. In these cases, damage inflicted by the effect is handeled immediately.\
+> After all inflicted damage has been prevented or mended, proceed with combat as normal.
+
 > **Resolving different kinds of damage**\
 > **Environmental damage:** Damage that is not inflicted by a strike (such as environmental
 > damage from Carrion Crows or Murder of Crows) cannot be dodged, since
@@ -1846,6 +1865,7 @@ The minion taking damage can play combat cards that prevent
 damage. These damage prevention cards are played one at a time until all
 the damage is prevented or until the minion chooses not to play any
 more. Any unprevented damage is successfully inflicted. 
+
 
 **5.b Mend Damage**
 > If both non-aggravated damage and aggravated damage are successfully inflicted
@@ -1900,11 +1920,6 @@ usable at the end of a round of combat, after the press step.
 
 > **Reminder**
 > This step occurs even if combat ends prematurely.
-
-
-
-
-
 
 
 
