@@ -1418,7 +1418,9 @@ Any card required for the action is played (face up) at this time, but is tempor
 until the action succeeds 
 (see [**The Political Action**](https://www.vekn.net/rulebook#the-political-action)).
 
-
+<details>
+<summary>EXAMPLE</summary>	
+	
 *During Sarah's minion phase, she decides that one of her unlocked
 minions, Belinde, will take an action to bleed her prey, Alexis. Sarah
 locks Belinde and says, "Belinde bleeds Alexis for 1 (meaning 1 pool)."*
@@ -1430,6 +1432,7 @@ Underbridge Stray, announcing: "The Dowager recruits the Underbridge
 Stray at +1 stealth, costing The Dowager 1 blood." (The blood is not
 paid until the action succeeds.)*
 
+</details>
 
 > **ADVANCED RULES**
 > Cards that are played "as the action is announced” must be played during this step,
@@ -1460,12 +1463,16 @@ in a clockwise order.
 If the action is not directed at another Methuselah or at something controlled by another Methuselah, then the action can be blocked by the acting Methuselah's 
 prey or predator, with the prey getting the first opportunity to block.
 
+<details>
+<summary>EXAMPLE</summary>	
+	
 *The Dowager's action to recruit the Underbridge Stray, an ally, is not
 directed at another Methuselah, so it is undirected. It can be blocked
 by the ready unlocked minions of Sarah's prey or Sarah's predator. If
 her prey's first attempt fails, another can be made and so on until her
 prey declines to make any further attempts, at which point her predator
 may begin attempting to block.*
+</details>
 
 > REMINDER\
 > Political actions, equip actions, employ retainer actions, recruit ally actions are always undirected. 
@@ -1700,6 +1707,9 @@ The two combatants can continue playing maneuvers to keep offsetting the effects
 > well. As such, they cannot use a second strike card or weapon to
 > maneuver again in the same round.
 
+<details>
+<summary>EXAMPLE</summary>	
+	
 *Ayelech has just blocked Colette, and combat ensues. Ayelech has a .44
 Magnum that allows her to strike for 2 damage at either close or long
 range, and gives her an optional maneuver. Colette, as the acting
@@ -1708,7 +1718,7 @@ where she cannot be harmed by Colette's hand strike. Colette plays a
 maneuver card to get back to close range. However, Ayelech has another
 maneuver card as well, and she plays it to move back to long range.
 Colette has no more maneuvers to play, so the range is set to long.*
-
+</details>
 
 
 **3. Before strikes are chosen**
@@ -1759,6 +1769,9 @@ other means), they must burn blood or life, as appropriate (see [**Damage Resolu
 > Additional strikes are handled by repeating the strike
 > and damage resolution steps. 
 
+<details>
+<summary>EXAMPLE</summary>	
+	
 *Wauneka is blocked by Flávio Gonçalves, and they enter combat. Neither
 of them maneuvers, so the round is at close range. Wauneka announces he
 is using a Roundhouse card, which allows him to inflict 4 damage, as his
@@ -1773,6 +1786,7 @@ strikes are resolved at the same range, which is close in this case.*
 uses his hand strike also. Both take 1 damage. Flávio Gonçalves then
 uses his hands one more time, and Wauneka cannot use a strike because he
 had only 1 additional strike. Wauneka takes 1 more damage.*
+</details>
 
 **Strike Effects**\
 Most strikes will inflict damage as an effect. However, this is not applied until Damage resolution (Step 5). The following strike effects are resolved during the Resolve Strike Step (step 4b):
@@ -1793,6 +1807,9 @@ The stolen blood can be used to mend damage even if the damage is inflicted
 simultaneously. If the stolen blood causes the striking vampire to have
 more blood than their capacity, the excess drains off immediately.
 
+<details>
+<summary>EXAMPLE</summary>	
+ 
 *Chrysanthemum enters combat with an Underbridge Stray ally.
 Chrysanthemum has a capacity of 5 and has 4 blood. The ally has 2 life.
 After determining range, Chrysanthemum steals 2 blood as her strike. The
@@ -1803,6 +1820,7 @@ blood is moved to the blood bank. The Underbridge Stray has no life
 counters remaining, so the ally is burned. Chrysanthemum has 1 damage to
 deal with and does not prevent any, so she burns 1 blood to mend the
 damage, leaving her with 4 blood.*
+</details>
 
 > **ADVANCED RULES**
 > 
@@ -1887,6 +1905,9 @@ damage they can, and the unmended damage leaves them wounded.
 > or retainer, they burn 1 life counter. An ally or retainer who loses
 > all of their life counters is burned.
 
+<details>
+<summary>EXAMPLE</summary>	
+ 
 *Nassir is ready and has 1 blood when he receives 1 point of aggravated
 damage. He cannot mend this damage, so he is wounded and goes to torpor
 with 1 blood.*
@@ -1901,6 +1922,7 @@ aggravated damage. He burns 1 blood to mend the first point of normal
 damage. He does not have enough blood to mend the second point and
 becomes wounded. The aggravated damage burns him, since he already is
 wounded and cannot burn 1 blood to prevent his destruction.*
+</details>
 
 **6. Press**
 *At the end of a round of combat, if both combatants are still ready, the
@@ -1973,6 +1995,9 @@ immediately as usual. If the vampire grants additional transfers, those
 cannot be used on this turn because transfers are gained at the start of
 the influence phase. Other types of crypt cards are handled similarly.
 
+<details>
+<summary>EXAMPLE</summary>	
+	
 *Nora comes to her influence phase. She has 4 transfers to spend, but
 only 2 pool. She sees that she has built up 6 blood counters on a
 vampire named Alexa Draper with a blood capacity of 8, and she thinks
@@ -1985,7 +2010,7 @@ those counters and put it in her pool. Now she has 3 pool and 2
 transfers left to spend. She spends the 2 transfers by moving 2 of the 3
 counters from her pool to Alexa Draper and moves her to the ready
 region.*
-
+</details>
 
 > **ADVANCED RULES**\
 > \
@@ -2070,6 +2095,9 @@ When your prey is ousted, the next Methuselah to your left (the ousted
 Methuselah's prey) becomes your new prey, and you become their new
 predator.
 
+<details>
+<summary>EXAMPLE</summary>	
+	
 *Justine, Lisa, Richard, Scott, and Steve are seated clockwise around a
 table in that order. Steve is ousted first. Steve is Scott's prey, so
 Scott gains 6 pool and 1 victory point. Scott is ousted next by Richard.
@@ -2081,7 +2109,7 @@ and Justine gets 6 pool and another victory point. Since Justine was not
 ousted at all, she gets an additional victory point. The final score is
 that Justine wins with 3 victory points, with Richard and Scott having 1
 victory point, and Lisa and Steve with 0 victory points.*
-
+</details>
 
 > **ADVANCED RULES**\
 > \
