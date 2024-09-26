@@ -879,9 +879,10 @@ used during this phase are lost.
 
 
 ## **3. MINION PHASE**
-*During your minion phase, you may command your minions to perform actions in your struggle for power over the other Methuselahs.* 
-
-Most of the activity in the game occurs in the minion phase. 
+*During your minion phase, you may command your minions to perform actions in your struggle for power over the other Methuselahs. 
+Most of the activity in the game occurs in the minion phase. During your minion phase, you may command your minions to perform actions in your struggle for power over the other Methuselahs. 
+As your minions' actions are a limited resource, you should consider your strategy carefully. Actions can be used for several purposes like attacking other Methuselahs or their resources. 
+Either attack your prey directly or use political power and negotiate. Minions can also bring permanent resources into play.* 
 
 Only **ready unlocked minions** can perform actions. Taking an action **locks** the
 acting minion.\ 
@@ -931,6 +932,8 @@ This can be done by ready unlocked minions, controlled by other Methuselahs. The
 > An action is successful only if it is not blocked. Each action must be
 > resolved (successful or blocked) before another action can be performed.
 
+<details> 
+	
 > **STEALTH AND INTERCEPT**\
 > \
 > The success of an action is determined by two things:\
@@ -941,6 +944,8 @@ This can be done by ready unlocked minions, controlled by other Methuselahs. The
 > **Intercept** represents the blocking minion's efforts to detect and
 > counter an acting minion's attempts to avoid them.
 
+
+</details>
 
 
 **Types of Actions**
@@ -1029,8 +1034,7 @@ others are original types of actions.
 - **Who can perform an action by default:** Any ready minion. 
 - **Cost:** As listed on the card.
 - **Default target:** As listed on the card.
-- **Default stealth:** Unless otherwise noted on the card, these actions
-are at 0 stealth.
+- **Default stealth:** These actions are at 0 stealth, unless noted otherwise on the card (+ x stealth action)
 - **Effect:** If the action is successful, it resolves as indicated on
 the card. If the card describes a special version of a basic action,
 then all the rules that apply to the basic action apply, except as
@@ -1074,7 +1078,7 @@ fails
 ### **Permanents** 
 Ready minions can also use actions to bring different types of permanent
 resources into play. These three actions are very similar, although the
-cards they bring into play are not: **Equipment** **Retainer** and **Allies**
+cards they bring into play are not: **Equipment,** **Retainer** and **Allies**
 
 
 #### **Equip**
@@ -1093,16 +1097,20 @@ your hand; or none, when equipping from another minion you control.
 an equipment card from your hand is successful, the equipment card is
 placed on the acting minion. 
 
-> **ADVANCED**
-> Equipment can also be moved from one minion to another by performing an action.
-> -  **Cost:** none
-> - **Effect when equipping from another minion you control:** Equip with
+
+Equipment can also be moved from one minion to another by performing an action.\
+
+-  **Cost:** none
+-  **Effect when equipping from another minion you control:** Equip with
 an equipment card currently possessed by one of your other minions. More
 than one equipment card can be taken from a minion in a single action,
 but the equipment you wish to take must be announced as the action is
 announced. If the action is unsuccessful, the equipment remains where it
 is.
 
+> ADVANCED RULES
+> Some equipment cards count as a location once in play. These cards are treated as an equipment while in your hand, library or ash heap.
+> When the cards are played, they are treated as both equipment and location when played (eg. for cost-related > effects), and just a location while in play.
 
 
 ![](bin/media/image34.png)
@@ -1172,6 +1180,7 @@ ready region, but they cannot act this turn.
 
 
 
+ 
 ### **Torpor**
 
 *When a vampire cannot mend their wounds, they enter into a deep sleep
@@ -1180,8 +1189,10 @@ to attacks from others of their kind. A vampire in torpor may be burned
 by a vampire through the act of diablerie
 (see [**Diablerie**](https://www.vekn.net/rulebook#diablerie) below).*
 
-Vampires in
-torpor are placed in an area to one side of the uncontrolled region. Any
+<details>
+ <summary> Torpor definition - maybe move? </summary>
+
+Vampires in torpor are placed in an area to one side of the uncontrolled region. Any
 retainers, equipment, and other cards on the vampire stay with the
 vampire when they go into torpor.
 
@@ -1193,7 +1204,7 @@ A vampire in torpor is still considered controlled but is not ready.
 They still unlock at the start of the unlock phase.
 
 A vampire in torpor cannot cast any votes or ballots.
-
+</details>
 
 #### **Leave Torpor (See [Torpor](https://www.vekn.net/rulebook#torpor))**
 
@@ -1242,13 +1253,23 @@ rescued from torpor is no longer wounded.
 
 ![](bin/media/image39.png)
 
+
+ 
 ### **Diablerie**
 
 *By committing diablerie, the diablerist drains the victim of their
 blood and grows stronger, and may take whatever equipment the victim
-had. Vampiric society condemns this act, however, so the risk may
+had. Vampiric society condemns the act of diablerie. The penalty for
+committing this act is death, and the method of justice is a blood hunt,
+in which the diablerist is hunted down and destroyed by others of their
+kind. In practice, however, this brand of justice is not always meted
+out fairly, depending on the connections that the diablerist has. So sometimes, the risk may
 outweigh the reward.*
 
+<details>
+ <summary> Diablerie defintion - maybe move to action resolution? </summary>
+
+ 
 Diablerie is the act of sending another vampire to final death by
 drinking their blood. Only ready vampires can commit diablerie. The
 vampire committing diablerie is referred to as the diablerist. Diablerie
@@ -1278,6 +1299,7 @@ burned.
 > be used to interrupt the diablerie; effects may be played either
 > before or after, as appropriate.
 
+</details>
 
 #### **Diablerise a Vampire in Torpor**
 
@@ -1293,12 +1315,14 @@ different controllers.
 same controller.
 	- 0 stealth, if the acting vampire and the vampire in torpor have
 different controllers.
-- **Effect:** If the action is successful, the victim is diablerised
+- **Effect:** If the action is successful, the victim is diablerised and a Blood Hunt referendum is called. If the referendum passes, the diablerist is burned.
 (see [**Diablerie**](https://www.vekn.net/rulebook#diablerie)).
-If the action is blocked, the acting vampire and the blocking minion
-enter combat as normal.
 
 
+<details>
+
+ <summary> The Blood Hunt defintion - maybe move to action resolution? </summary>
+ 
 **The Blood Hunt**
 
 *Vampiric society condemns the act of diablerie. The penalty for
@@ -1314,7 +1338,7 @@ diablerist is burned. This referendum is not an action, so it cannot be
 blocked, and action modifiers and reaction cards cannot be played.
 Otherwise, this referendum is handled just like any other.
 
-
+</details>
 
 
 
@@ -1378,6 +1402,9 @@ Note that all modifications made to a minion's stealth or intercept
 remain in effect for the duration of the action. Increased stealth and
 intercept return to normal after the action is resolved.
 
+<details>
+<summary>Sequencing - maybe move to Block resolution?</summary>	
+
 #### **SEQUENCING**
 
 > The action has been announced and:
@@ -1398,6 +1425,9 @@ intercept return to normal after the action is resolved.
 > 1. the sequencing rule applies as normal
 > 2. if the target of the action is changed, switch to "A. There is no current block attempt"
 > 3. once every Methuselah has passed, the action is successful and resolves
+
+
+</details>
 
 ### DETAILED COURSE
 
@@ -1452,7 +1482,12 @@ If the action targets one or more other Methuselahs or things controlled by othe
 attempt to block the action. If more than one Methuselah has been targeted by the action, block attempts are made
 in a clockwise order.
 
+<details>
+<summary>EXAMPLE</summary>	
+
 *Belinde's action to bleed Alexis is directed at Alexis, so only Alexis's ready unlocked minions can attempt to block.*
+
+</details>
 
 > REMINDER\
 > When a card describes an action that is directed at another Methuselah, that action is typically directed.
@@ -1481,6 +1516,47 @@ may begin attempting to block.*
 > Some cards can make actions **fail**. Actions that fail are similar to actions that have been blocked except that
 > there is no blocker and no combat. Only cards playable "after action resolution" can still be played.
 
+***SUGGESTION***
+
+> **DETAILED ACTION RESOLUTION SEQUENCING**\
+> \
+> After the action has been announced, the action resolution follows the sequencing explained in the following. There are three relevant game states which can occur
+> during action resolution:
+> - A. There is no current block attempt
+> - B. there is an ongoing block attempt
+> - C. all Methuselahs have declined to block.
+>   
+> An action reaches resolution when either a block attempt is successful or all Methuselahs have declined to block.\
+> In all cases, the regular sequencing rules [insert link here] are applied as normal.
+> 
+> > **REMINDER**\
+> > If any Methuselah plays a card or effect, the impulse moves back to the acting Methuselah.
+> 
+> **A. There is no current block attempt**\
+> Any effect that can be used during an action (playing an action modifier or reaction card, using effects of cards in play etc.) can be used, with the exception of
+> stealth and intercept effects. In addition, a Methuselah who can block (see Who May Attempt to Block) can declare a block attempt. That changes the gamestate to "B.
+> there is an ongoing block attempt".\
+> \
+> If a Methuselah declines to block, that Methuselah cannot declare any block attempt until the end of the action unless the target of the action changes.
+> Once every Methuselah has declined to block, switch to gamestate "C. Blocks have been declined by all Methuselahs"\
+> \
+> **B. There is an ongoing block attempt**\
+> After a Methuselah has declared a block attempt with any minion, they may use effects that force the currently blocking minion to attempt to block
+> (no other minion can attempt to block until this attempt is resolved). A Methuselah may attempt to block with multiple minions subsequently.
+> 
+> > **REMINDER**\
+> > To see if a block attempt succeeds, compare the acting minion's stealth to the blocking minion's intercept.\
+> 
+> Once every Methuselah has passed because they cannot or don not want to play further effects, the block attempt is resolved: if it is successful, the action is blocked
+> and resolves as unsuccessful.\
+> Otherwise, switch back to gamestate "A. There is no current block attempt"\
+> \
+> **C. Blocks have been declined by all Methuselahs**
+> Once every Methuselah has passed, the action is successful and resolves. If the target of the action is changed, however, switch to "A. There is no current block
+> attempt".
+
+
+
 #### **3. Resolve the Action**
 
 There are three ways how an action can be resolved: 
@@ -1505,6 +1581,40 @@ resolution. This is considered the final step of the action.
 > **ADVANCED RULES**\
 > If an effect **ends the action** after block resoltion, that makes the action end unsuccessfully.
 > Actions that are ended are over: action modifiers and reactions cannot be played anymore.
+
+#### **DIABLERIE**
+
+Successful diablerie actions are resolved as follows:
+
+**1.** All blood on the victim is moved to the diablerist. Blood in
+excess of their capacity drains off as normal.
+
+**2.** The diablerist may take any equipment on the victim.
+
+**3.** The victim is burned. Any cards and counters on them are also
+burned.
+
+> **ADVANCED RULES**\
+> \
+> 3b. If the victim was older (had a higher capacity) than the
+> diablerist, the diablerist can be given a Discipline: their
+> controller may go through their library, ash heap, and hand to get a
+> master Discipline card to put on the diablerist and then shuffle
+> their library or draw back up to their hand size as necessary. If the
+> Discipline card increases the diablerist's capacity, the diablerie
+> does not give 1 blood to fill that new capacity.\
+> \
+> 3c. If the victim was Red List, the diablerist may receive trophies
+> (see [**Trophy**](https://www.vekn.net/rulebook/2-card-types#trophy)).
+> The steps of diablerie are treated as a single unit. No effects can
+> be used to interrupt the diablerie; effects may be played either
+> before or after, as appropriate.
+
+**4.** When a vampire commits diablerie, a blood hunt referendum is automatically and immediately conducted. If the referendum passes, the diablerist is burned.\
+In a blood hunt referendum, action modifiers and reaction cards cannot be played. Otherwise, this referendum is handled just like any other.
+
+> This referendum is part of the action which led to a diablerie, so it cannot be blocked.
+
 
 
 #### **REFERENDUM**
