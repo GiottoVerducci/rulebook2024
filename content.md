@@ -701,6 +701,14 @@ played during the "as a card is played" window.
 **Wounded:** A vampire who has received damage that they have not mended
 or a vampire in torpor or on their way to torpor is said to be wounded. 
 
+**Torpor** Vampires in torpor are placed in an area to one side of the uncontrolled region. Any retainers, equipment, 
+and other cards on the vampire stay with the vampire when they go into torpor. A vampire in torpor is still considered controlled 
+but is not ready. They still unlock at the start of the unlock phase but cannot cast any votes or ballots.\
+\
+A vampire in torpor can perform no action except the "leave torpor" action and cannot block or play reaction cards. 
+They can play action modifiers during their actions.
+
+
 **Limited:** Some cumulative effects are forbidden by the rules. For
 instance, during a bleed action, an action modifier card cannot be played 
 to increase the bleed if the bleed amount is already being increased 
