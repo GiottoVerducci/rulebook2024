@@ -1555,7 +1555,32 @@ may begin attempting to block.*
 > Once every Methuselah has passed, the action is successful and resolves. If the target of the action is changed, however, switch to "A. There is no current block
 > attempt".
 
+<details>
+<summary>Sequencing -regular text</summary>	
 
+#### **SEQUENCING**
+
+> The action has been announced and:
+> 
+> A. There is no current block attempt
+> 1. the sequencing rule applies as normal
+> 2. in addition to any effect that can be used during an action (playing an action modifier or reaction card, using effects of cards in play etc.), a Methuselah who can block (see Who May Attempt to Block) can declare a block attempt, switching to "B. There is an ongoing block attempt"
+> 3. if a Methuselah passes, that Methuselah cannot declare any block attempt until the end of the action unless the target of the action changes.
+> 4. once every Methuselah has passed, switch to "C. Blocks have been declined by all Methuselahs"
+> 
+> B. There is an ongoing block attempt
+> 1. the sequencing rule applies as normal
+> 2. the target of the action cannot be changed
+> 3. the Methuselah who has declared the current block attempt may use effects that force the currently blocking to attempt to block (no other minion can attempt to block until this block attempt is resolved)
+> 4. once every Methuselah has passed, the block attempt is resolved: if it is successful, the action is unsuccessful and blocked. Otherwise, switch back to "A. There is no current block attempt"
+> 
+> C. Blocks have been declined by all Methuselahs
+> 1. the sequencing rule applies as normal
+> 2. if the target of the action is changed, switch to "A. There is no current block attempt"
+> 3. once every Methuselah has passed, the action is successful and resolves
+
+
+</details>
 
 #### **3. Resolve the Action**
 
