@@ -249,19 +249,7 @@ allies) the Methuselah controls.
 
 ### **Master Cards**
 
-Master cards are cards you play in your role as a Methuselah. There are
-two categories of master cards: regular and out-of-turn master cards.
-
-Regular master cards are played during your master phase as master phase
-actions. At the start of each of your master phases, you get one master
-phase action, which you can use to play a regular master card.
-Out-of-turn master cards can only be played during other Methuselahs'
-turns. By playing an out-of-turn master card, you are using a master
-phase action from your next master phase, playing the card now instead
-of waiting until your next master phase.
-
-A master card in play is controlled by the Methuselah who played it,
-even if it is played on a card controlled by another Methuselah.
+Master cards are cards you play in your role as a Methuselah. 
 
 The general types of master cards are as follows:
 
@@ -673,8 +661,8 @@ that Methuselah.
   card, then it is controlled by the Methuselah who played it.
 
 Control can change through game effects and this is clearly noted when
-using those effects.
-
+using those effects.\
+\
 **Burn:** When a card is burned, it is placed into its owner's ash heap
 (discard pile). The ash heap can be examined by any Methuselah at any
 time. When a counter is burned, it is returned to the blood bank.
@@ -682,25 +670,28 @@ Sometimes, an instruction may say to remove a card from the game. While
 some cards and effects can retrieve cards from the ash heap, cards that
 are removed from the game cannot be retrieved or affected in any way.
 When a card is burned or removed from the game, any counters or other
-cards on it are burned.
-
+cards on it are burned.\
+\
 **Unique:** Only one copy of a unique card can be in play at a time. If
 another Methuselah puts a copy of the card into play, the copies will be
 contested (and out of play) until all but one is yielded
 (see [**Contested Cards**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#contested-cards)).
-Vampires are unique, by default.
-
+Vampires are unique, by default.\
+\
 **Wake:** A vampire that wakes during an action can attempt to block
 that action and/or play reaction cards as though unlocked for the
 duration of the action. Wake effects can always be played during the "as
 a card is played" window, in order to play other reaction cards that
 must be played in that window. A reaction card that unlocks a vampire
 but does not wake it is not considered as a wake effect and cannot be
-played during the "as a card is played" window.
-
-**Wounded:** A vampire who has received damage that they have not mended
-or a vampire in torpor or on their way to torpor is said to be wounded. 
-
+played during the "as a card is played" window.\
+\
+**Ready minion**: A minion in the ready region who can perform actions and attempt to block actions. If a minion is wounded or is being burned or removed from the game in combat, they are no longer ready. 
+The change of status of the minion will be effective once combat is over (for instance, an ally being burned in combat will be in the ash heap only after combat).\
+If a vampire cannot mend their wounds, is sent to torpor or is otherwise wounded, they are no longer ready and go into torpor (if this happens during combat, they are considered as "going to torpor" until the combat is over).\
+\
+**Wounded:** A vampire in torpor is wounded. Additionally, any vampire who has received damage that they have not successfully mended, is sent to torpor or is otherwise also wounded.\
+\
 **Torpor** Vampires in torpor are placed in an area to one side of the uncontrolled region. Any retainers, equipment, 
 and other cards on the vampire stay with the vampire when they go into torpor. A vampire in torpor is still considered controlled 
 but is not ready. They still unlock at the start of the unlock phase but cannot cast any votes or ballots.\
@@ -753,7 +744,7 @@ another minion they control). You cannot steal a card from yourself.
 > If an action card is cancelled, the minion does not lock (they do not
 > pay for the action card), and can play the same action card again.\
 > \
-> If a non-action card is cancelled, its cost should be paid as normal.\
+> If a non-action card is cancelled, its cost must be paid as normal.\
 > \
 > If a combat card used for a strike is cancelled, the minion who
 > played it must choose a strike which may come from another strike
@@ -761,22 +752,24 @@ another minion they control). You cannot steal a card from yourself.
 
 
 # [**4. Turn Sequence**](https://www.vekn.net/rulebook/4-detailed-turn-sequence)
+Turns proceed clockwise around the playing area, starting with the first Methuselah. Each Methuselah’s turn is composed of the following five phases, in order:
 
-> Turns proceed clockwise around the playing area, starting with the first Methuselah. Each Methuselah’s turn is composed of the following five phases, in order:
-> **Start of Turn**
-> In this instance, effects which take place before your unlock phase, are handeled.
-> 1. **Unlock Phase**\
-> Unlock all your cards and deal with any active **contests**. If you have the **Edge**, you may gain 1 pool from the *blood bank*.
-> 2. **Master Phase**\
-> Take **master phase actions**, representing your direct influence in the World of Darkness.
-> 3. **Minion Phase**\
-> This is generally the longest part of your turn as your minions perform a wide variety of **actions** using abilities or cards. Actions can be **blocked** which may result in combat.
-> 4. **Influence Phase**\
-> Gain control of vampires in your **uncontrolled region** by using your pool and **transfers**.
-> 5. **Discard Phase**\
-> Use a **discard phase action** to **discard** a card from your hand and draw another, or (Advanced Rules) to play an **event card**.
-> **End of Turn**
-> Some effects take place at the end of your turn, after your Discard Phase.
+> **Start of Turn**\
+In this instance, effects which take place before your unlock phase, are handeled.
+>
+> > 1. **Unlock Phase**\
+Unlock all your cards and deal with any active **contests**. If you have the **Edge**, you may gain 1 pool from the *blood bank*.
+> > 3. **Master Phase**\
+Take **master phase actions**, representing your direct influence in the World of Darkness.
+> > 4.  **Minion Phase**\
+This is generally the longest part of your turn as your minions perform a wide variety of **actions** using abilities or cards. Actions can be **blocked** which may result in combat.
+> > 6. **Influence Phase**\
+Gain control of vampires in your **uncontrolled region** by using your pool and **transfers**.
+> > 7. **Discard Phase**\
+Use a **discard phase action** to **discard** a card from your hand and draw another, or (Advanced Rules) to play an **event card**.
+> 
+> **End of Turn**\
+Some effects take place at the end of your turn, after your Discard Phase.
 
 Each of the phases is described in full detail in the following sections.
 
@@ -841,7 +834,9 @@ continue the contest.
 > \
 > The vampire yielding the title will now have no title and loses the
 > benefits of the title for the remainder of the game.
->
+
+
+
 > **ADVANCED RULES**\
 > \
 > Some cards have a burn option icon.\
@@ -850,28 +845,34 @@ continue the contest.
 > meets the requirements of this card or is not a legal target, may discard it during ANY
 > Methuselah's unlock phase and replace it.\
 > \
-> Each Methuselah is limited to one such discard each unlock phase.\
+> Each Methuselah is limited to one such discard each unlock phase.
 
 
 ## **2. MASTER PHASE**
 *A master phase action represents your personal activity during the turn as 
 ancient Methuselah.*
 
-You receive master phase actions during your master phase. 
+By default, you receive 1 master phase action. 
 
-By default, you receive only one master phase action, but some cards may
-change this amount. You may use a master phase action to play a master
-card, and some cards can give you alternate ways to use your master
-phase actions. When a Methuselah successfully plays a trifle, they gain an additional master
-phase action. For an out-of-turn trifle, they gain a master phase action
-in their next master phase. A Methuselah can gain only one master phase
-action from trifles in a given master phase; any subsequent trifles act
-like regular master cards.
+You may use a master phase action to play a master card, 
+and some cards can give you alternate ways to use your master
+phase actions. If other effects happen during your master phase, you choose the order
+in which these effects and your master phase actions are performed.\
+\
+There are three categories of master cards: 
 
+- **Regular** master cards are played during your master phase using a master phase action.
 
-If other effects happen during your master phase, you choose the order
-in which these effects and your master phase actions are performed.
+- **Trifles** award an additional master phase action, if they are played successfully. A Methuselah can gain only one master phase
+action from trifles in a given master phase; any subsequent trifles act like regular master cards.
 
+- **Out-of-turn** master cards can only be played during other Methuselahs' turns. By playing an out-of-turn master card, you are using a master
+phase action from your next master phase. For an out-of-turn trifle, they gain a master phase action in their next master phase. A Methuselah can never play
+more than one out-of-turn master card between two of their turns, even if they regain a master phase action. That limit applies even if the out-of-turn master card was cancelled.
+
+A master card in play is controlled by the Methuselah who played it,
+even if it is played on a card controlled by another Methuselah.\
+\
 It is not compulsory to use your master phase actions. However, you
 cannot save master phase actions for later; master phase actions not
 used during this phase are lost.
@@ -879,11 +880,7 @@ used during this phase are lost.
 > **ADVANCED RULES**\
 > \
 > You can use a master phase action to mark a Red List minion
-> (see [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).\
-> \
-> If you've played an out-of-turn master card against this master phase
-> (even if it was cancelled), then you gain one fewer master phase
-> actions than normal (see [[Master Cards](https://www.vekn.net/rulebook/2-card-types#master-cards)).
+> (see [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).
 
 
 ## **3. MINION PHASE**
@@ -894,8 +891,6 @@ Either attack your prey directly or use political power and negotiate. Minions c
 
 Only **ready unlocked minions** can perform actions. Taking an action **locks** the
 acting minion.\ 
-If a minion manages to unlock (due to a card or an effect) during this
-phase, it is possible for them to perform another action.
 
 > Some actions are **mandatory**. Any of those actions must be performed before any nonmandatory actions.\
 > A minion required to take a mandatory action cannot perform any other action.\
@@ -907,11 +902,13 @@ they are "stuck" and cannot perform any action (this does not prevent your other
 Any ready unlocked minion you control can perform an action. The
 procedure for resolving an action is described in the following
 sections. A ready vampire may generally perform one of two basic actions which do
-not require the play of action cards: \
+not require the play of action cards:\
 **bleed** or **hunt**\
-A ready ally may perform only one basic action which does not require the play
-of action cards: **bleed**.\
-
+The actions to **leave torpor, resuce a vampire from torpor, diablerise a vampire in torpor and become anarch** can also be performed without an action card, 
+but they can only be attempted if there is a valid target available (e.g. a vampire in torpor who can be rescued).\
+\
+A ready ally may perform only one basic action which does not require the play of action cards: **bleed**.\
+\
 Ready minions can also use actions to bring different types of permanent
 resources into play. These three actions are very similar, although the
 cards they bring into play are not:
@@ -919,28 +916,33 @@ cards they bring into play are not:
 > **Equipment:** such as computers, guns, and exotic artefacts. An
 > equipment card is brought into play with an equip action. Equipment
 > can also be moved from one minion to another by performing an action.\
-> 
+> \
 > **Retainers:** henchmen, attendants, or animals commanded into the
 > service of the minion. A retainer is brought into play with the
 > employ retainer action. Retainers cannot be moved from one minion to
 > another.\
-> 
+> \
 > **Allies:** non-vampire minions, such as mages, werewolves, or
 > ordinary mortals. An ally is brought into play with the recruit ally
 > action.
 
-A minion cannot perform an action with the same named action card more than once each turn, 
-even if they unlock. A minion cannot perform each action via the same copy of a card in play 
-(including from the minion's own card text) more than once each turn, even if they
-unlock.
+> **REMINDER**\
+> If a minion manages to unlock (due to a card or an effect) during this phase, it is possible for them to perform another action.
+> A minion cannot perform an action with the same named action card more than once each turn, even if they unlock.
+> A minion cannot perform each action via the same copy of a card in play (including from the minion's own card text) more than once each turn, even if they unlock.
 
-**Other Methuselahs** may attempt to **block** your actions.\
-This can be done by ready unlocked minions, controlled by other Methuselahs. They may attempt to block your action, and blocking locks the blocking minion (see [**Resolve Any Block Attempts**](https://www.vekn.net/rulebook#resolve-any-block-attempts)).\
+**Other Methuselahs** may attempt to **block** your actions. An action is successful only if it is not blocked. Each action must be
+resolved before another action can be performed. (see [Detailed Course of an Action] [**Resolve Any Block Attempts**](https://www.vekn.net/rulebook#resolve-any-block-attempts)).\
 
-> An action is successful only if it is not blocked. Each action must be
-> resolved (successful or blocked) before another action can be performed.
 
 <details> 
+<summary>just direct to the other section in the rulebook?</summary>	
+	
+Note that action modifiers and reaction cards can be played at
+any time in this process as appropriate, subject to the restrictions on
+adding stealth and intercept listed below. The same minion cannot play
+the same action modifier or reaction card more than once during each
+action (see [**Minion Cards**](https://www.vekn.net/rulebook/2-card-types#minion-cards)).
 	
 > **STEALTH AND INTERCEPT**\
 > \
@@ -961,20 +963,28 @@ This can be done by ready unlocked minions, controlled by other Methuselahs. The
 > **DIRECTED AND UNDIRECTED ACTIONS**\
 > \
 > The actions described below are either directed or undirected,
-> depending on their targets (see [**Who May Attempt to Block**](https://www.vekn.net/rulebook#who-may-attempt-to-block)).\
+> depending on their targets. An action is directed when it is targeting one or more other Methuselahs (see [**Who May Attempt to Block**](https://www.vekn.net/rulebook#who-may-attempt-to-block)).\
 > \
-> As a convenience, when a card describes an action that is typically
-> directed at another Methuselah, the card's text will usually include
-> a (D) symbol as a reminder that the action is typically directed. If
-> not it is considered undirected.
+> As a convenience, when a card describes an action that is directed at another Methuselah, the card's text will usually include a (D) symbol as a reminder.
 
-Note that action modifiers and reaction cards can be played at
-any time in this process as appropriate, subject to the restrictions on
-adding stealth and intercept listed below. The same minion cannot play
-the same action modifier or reaction card more than once during each
-action (see [**Minion Cards**](https://www.vekn.net/rulebook/2-card-types#minion-cards)).
-All cards must follow the same sequencing structures of all effects
-(see [**Sequencing**](https://www.vekn.net/rulebook/2-card-types#sequencing)).
+
+
+### **Action Card (or Card in Play)**
+Actions can be provided by cards (either action cards or cards in play). Some action cards are enhanced versions of the basic actions, while
+others are original types of actions.
+
+- **Who can perform an action by default:** Any ready minion. If the action is an enhanced version of a basic action, their regular requirements apply.
+- **Cost:** As listed on the card.
+- **Default target:** As listed on the card.
+- **Default stealth:** These actions are at 0 stealth, unless noted otherwise on the card (+ x stealth action)
+- **Effect:** If the action is successful, it resolves as indicated on
+the card. If the card describes a special version of a basic action,
+then all the rules that apply to the basic action apply, except as
+otherwise noted on the card.
+
+
+
+![](bin/media/image41.png)
 
 
 ### **Bleed**
@@ -1032,27 +1042,6 @@ the blood bank equal to the hunt amount.
 ![](bin/media/image33.png)
 
 
-### **Action Card (or Card in Play)**
-
-Instead of performing a basic action, a ready minion could play an
-action card to perform the action indicated on the card. Some action
-cards are enhanced versions of the basic bleed or hunt actions, while
-others are original types of actions.
-
-- **Who can perform an action by default:** Any ready minion. 
-- **Cost:** As listed on the card.
-- **Default target:** As listed on the card.
-- **Default stealth:** These actions are at 0 stealth, unless noted otherwise on the card (+ x stealth action)
-- **Effect:** If the action is successful, it resolves as indicated on
-the card. If the card describes a special version of a basic action,
-then all the rules that apply to the basic action apply, except as
-otherwise noted on the card.
-
-
-
-![](bin/media/image41.png)
-
-
 ### **Politics**
 *Politics and diplomacy are as critical to vampires as hunting and feeding. Like mortal society, Kindred society has its own laws, creeds,
 and customs.* 
@@ -1061,11 +1050,11 @@ Politics come into play when a vampire performs a political action or when a blo
 
 **The Political Action**
 
-**Important:** A political action is an action that is used to call a
-referendum. The specific terms of the referendum (the choices to be
+A political action is an action that is used to call a referendum.\
+\
+**Important:** The specific terms of the referendum (the choices to be
 made, if any, by the Methuselah who calls the referendum) are not chosen
 until the action itself is successful. 
-A vampire cannot perform more than one political action each turn.
 
 
 - **Who can take a political action:** Any ready vampire. 
@@ -1116,8 +1105,8 @@ but the equipment you wish to take must be announced as the action is
 announced. If the action is unsuccessful, the equipment remains where it
 is.
 
-> ADVANCED RULES
-> Some equipment cards count as a location once in play. These cards are treated as an equipment while in your hand, library or ash heap.
+> ADVANCED RULES\
+> Some equipment cards count as a location once in play. These cards are treated as an equipment while in your hand, library or ash heap.\
 > When the cards are played, they are treated as both equipment and location when played (eg. for cost-related > effects), and just a location while in play.
 
 
@@ -1487,8 +1476,7 @@ If the target of the action is changed (e.g. a bleed action is redirected), this
 
 **Directed action**\
 If the action targets one or more other Methuselahs or things controlled by other Methuselahs, then only the Methuselahs who are targeted may use their ready unlocked minions to
-attempt to block the action. If more than one Methuselah has been targeted by the action, block attempts are made
-in a clockwise order.
+attempt to block the action. If more than one Methuselah has been targeted by the action, block attempts are made in a clockwise order.
 
 <details>
 <summary>EXAMPLE</summary>	
@@ -1526,7 +1514,7 @@ may begin attempting to block.*
 
 ***SUGGESTION***
 
-> **DETAILED ACTION RESOLUTION SEQUENCING**\
+> **DETAILED BLOCK RESOLUTION SEQUENCING**\
 > \
 > After the action has been announced, the action resolution follows the sequencing explained in the following. There are three relevant game states which can occur
 > during action resolution:
@@ -1553,9 +1541,9 @@ may begin attempting to block.*
 > (no other minion can attempt to block until this attempt is resolved). A Methuselah may attempt to block with multiple minions subsequently.
 > 
 > > **REMINDER**\
-> > To see if a block attempt succeeds, compare the acting minion's stealth to the blocking minion's intercept.\
+> > To see if a block attempt succeeds, compare the acting minion's stealth to the blocking minion's intercept. Stealth and intercept can be added **only when needed**.
 > 
-> Once every Methuselah has passed because they cannot or don not want to play further effects, the block attempt is resolved: if it is successful, the action is blocked
+> Once every Methuselah has passed because they cannot or do not want to play further effects, the block attempt is resolved: if it is successful, the action is blocked
 > and resolves as unsuccessful.\
 > Otherwise, switch back to gamestate "A. There is no current block attempt"\
 > \
@@ -1604,10 +1592,11 @@ The effects of the action do not take place when the action is blocked. The bloc
 
 > **ADVANCED RULES**\
 > Although an action cannot be undertaken if its cost or requirements cannot be met, it is possible that those requirements could not be met upon resolution. If an action is successful (ie. not blocked),
-> but its cost cannot be paid or its requirements are no longer met, it fizzles. This is also true if all targets become invalid over the course of the action. The actions cost is paid to the extent possible and it has no effect.
-> It is stillconsidered successful.
+> but its cost cannot be paid or its requirements are no longer met, it fizzles. This is also true if all targets become invalid over the course of the action.\
+> \
+> The actions cost is paid to the extent possible and it has no effect. It is still considered successful.
 
-**After Action Resolution**
+**After Action Resolution**\
 After all effects are handeled, there is a chance to play cards which are only usable after action
 resolution. This is considered the final step of the action.
 
@@ -1615,7 +1604,7 @@ resolution. This is considered the final step of the action.
 > If an effect **ends the action** after block resoltion, that makes the action end unsuccessfully.
 > Actions that are ended are over: action modifiers and reactions cannot be played anymore.
 
-#### **DIABLERIE**
+#### **RESOLVING DIABLERIE**
 
 Successful diablerie actions are resolved as follows:
 
@@ -1650,7 +1639,7 @@ In a blood hunt referendum, action modifiers and reaction cards cannot be played
 
 
 
-#### **REFERENDUM**
+#### **RESOLVING A REFERENDUM**
 
 > The referendum is always part of action resolution.\
 > Being locked or unlocked does not matter for the referendum. Locked minions can vote the same as unlocked minions.
@@ -1675,48 +1664,51 @@ If a **political action** is successful, its cost is paid, and the referendum is
 > Otherwise, the referendum fails and has no effect. Tied referendums fail.
 
 
-**Gaining Votes**
-*Methuselahs have no inherent votes or ballots. Votes and ballots must be gained, and there are a variety of ways to do so.* 
-
+**Gaining Votes**\
+*Methuselahs have no inherent votes or ballots. Votes and ballots must be gained, and there are a variety of ways to do so.*\
+\
 Each vote or ballot cast is cast either "for" or "against" the referendum, and a Methuselah may cast some of their votes and ballots in favour and some against, 
 as they choose, with the restriction that all of the votes and ballots from any given vampire or other source must be cast in agreement as a group.
 
 > A vote or a ballot need not be cast right away, if at all. But once cast, they cannot be changed. 
 
-Methuselahs can gain votes and ballots in the following ways:
-
-**Titled Vampires:**\
-For each ready titled vampire a Methuselah controls, they gain extra votes. The number of votes gained depends on
-the title.\
-
-> Whether or not a minion is locked or unlocked does not have any impact on their ability to vote.
+Methuselahs can gain votes and ballots in the following ways:\
 
 **Political Action Cards:**\
-Each Methuselah may gain 1 vote by using a political action card. These cards say "1 vote" to indicate this.\
+Each Methuselah may gain 1 vote by using a political action card. These cards say "1 vote" in their top left corner to indicate this. Each Methuselah can gain no more than 1 vote from political action cards.\
 
-> Each Methuselah can gain no more than 1 vote from political action cards. If a political action card was used to call the referendum, that card provides 1 vote for the acting vampire's controller (and
+> If a political action card was used to call the referendum, that card provides 1 vote for the acting vampire's controller (and
 > counts against the limit). Other political action cards used for votes are simply burned without regard to the text on the cards. 
 
 **The Edge:** The Methuselah who has the Edge can burn it to gain 1 vote (return it, uncontrolled, to the central area).\
 \
+**Titled Vampires:**\
+For each ready titled vampire a Methuselah controls, they gain votes. The number of votes gained depends on
+the title.
+
+> A minion can vote regardless if they are locked or unlocked.
+
+- **1 vote** for each ready **primogen**
+- **2 votes** for each ready **prince** or **baron**
+- **3 votes** for each ready **justicar**
+- **4 votes** for each ready **Inner Circle** member
+
 **Other Cards and effects:** that grant more votes or ballots can all be used subject to the normal rules of playing cards.
 
-> REMINDER
+> REMINDER\
 > Only the acting minion can play action modifiers and only ready unlocked minions controlled by Methuselahs other than the
 > acting minion's controller can play reaction cards.
 
-A Methuselah gains votes by their ready titled vampires. 
 
-- **1 vote** for each ready primogen
-- **2 votes** for each ready prince or baron
-- **3 votes** for each ready justicar
-- **4 votes** for each ready Inner Circle member
+
+
+
 
 > **ADVANCED RULES**\
-> \
 > A minion may have a special ability granting **additional** votes or ballots without being titled themselves.\
-> Other minions may have a title worth votes or ballots (as listed on card text) without
-> holding one of the titles listed above, ballots are votes used only by a Priscus. (see [**Other Vampire Sects**](https://www.vekn.net/rulebook/7-legacy-sets#other-vampire-sects)).
+> \
+> Other minions may have a title worth votes or ballots (as listed on card text) without holding one of the titles listed above.
+> Ballots are votes used only by **Priscus** (see [**Other Vampire Sects**](https://www.vekn.net/rulebook/7-legacy-sets#other-vampire-sects)).
 
 
 ### **Combat**
