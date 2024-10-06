@@ -541,18 +541,11 @@ Whenever you play a card from your hand, you draw another from your
 library to replace it (unless card text says otherwise). If your library
 is empty, then you do not draw to replenish your hand, but you do
 continue to play. The number of cards in your hand should always match
-your hand size (cards that are replaced later reduce your hand size for
-the duration of the effect). The starting default hand size is seven
+your hand size. The starting default hand size is seven
 cards in hand. Whenever an effect changes your hand size or adds or
 removes cards from your hand, immediately discard down to or draw up to
 match your hand size.
 
-> **ADVANCED RULES**\
-> Some effects can cancel a card "as it is played." These effects, as
-> well as [**wake effects**](https://www.vekn.net/rulebook/8-glossaries#wake),
-> are the only effects allowed during the "as played" time period of
-> another card. Even drawing to replace cards, comes after this time
-> period.
 
 ### **Using effects**
 Effects can only be used if their requirements are met. They always resolve in full. They are not interruptible nor pre-emptible, and their resolution cannot be split unless they set up an explicit sequence. 
@@ -566,6 +559,13 @@ it from the hand in the ash heap upon resolution. Sometimes a card will state to
 into play, you should announce its effects and place the card in the
 play area upon resolution.
 Some cards such as action cards are not resolved immediately; in that case, they are temporarily out of play between the moment they are played and the moment they reach resolution.
+
+> **ADVANCED RULES**\
+> Some effects can cancel a card "as it is played." These effects, as
+> well as [**wake effects**](https://www.vekn.net/rulebook/8-glossaries#wake),
+> are the only effects allowed during the "as played" time period of
+> another card. Even drawing to replace cards, comes after this time
+> period.
 
 ### **Requirements for Playing Cards**
 
@@ -724,17 +724,20 @@ minions under a wake effect.
 **"Search":** Some effects have you search your library or crypt. You do
 not have to announce the card you are searching, and searching can
 result in not finding the card. If you search your library or crypt, you
-must shuffle it afterwards.
-
-**"Until X":** Such effects take effect as long as X has not started. As soon as X begins, the effect ends.
-
+must shuffle it afterwards.\
+\
+**"Until X":** Such effects take effect as long as X has not started. As soon as X begins, the effect ends.\
+\
+**"Do not replace":** Cards that are replaced later reduce your hand size by 1 for
+the duration of the effect.\
+\
 **Steal (a card):** A Methuselah who steals a card takes permanent
 control of it. The card stays in the same region as it was before (for
 instance, if a vampire in torpor is stolen, it stays in torpor). If the
 stolen card is attached to another card, the Methuselah who steals it
 can attach the stolen card to a card of the same type they control (for
 instance, a location that is attached to a minion will be moved to
-another minion they control). You cannot steal a card from yourself.
+another minion they control). You cannot steal a card from yourself.\
 
 > **ADVANCED RULES**\
 > \
