@@ -643,6 +643,7 @@ Then every other Methuselah in clockwise order gets the impulse until everyone p
 Note that if at any point any Methuselah uses a card or effect, the acting Methuselah
 again gets the impulse back.
 
+
 ### **IMPORTANT TERMS IN THE GAME**
 
 **Locking and Unlocking:** During play, you will turn cards sideways 90º
@@ -672,9 +673,9 @@ are removed from the game cannot be retrieved or affected in any way.
 When a card is burned or removed from the game, any counters or other
 cards on it are burned.\
 \
-**Unique:** Only one copy of a unique card can be in play at a time. If
-another Methuselah puts a copy of the card into play, the copies will be
-contested (and out of play) until all but one is yielded
+**Unique:** Some of the cards in the game represent unique resources, such as specific locations, equipment, or people. All crypt cards represent unique minions. 
+All other cards will be identified as "unique" in their card text. Some titles are unique, too. For example, there can be only one ruler (prince or baron) of a particular city. Only one copy of a unique card can be in play at a time. If
+another Methuselah puts a copy of the card into play, the copies will be contested (and out of play) until all but one is yielded
 (see [**Contested Cards**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#contested-cards)).
 Vampires are unique, by default.\
 \
