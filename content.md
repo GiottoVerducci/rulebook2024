@@ -1936,13 +1936,18 @@ abstain).
 
 *By committing diablerie, the diablerist drains the victim of their
 blood and grows stronger, and may take whatever equipment the victim
-had. Vampiric society condemns this act, however, so the risk may
+had. Vampiric society condemns the act of diablerie. The penalty for
+committing this act is death, and the method of justice is a blood hunt,
+in which the diablerist is hunted down and destroyed by others of their
+kind. In practice, however, this brand of justice is not always meted
+out fairly, depending on the connections that the diablerist has. So sometimes, the risk may
 outweigh the reward.*
 
 Diablerie is the act of sending another vampire to final death by
 drinking their blood. Only ready vampires can commit diablerie. The
 vampire committing diablerie is referred to as the diablerist. Diablerie
 is resolved as follows:
+
 
 **1.** All blood on the victim is moved to the diablerist. Blood in
 excess of their capacity drains off as normal.
@@ -1954,7 +1959,7 @@ burned.
 
 > **ADVANCED RULES**\
 > \
-> 4. If the victim was older (had a higher capacity) than the
+> 3b. If the victim was older (had a higher capacity) than the
 > diablerist, the diablerist can be given a Discipline: their
 > controller may go through their library, ash heap, and hand to get a
 > master Discipline card to put on the diablerist and then shuffle
@@ -1962,29 +1967,16 @@ burned.
 > Discipline card increases the diablerist's capacity, the diablerie
 > does not give 1 blood to fill that new capacity.\
 > \
-> 5. If the victim was Red List, the diablerist may receive trophies
+> 3c. If the victim was Red List, the diablerist may receive trophies
 > (see [**Trophy**](https://www.vekn.net/rulebook/2-card-types#trophy)).
 > The steps of diablerie are treated as a single unit. No effects can
 > be used to interrupt the diablerie; effects may be played either
 > before or after, as appropriate.
 
+**4.** When a vampire commits diablerie, a blood hunt referendum is automatically and immediately conducted. If the referendum passes, the diablerist is burned.\
+In a blood hunt referendum, action modifiers and reaction cards cannot be played. Otherwise, this referendum is handled just like any other.
 
-
-**The Blood Hunt**
-
-*Vampiric society condemns the act of diablerie. The penalty for
-committing this act is death, and the method of justice is a blood hunt,
-in which the diablerist is hunted down and destroyed by others of their
-kind. In practice, however, this brand of justice is not always meted
-out fairly, depending on the connections that the diablerist has.*
-
-When a vampire commits diablerie, a referendum is automatically and
-immediately conducted to determine if a blood hunt will be called on the
-diablerist. If the referendum passes, a blood hunt is called, and the
-diablerist is burned. This referendum is not an action, so it cannot be
-blocked, and action modifiers and reaction cards cannot be played.
-Otherwise, this referendum is handled just like any other.
-
+> This referendum is part of the action which led to a diablerie, so it cannot be blocked.
 
 
 
