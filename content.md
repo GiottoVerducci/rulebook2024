@@ -195,7 +195,10 @@ Some library cards have multiple Discipline symbols on the attribute bar
 
 > **Group:** Each vampire belongs to a specific group, identified by a
 > number above the upper left corner of the text box.
-> 
+
+<details>
+
+ <summary>Elder Format</summary>
 >  **ADVANCED RULES**\
 > **Advanced:** An advanced card is a type of vampire card for your
 > crypt. An advanced card looks just like a regular crypt card except
@@ -206,7 +209,7 @@ Some library cards have multiple Discipline symbols on the attribute bar
 ![](bin/media/image13.png)
 
 
-
+</details>
 
 **Text box:** The area containing a vampire's sect (Camarilla in this
 case), title, special abilities or other attributes.
@@ -302,7 +305,12 @@ effects described on them.
 > master phase. You cannot play an out-of-turn master card on your own
 > turn.
 > (see [**Master Phase**](https://www.vekn.net/rulebook/4-detailed-turn-sequence#master-phase)).\ 
-> \
+
+
+<details>
+
+<summary>Elder Format</summary>
+ 
 > **Trophy:** \
 > A trophy may be put into play using a master phase action
 > (or can be retrieved as described in traits: [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).
@@ -310,7 +318,7 @@ effects described on them.
 > vampire, a trophy is controlled by the controller of the vampire it
 > is on, and it cannot be awarded again.
 
-
+</details>
 
 ### **Minion Cards**
 
@@ -451,6 +459,9 @@ A minion cannot play the same reaction card more than once during a
 single action (even if using a different Discipline level). A reaction
 card does not lock the minion playing it.
 
+<details>
+<summary>Elder Format</summary>
+ 
 > **ADVANCED RULES**\
 > \
 > **Reflex cards**\
@@ -460,6 +471,7 @@ card does not lock the minion playing it.
 
 
 ![](bin/media/image28.png)
+
 
 
 > **ADVANCED RULES**\
@@ -474,6 +486,8 @@ card does not lock the minion playing it.
 
 
 ![](bin/media/image29.png)
+
+</details>
 
 # [**3. Playing the Game**](https://www.vekn.net/rulebook/3-playing-the-game)
 
@@ -839,7 +853,9 @@ continue the contest.
 > The vampire yielding the title will now have no title and loses the
 > benefits of the title for the remainder of the game.
 
+<details>
 
+<summary>Elder Format</summary>
 
 > **ADVANCED RULES**\
 > \
@@ -850,6 +866,9 @@ continue the contest.
 > Methuselah's unlock phase and replace it.\
 > \
 > Each Methuselah is limited to one such discard each unlock phase.
+
+
+</details>
 
 
 ## **2. MASTER PHASE**
@@ -881,10 +900,16 @@ It is not compulsory to use your master phase actions. However, you
 cannot save master phase actions for later; master phase actions not
 used during this phase are lost.
 
+<details>
+<summary>Elder Format</summary>
+
 > **ADVANCED RULES**\
 > \
 > You can use a master phase action to mark a Red List minion
 > (see [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).
+
+
+</details>
 
 
 ## **3. MINION PHASE**
@@ -1629,12 +1654,21 @@ burned.
 > their library or draw back up to their hand size as necessary. If the
 > Discipline card increases the diablerist's capacity, the diablerie
 > does not give 1 blood to fill that new capacity.\
-> \
+
+
+<details>
+
+<summary>Elder Format</summary>
+ 
 > 3c. If the victim was Red List, the diablerist may receive trophies
 > (see [**Trophy**](https://www.vekn.net/rulebook/2-card-types#trophy)).
 > The steps of diablerie are treated as a single unit. No effects can
 > be used to interrupt the diablerie; effects may be played either
 > before or after, as appropriate.
+
+
+</details>
+
 
 **4.** When a vampire commits diablerie, a blood hunt referendum is automatically and immediately conducted. If the referendum passes, the diablerist is burned.\
 In a blood hunt referendum, action modifiers and reaction cards cannot be played. Otherwise, this referendum is handled just like any other.
@@ -1975,7 +2009,11 @@ damage, leaving her with 4 blood.*
 > striking minion. The stolen equipment may not be used by the bearer
 > during the current round of combat. The equipment is kept by the
 > stealing minion after combat ends.
-> 
+
+
+<details>
+<summary>Elder Format</summary>
+ 
 > **First Strike:** A strike done with first strike is resolved before a normal strike. Thus, if the opposing minion is burned or sent to
 > torpor by a strike done with first strike, their strike will not be
 > resolved at all. If the opposing minion was striking with a weapon
@@ -1985,6 +2023,8 @@ damage, leaving her with 4 blood.*
 > strike done with first strike will still not resolve before a combat
 > ends effect (which always resolves first), and a dodge still works
 > against the effects of a strike done with first strike.
+
+</details>
 
 **5. Damage Resolution**
 
@@ -2151,6 +2191,9 @@ counters from her pool to Alexa Draper and moves her to the ready
 region.*
 </details>
 
+<details>
+
+<summary>Elder Format</summary>
 > **ADVANCED RULES**\
 > \
 > **Advanced:** An advanced card is a type of vampire card for your
@@ -2188,7 +2231,7 @@ region.*
 > same vampire (advanced or not) in play, as usual.
 
 
-
+</details>
 
 ## **5. DISCARD PHASE**
 
@@ -2197,12 +2240,19 @@ You can use a discard phase action to discard a card from your hand and
 draw to replace it. Discard phase actions not used are lost; they cannot
 be saved for later.
 
+
+<details>
+
+<summary>Elder Format</summary>
+
 > **ADVANCED RULES**
 > 
 > You may use a discard phase action to put an **event card** into play
 > but no more than one per phase. 
 >
 > Each event card may only be played once each game.
+
+</details>
 
 ## **END OF TURN**
 Some effects take place at the end of your turn, after your Discard Phase.
@@ -2250,6 +2300,10 @@ that Justine wins with 3 victory points, with Richard and Scott having 1
 victory point, and Lisa and Steve with 0 victory points.*
 </details>
 
+
+<details>
+<summary>Tournament Rules</summary>
+ 
 > **ADVANCED RULES**\
 > \
 > **Withdrawing from the Game**\
@@ -2272,6 +2326,8 @@ victory point, and Lisa and Steve with 0 victory points.*
 > If you successfully withdraw, you receive **0.5** victory points to add to
 > any victory points you have already gained. Your predator does not
 > get 1 victory point or any pool for your withdrawal.
+
+</details>
 
 # Deck Construction
 All decks contained in the box are fully compatible and playable. However, 
