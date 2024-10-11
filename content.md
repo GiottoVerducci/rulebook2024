@@ -427,12 +427,6 @@ effects described on them.
 > with the Discipline granted, but they do not automatically gain an
 > extra blood to fill the new capacity.\
 > \
-> **Trophy:** A trophy may be put into play using a master phase action
-> (or can be retrieved as described in traits: [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).
-> It has no effect until it is moved to a vampire. Once placed on a
-> vampire, a trophy is controlled by the controller of the vampire it
-> is on, and it cannot be awarded again.\
-> \
 > **Out-of-turn:** You may play an out-of-turn master card whenever
 > appropriate during another Methuselah's turn. Doing so counts against
 > the allotted number of master phase actions you receive in your next
@@ -831,10 +825,6 @@ cannot save master phase actions for later; master phase actions not
 used during this phase are lost.
 
 > **ADVANCED RULES**\
-> \
-> You can use a master phase action to mark a Red List minion
-> (see [**Red List**](https://www.vekn.net/rulebook/7-legacy-sets#red-list)).\
-> \
 > If you've played an out-of-turn master card against this master phase
 > (even if it was cancelled), then you gain one fewer master phase
 > actions than normal (see [[Master Cards](https://www.vekn.net/rulebook/2-card-types#master-cards)).
@@ -1961,12 +1951,6 @@ burned.
 > their library or draw back up to their hand size as necessary. If the
 > Discipline card increases the diablerist's capacity, the diablerie
 > does not give 1 blood to fill that new capacity.\
-> \
-> 5. If the victim was Red List, the diablerist may receive trophies
-> (see [**Trophy**](https://www.vekn.net/rulebook/2-card-types#trophy)).
-> The steps of diablerie are treated as a single unit. No effects can
-> be used to interrupt the diablerie; effects may be played either
-> before or after, as appropriate.
 
 
 
