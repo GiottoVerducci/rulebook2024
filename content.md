@@ -1394,6 +1394,8 @@ the minions of the prey and predator may try to block.
 **3. Resolve the Action** If no attempt is successful and no more attempts are made, then
 the **action is successful**, and the cost of the action is paid.
 
+**4. After Action resolution** After all effects are handeled, there is a chance to play cards which are only usable after action resolution. This is considered the final step of the action.
+
 
 ### **Stealth and Intercept**
 
