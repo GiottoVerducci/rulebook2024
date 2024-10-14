@@ -1394,7 +1394,7 @@ the minions of the prey and predator may try to block.
 **3. Resolve the Action** If no attempt is successful and no more attempts are made, then
 the **action is successful**, and the cost of the action is paid.
 
-**4. After Action resolution** After all effects are handeled, there is a chance to play cards which are only usable after action resolution. This is considered the final step of the action.
+**4. After Action resolution** This is considered the final step of the action. After all effects are handeled, there is a chance to play cards which are only usable after action resolution. 
 
 
 ### **Stealth and Intercept**
@@ -1627,13 +1627,15 @@ The effects of the action do not take place when the action is blocked. The bloc
 > \
 > The actions cost is paid to the extent possible and it has no effect. It is still considered successful.
 
-**After Action Resolution**\
-After all effects are handeled, there is a chance to play cards which are only usable after action
-resolution. This is considered the final step of the action.
+
+**4. After Action Resolution**\
+This is considered the final step of the action. After all effects are handeled, there is a chance to play cards which are only usable after action
+resolution. If an action card was used, it is now burned.
 
 > **ADVANCED RULES**\
 > If an effect **ends the action** after block resoltion, that makes the action end unsuccessfully.
 > Actions that are ended are over: action modifiers and reactions cannot be played anymore.
+
 
 #### **RESOLVING DIABLERIE**
 
