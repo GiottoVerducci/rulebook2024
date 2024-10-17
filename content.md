@@ -1739,7 +1739,7 @@ A wounded vampire goes to torpor after all remaining damage is handled
 (see [**Torpor**](https://www.vekn.net/rulebook#torpor)).
 
 > ADVANCED RULES\
-> Some cards or effects can inflict damage in other steps than strike resolution. In these cases, damage inflicted by the effect is handeled immediately.\
+> Some cards or effects can inflict damage in other steps than strike resolution. In these cases, damage inflicted by the effect is handled immediately.\
 > After all inflicted damage has been prevented or mended, proceed with combat as normal.
 
 **Environmental damage:** Any damage not inflicted by a minion either as
