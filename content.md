@@ -1413,8 +1413,7 @@ If the action is successful (all block attempts were unsuccessful), then
 the cost of the action is paid and the effects of the successful action
 take place.
 
-If the action is blocked, then any card played to perform the action is
-burned and the block is resolved with these two simultaneous
+If the action is blocked it is resolved with these two simultaneous
 consequences: the blocking minion is locked and enters combat with the
 acting minion
 (see [**Combat**](https://www.vekn.net/rulebook#combat)). If
