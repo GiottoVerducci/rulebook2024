@@ -1220,7 +1220,7 @@ action and lock the minion who is performing the action.
 
 Some cards are played "as the action is announced”, those cards must be played before regular action modifier cards and reaction cards. 
 
-**2. Target Methuselah(s) may try to block** the action with any of
+**2. Resolve block attempts** Target Methuselah(s) may try to **block** the action with any of
 their ready unlocked minions or if the action does not target another
 Methuselah, or targets a card controlled by the acting Methuselah, then
 the minions of the prey and predator may try to block.
@@ -1229,8 +1229,11 @@ the minions of the prey and predator may try to block.
 - If a **block attempt is successful**, then the blocking minion locks
 and enters combat with the acting minion.
 
-**3.** If no attempt is successful and no more attempts are made, then
+**3. Resolve the action** If no attempt is successful and no more attempts are made, then
 the **action is successful**, and the cost of the action is paid.
+
+**4. After action resolution** After all effects are handeled, there is a chance to play cards which are only usable after action resolution. This is considered the final step of the action.
+
 
 **Action modifiers** and **reaction cards** can be played at any time
 before resolution during an action, with the acting Methuselah getting
@@ -1410,8 +1413,7 @@ If the action is successful (all block attempts were unsuccessful), then
 the cost of the action is paid and the effects of the successful action
 take place.
 
-If the action is blocked, then any card played to perform the action is
-burned and the block is resolved with these two simultaneous
+If the action is blocked it is resolved with these two simultaneous
 consequences: the blocking minion is locked and enters combat with the
 acting minion
 (see [**Combat**](https://www.vekn.net/rulebook#combat)). If
@@ -1423,6 +1425,9 @@ succeeds; the cost is not paid if the action is blocked. The costs of
 action modifiers and reaction cards are always paid when the cards are
 played, regardless of the success of the action.
 
+**4. After Action resolution** 
+
+After all effects are handeled, there is a chance to play cards which are only usable after action resolution. This is considered the final step of the action. If an action card was used, it is now burned.
 
 
 ### **Politics**
