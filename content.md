@@ -1781,7 +1781,7 @@ She cannot mend any of it. She becomes wounded by the first point.
 The second point aggravated damage burns her, since she already is wounded and cannot burn 1 blood to prevent his destruction. 
 Selena is considered as "being burned" and will be moved to the ash heap once combat is over.
 Her opponent, Karsh, has 2 blood and receives 1 aggravated damage. Karsh has the ability to burn 1 blood to treat aggravated damage as normal damage once each round of combat.
-He used his ability and burns 1 blood to treat the aggravated damage as normal damage that he can mend by burning his remaining 1 blood. 
+He uses his ability and burns 1 blood to treat the aggravated damage as normal damage that he can mend by burning his remaining 1 blood. 
 Karsh ends up ready, with no blood.
 
 
@@ -1850,7 +1850,7 @@ or is a *combat ends* with additional effects (see below).
 Retainers are not protected, however.
 A *dodge* is effective at any range, and has no effect on the opposing minion.
 
-*Andi Liu is opposing Elimelech, a vampire who strikes with first strike. She plays a strike: dodge, and Elimelech chooses a hand strike. Elimelech. No damage is inflicted by either strike. However, Elimelech has a retainer that inflicts 1 damage during normal strike resolution. Andi Liu takes 1 damage.*
+*Andi Liu is opposing Elimelech, a vampire who strikes with first strike. Andi plays a strike: dodge, and Elimelech chooses a hand strike. No damage is inflicted by either strike. However, Elimelech has a retainer that inflicts 1 damage during normal strike resolution. Andi Liu takes 1 damage.*
 
 **Combat ends:** This effect ends combat by skipping all combat steps up to step 7, End of Round.
 This type of strike is always the first to resolve, even before a strike done with
@@ -1865,7 +1865,7 @@ If the opposing minion's strike is also a combat ends, they both resolve at the 
 
 *Jenny Silver is opposing Keegan, a Gangrel who has played Carrion Crows earlier in the round ("The opposing minion takes 2R environmental damage each round this combat during normal strike resolution.) and Aid from Bats ("Strike: 1R damage, with 1 optional maneuver.") to maneuver. Jenny plays Majesty ("Strike: combat ends"). No damage is inflicted, and the combat steps are skipped up to step 7, End of Round.*
 
-*During another combat, Jenny Silver's opponent plays Meld with the Land at basic ("[vic] Strike: combat ends, and unlock the opposing minion (at any range) before combat ends."). She plays a strike: dodge. The combat ends, and Jenny is not unlocked as she is protected from any additional effects from the opposing's minion strike (even if it could be beneficial.)*
+*During another combat, Jenny Silver's opponent plays Meld with the Land at basic ("Strike: combat ends, and unlock the opposing minion (at any range) before combat ends."). She plays a strike: dodge. The combat ends, and Jenny is not unlocked as she is protected from any additional effects from the opposing's minion strike (even if it could be beneficial.)*
 
 *Then, during a third combat, Jenny Silver is opposing Keegan again, this time at close range. Jenny plays a Catatonic Fear ("Strike: combat ends. If the range is close, inflict 1 unpreventable damage on the opposing minion after combat ends.") and Keegan plays an Earth Meld at superior ("Strike: combat ends, and unlock this vampire before combat ends.) Keegan unlocks, then the combat steps are skipped up to step 7, End of Round. Keegan then decides to play a Taste of Vitae, a combat card that is only usable at the end of a round of combat to gain blood equal to the amount of blood lost by the opposing vampire to damage this round. He gains no blood, but this allows him to cycle one more card this combat in the hope of drawing a card more useful. After the combat ends, Keegan takes 1 damage from the Catatonic Fear that he cannot prevent with combat cards since the combat is over.*
 
@@ -1925,7 +1925,7 @@ to attacks from others of their kind. A vampire in torpor may be burned
 by a vampire through the act of diablerie
 (see [**Diablerie**](https://www.vekn.net/rulebook#diablerie) below).*
 
-If a vampire cannot mend their wounds, is sent to torpor or is otherwise wounded, they are no longer ready and go into torpor (if this happens during combat, they are considered as "going to torpor" until the combat is over). Vampires in
+If a vampire cannot mend their wounds, is sent to torpor or is otherwise wounded, they are no longer ready and go to torpor (if this happens during combat, they are considered as "going to torpor" until the combat is over). Vampires in
 torpor are placed in an area to one side of the uncontrolled region. Any
 retainers, equipment, and other cards on the vampire stay with the
 vampire when they go into torpor.
