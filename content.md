@@ -1116,7 +1116,7 @@ fails
 - **Effect:** If the action is successful, the acting vampire moves from
 the torpor region to the ready region. If this action is blocked, there
 is no combat (vampires in torpor cannot enter combat). Instead, if the
-blocker is a vampire, they get the opportunity to diablerise the acting
+blocker is a vampire, they get the opportunity to diablerize the acting
 vampire (see [**Diablerie**](https://www.vekn.net/rulebook#diablerie)).
 If they choose not to, or if they are an ally, then the action simply
 fails (the acting vampire remains in torpor, and no cost is paid). A
@@ -1156,9 +1156,9 @@ rescued from torpor is no longer wounded.
 
 
 
-### **Diablerise a Vampire in Torpor**
+### **Diablerize a Vampire in Torpor**
 
-- **Who can diablerise:** Any ready vampire.
+- **Who can diablerize:** Any ready vampire.
 - **Default cost:** None.
 - **Default target:** A vampire in torpor.
 	- Undirected action, if the acting vampire and the vampire in torpor
@@ -1170,7 +1170,7 @@ different controllers.
 same controller.
 	- 0 stealth, if the acting vampire and the vampire in torpor have
 different controllers.
-- **Effect:** If the action is successful, the victim is diablerised
+- **Effect:** If the action is successful, the victim is diablerized
 (see [**Diablerie**](https://www.vekn.net/rulebook#diablerie)).
 If the action is blocked, the acting vampire and the blocking minion
 enter combat as normal.
@@ -1945,9 +1945,15 @@ outweigh the reward.*
 
 Diablerie is the act of sending another vampire to final death by
 drinking their blood. Only ready vampires can commit diablerie. The
-vampire committing diablerie is referred to as the diablerist. Diablerie
-is resolved as follows:
+vampire committing diablerie is referred to as the diablerist. 
 
+Diablerie is made of steps that are resolved as a single unit that cannot be interrupted by any mean (effects may be played either
+before or after, as appropriate.)
+These steps are resolved sequencially. However, if an effect prevents the victim from being burned
+(by diablerie or not), the whole diablerie is cancelled (if it was the result of a successful action, 
+the action is still successful, but the diablerie is not). These effects must be played or used before the first step (cancelling the diablerie).
+
+The steps of diablerie are:
 
 **1.** All blood on the victim is moved to the diablerist. Blood in
 excess of their capacity drains off as normal.
@@ -1959,27 +1965,38 @@ burned.
 
 > **ADVANCED RULES**\
 > \
-> 3b. If the victim was older (had a higher capacity) than the
+> 4. If the victim was older (had a higher capacity) than the
 > diablerist, the diablerist can be given a Discipline: their
-> controller may go through their library, ash heap, and hand to get a
-> master Discipline card to put on the diablerist and then shuffle
+> controller may search their library, hand, and/or ash heap for a
+> master Discipline card and put it on the diablerist, and then shuffle
 > their library or draw back up to their hand size as necessary. If the
 > Discipline card increases the diablerist's capacity, the diablerie
 > does not give 1 blood to fill that new capacity.\
 > \
-> 3c. If the victim was Red List, the diablerist may receive trophies
+> 5. If the victim was Red List, the diablerist may receive trophies
 > (see [**Trophy**](https://www.vekn.net/rulebook/2-card-types#trophy)).
-> The steps of diablerie are treated as a single unit. No effects can
-> be used to interrupt the diablerie; effects may be played either
-> before or after, as appropriate.
 
-**4.** When a vampire commits diablerie, a blood hunt referendum is automatically and immediately conducted. If the referendum passes, the diablerist is burned.\
-In a blood hunt referendum, action modifiers and reaction cards cannot be played. Otherwise, this referendum is handled just like any other.
+After a vampire commits a successful diablerie (i.e. one that is not cancelled), a blood hunt referendum is automatically and immediately conducted
+as an independent effect of the action. That referendum is conducted as usual, except that minion cards cannot be played unless they explicitly refer
+to a blood hunt referendum. If the referendum passes, the diablerist is burned. Once the referendum is resolved, the action resumes.
 
-> This referendum is part of the action which led to a diablerie, so it cannot be blocked.
+> Ayelech performs a "Diablerize a Vampire in Torpor" against Sully who is in torpor. The action is not blocked and results in Sully being diablerized. Sully has 1 blood, so Ayelech gains 1 blood.
+> Sully has no equipment, so Ayelech does not take any. Sully is then burned with all the cards on him, and since he is not older than Ayelech, Ayelech's controller cannot put a master Discipline on her.
+> Now that these steps are over, Ayelech could play an action modifier card to cancel the blood hunt referendum if she had any (since it is explicitly related to the blood hunt), but not  Since she doesn't, the blood hunt referendum is automatically conducted.
+> Ayelech casts her 2 votes against the blood hunt referendum. Molly MacDonald (a justicar) casts her 3 votes in favor of it. Ayelech's controller then burns the Edge to get an additional vote against the referendum.
+> Since votes are tied, the referendum fails and Ayelech survives the blood hunt.
 
+> Again, Ayelech performs a diablerie action against Horatio who is in torpor. The action is not blocked, but before the diablerie occurs, 
+> Horatio plays Reform Body, a card that says "Only usable if this vampire would be burned. Usable by a vampire in torpor. Instead, this vampire goes to torpor."
+> This cancels the diablerie and Horatio stays in torpor. Ayelech is still locked for performing that successful diablerie action (though the diablerie itself was not),
+> and no blood hunt is called.
 
-
+> Horst von Brühl is performing a Kine Resources Contested, a political action. He is blocked by Lauren, but manages somehow to diablerize her
+> in combat with Amaranth. The diablerie is conducted as usual. In the blood hunt referendum, Horst cannot play a Bewitching Oration, 
+> an action modifier that is "Only usable during the polling step of a political action." because it is not related to a blood hunt.
+> Furthermore, the blood hunt referendum is not the result of the political action Horst was performing (it is independent of the action).
+> For that reason, Elysium: The Palace of Versailles, a location that can be locked "during the polling step of a political action" to gain votes
+> cannot be used. However, the Ventrue Headquarters, a location that can be locked "during the polling step of *any referendum* to get +3 votes." can be used.
 
 ## **4. INFLUENCE PHASE**
 
