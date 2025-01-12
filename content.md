@@ -1530,7 +1530,7 @@ cards.
 
 > **ADVANCED RULES**\
 > Some combat cards are played by minions "not involved in the current
-> combat". Minions controlled by ANY Methuselah can play those cards.
+> combat". Minions (ready or not) controlled by ANY Methuselah can play those cards.
 
 
 **Combat Sequence**
@@ -1555,21 +1555,23 @@ combat.
 **7. End of Round:** End of round cards and effects are played here.
 
 
-
 The acting minion always gets first opportunity to use cards or effects
 before the opposing minion at every stage of combat.
 
-
+At any point, if one or both of the combattants are no longer ready, 
+that is if their status is being changed from ready to non-ready, proceed to step 7, End of Round.
+For instance, if a minion is subject to an effect that "sends to torpor", "burns", or "removes from the game", 
+they are considered as "going to torpor", "being burned" or "being removed from the game" respectively.
+The change of status of the minion will be effective once combat is over (for instance, an ally being burned will be in the ash heap only after combat).
 
 **1. Before Range**
 
 Some cards or effects will be played before range is determined. This is
-clearly stated upon those cards.
+clearly stated upon those cards. Those cards and effects are usable even if the Determine Range step is skipped by another effect.
 
 **Note:** Effects that are played "before range is determined" must be
 played before the acting minion decides whether or not to play a
 maneuver.
-
 
 
 **2. Determine Range**
@@ -1608,9 +1610,7 @@ close range.
 *Ayelech has just blocked Colette, and combat ensues. Ayelech has a .44
 Magnum that allows her to strike for 2 damage at either close or long
 range, and gives her an optional maneuver. Colette, as the acting
-minion, declines to*
-
-*maneuver. Ayelech uses the maneuver from the gun to move to long range,
+minion, declines to maneuver. Ayelech uses the maneuver from the gun to move to long range,
 where she cannot be harmed by Colette's hand strike. Colette plays a
 maneuver card to get back to close range. However, Ayelech has another
 maneuver card as well, and she plays it to move back to long range.
@@ -1670,13 +1670,7 @@ strikes that do "R" damage can be used at any range, close or long.
 When a minion or retainer takes damage (either from a strike or from
 other means), they must burn blood or life, as appropriate (see [**Damage Resolution**](https://www.vekn.net/rulebook#damage-resolution)).
 Note that the effects of a strike are applied and then damage is
-resolved. This timing is important for some special strikes. If one or
-both of the combatants are no longer ready, because one has taken too
-much damage, for instance, then the round and the combat end
-immediately.
-
-This is true at any point during combat, not just during strike
-resolution.
+resolved. This timing is important for some special strikes.
 
 > **ADVANCED RULES**\
 > \
@@ -1722,18 +1716,17 @@ First, the minion taking damage can play combat cards that prevent
 damage. These damage prevention cards are played one at a time until all
 the damage is prevented or until the minion chooses not to play any
 more. Any unprevented damage is successfully inflicted. The damage is
-then mended, if the victim is a vampire, or burns life counters, if the
+then mended if the victim is a vampire, or burns life counters if the
 victim is an ally or a retainer.
 
 For each point of damage successfully inflicted on a vampire, they must burn 1 blood
-to mend the damage. A vampire can burn all of their blood if needed, and
+to mend the damage. This can lead a vampire to burn all of their blood if needed, and
 doing so does not have any other negative effects on the vampire. If a
 vampire cannot mend all the damage (that is, more damage is successfully inflicted
 than they have blood with which to mend), they burn blood to mend what
-damage they can, and the unmended damage leaves them wounded.
+damage they can, and they become wounded (see [**Torpor**](https://www.vekn.net/rulebook#torpor)).
 
-A wounded vampire goes to torpor after all remaining damage is handled
-(see [**Torpor**](https://www.vekn.net/rulebook#torpor)).
+Proceed to the next step only once all damage has been handled.
 
 **Environmental damage:** Any damage not inflicted by a minion either as
 a strike, or by an explicit effect ("this minion inflicts...") is
@@ -1750,43 +1743,47 @@ such as damage from fire, sunlight, or from the claws or fangs of some
 other supernatural creatures, including some vampires. Aggravated damage
 differs from normal damage in two ways: aggravated damage cannot be
 mended, and aggravated damage can burn a vampire if that vampire is
-already wounded. Since it cannot be mended, the vampire does not burn
-any blood to mend it, but instead becomes wounded (goes straight to
-torpor), unless the damage has been prevented.
+already wounded. 
 
-Aggravated damage done to a wounded vampire can burn the vampire
-outright. A wounded vampire is one that has taken damage that they
-failed to mend or one that is in torpor or on their way to torpor.
+If the vampire is not wounded, the first point of aggravated damage successfully inflicted on them
+wounds them: since it cannot be mended, the vampire does not burn any blood to mend it, but instead becomes wounded. 
+Any additional point of aggravated damage successfully inflicted on them is then handled as below.
 
-For each point of aggravated damage that is successfully inflicted on a
-wounded vampire, they must burn 1 blood to prevent their destruction. If
-they do not have enough blood, they are burned. Destruction by this
+If the vampire is wounded, for each point of aggravated damage that is successfully inflicted on them,
+they must burn 1 blood to prevent their destruction. If
+they do not have enough blood, they are burned (and considered as "being burned" until the end of combat). Destruction by this
 method does not constitute diablerie
 (see [**Diablerie**](https://www.vekn.net/rulebook#diablerie)).
 
-If both regular damage and aggravated damage are successfully inflicted
+If both normal damage and aggravated damage are successfully inflicted
 on a vampire at the same time, the normal damage is handled first. This
 only applies to unprevented damage; damage prevention effects can be
-used to prevent the aggravated damage before the normal damage. If a
-vampire is wounded, they go to torpor after all the damage is handled
-(see [**Torpor**](https://www.vekn.net/rulebook#torpor)). If
-aggravated damage burns them, they go directly to the ash heap. They do
-not go through torpor first.
+used to prevent the aggravated damage before the normal damage. 
+All damage must be handled in order to determine the status of a vampire. 
+If a vampire is being burned, they will not go through torpor first.
 
-*Nassir is ready and has 1 blood when he receives 1 point of aggravated
-damage. He cannot mend this damage, so he is wounded and goes to torpor
-with 1 blood.*
+*Nassir is ready and has 1 blood when he receives 1 aggravated
+damage. He cannot mend this damage, so he becomes wounded with 1 blood.*
 
-*Tamoszius is ready and has 2 blood when he receives 3 points of
-aggravated damage. He cannot mend any of it. He becomes wounded by 1
+*Tamoszius is ready and has 2 blood when he receives 3 aggravated damage. 
+He cannot mend any of it. He becomes wounded by 1
 point, and so he must burn 2 blood to prevent destruction from the other
-2 points (1 blood per point), leaving him empty and in torpor.*
+2 points (1 blood per point), leaving him wounded and empty.*
 
 *Ryan is ready and has 1 blood when he receives 2 normal damage and 1
 aggravated damage. He burns 1 blood to mend the first point of normal
 damage. He does not have enough blood to mend the second point and
 becomes wounded. The aggravated damage burns him, since he already is
 wounded and cannot burn 1 blood to prevent his destruction.*
+
+*Selena is ready and has no blood when she receives 2 aggravated damage. 
+She cannot mend any of it. She becomes wounded by the first point. 
+The second point aggravated damage burns her, since she already is wounded and cannot burn 1 blood to prevent his destruction. 
+Selena is considered as "being burned" and will be moved to the ash heap once combat is over.
+Her opponent, Karsh, has 2 blood and receives 1 aggravated damage. Karsh has the ability to burn 1 blood to treat aggravated damage as normal damage once each round of combat.
+He uses his ability and burns 1 blood to treat the aggravated damage as normal damage that he can mend by burning his remaining 1 blood. 
+Karsh ends up ready, with no blood.
+
 
 > **ADVANCED RULES**
 > 
@@ -1795,8 +1792,8 @@ wounded and cannot burn 1 blood to prevent his destruction.*
 > or retainer, they burn 1 life counter. An ally or retainer who loses
 > all of their life counters is burned.
 
-Immune to damage: if a minion is immune to damage from a source, any unprevented damage from that source that is inflicted on the minion is inflicted unsuccessfully: the minion does not have to burn blood or life to mend the damage or to prevent destruction, nor
-become wounded because of damage.
+Immune to damage: if a minion is immune to damage from a source, any unprevented damage from that source that is inflicted on the minion is inflicted unsuccessfully: 
+the minion does not have to burn blood or life to mend the damage or to prevent destruction, nor become wounded because of damage.
 
 **6. Press**
 
@@ -1819,10 +1816,7 @@ combat begins.
 **7. End of Round**
 
 In this step you use the combat cards or other effects that are only
-usable at the end of a round of combat, after the press step.
-
-Note that this step also occurs even if combat ends prematurely.
-
+usable at the end of a round of combat.
 
 
 **Retainers and Combat**
@@ -1840,28 +1834,42 @@ intended target when the strike is announced.
 
 ### **Strike Effects**
 
-**Hand Strike:** The default strike is a hand strike. When a minion
-strikes with a hand strike at close range, they do an amount of damage
+**Hand strike:** The default strike is a *hand strike*. When a minion
+strikes with a *hand strike* at close range, they do an amount of damage
 equal to their strength to the opposing minion. Vampires have a default
 strength of 1.
 
-**Dodge:** A dodge strike deals no damage, but it protects the dodging
-minion and their possessions from the effects of the opposing strike.
-Retainers are not protected, however. A dodge is effective at any range.
-A dodge protects even from the effects of a strike done with first
-strike (see [**First Strike**](https://www.vekn.net/rulebook#first-strike)). A
-dodge is a strike, even though it is solely defensive. It represents the
-activity of the minion during that pair of strikes.
+*Molly MacDonald has +1 strength. At close range, she does not play a strike card and declares a hand strike as a strike and inflicts 2 damage on the opposing minion. She could also have played Roundhouse at superior ("[POT] Strike: hand strike at +3 damage.") to make a hand strike and inflict 5 damage.*
 
-**Combat Ends:** This effect ends combat immediately. This type of
-strike is always the first to resolve, even before a strike done with
-first strike (see [**First Strike**](https://www.vekn.net/rulebook#first-strike)), and
+**Dodge:** A *dodge* represents the defensive activity of the minion during that pair of strikes.
+Even though a *dodge* is a strike, it does not resolve as such.
+Instead, it protects the dodging minion and their possessions from the effects of the opposing strike
+during the whole "Resolve strike" step, 
+even if the opposing strike is made with *first strike* (see [**First Strike**](https://www.vekn.net/rulebook#first-strike))
+or is a *combat ends* with additional effects (see below).
+Retainers are not protected, however.
+A *dodge* is effective at any range, and has no effect on the opposing minion.
+
+*Andi Liu is opposing Elimelech, a vampire who strikes with first strike. Andi plays a strike: dodge, and Elimelech chooses a hand strike. No damage is inflicted by either strike. However, Elimelech has a retainer that inflicts 1 damage during normal strike resolution. Andi Liu takes 1 damage.*
+
+**Combat ends:** This effect ends combat by skipping all combat steps up to step 7, End of Round.
+This type of strike is always the first to resolve, even before a strike done with
+*first strike* (see [**First strike**](https://www.vekn.net/rulebook#first-strike)), and
 it ends combat before other strikes or other strike resolution effects
-are resolved. Combat ends is effective at any range. Combat ends is not
-affected by a dodge, since dodge only cancels effects that are directed
-at the dodging minion.
+are resolved.
+*Combat ends* is effective at any range.
+*Combat ends* itself is not affected by a dodge, since dodge only cancels effects that are directed
+at the dodging minion, but any additional effects directed at the dodging minion 
+(such as inflicting damage after combat ends, or locking the opposing minion) are.
+If the opposing minion's strike is also a combat ends, they both resolve at the same time, as well as any additional effects tied to those strikes.
 
-**Steal Blood:** This effect moves blood counters or life counters from
+*Jenny Silver is opposing Keegan, a Gangrel who has played Carrion Crows earlier in the round ("The opposing minion takes 2R environmental damage each round this combat during normal strike resolution.) and Aid from Bats ("Strike: 1R damage, with 1 optional maneuver.") to maneuver. Jenny plays Majesty ("Strike: combat ends"). No damage is inflicted, and the combat steps are skipped up to step 7, End of Round.*
+
+*During another combat, Jenny Silver's opponent plays Meld with the Land at basic ("Strike: combat ends, and unlock the opposing minion (at any range) before combat ends."). She plays a strike: dodge. The combat ends, and Jenny is not unlocked as she is protected from any additional effects from the opposing's minion strike (even if it could be beneficial.)*
+
+*Then, during a third combat, Jenny Silver is opposing Keegan again, this time at close range. Jenny plays a Catatonic Fear ("Strike: combat ends. If the range is close, inflict 1 unpreventable damage on the opposing minion after combat ends.") and Keegan plays an Earth Meld at superior ("Strike: combat ends, and unlock this vampire before combat ends.) Keegan unlocks, then the combat steps are skipped up to step 7, End of Round. Keegan then decides to play a Taste of Vitae, a combat card that is only usable at the end of a round of combat to gain blood equal to the amount of blood lost by the opposing vampire to damage this round. He gains no blood, but this allows him to cycle one more card this combat in the hope of drawing a card more useful. After the combat ends, Keegan takes 1 damage from the Catatonic Fear that he cannot prevent with combat cards since the combat is over.*
+
+**Steal blood:** This effect moves blood counters or life counters from
 the target to the striking minion. This does not count as damage, so the
 effect cannot be prevented with damage prevention effects. This effect
 occurs before the mend damage step of damage resolution, so the stolen
@@ -1882,20 +1890,20 @@ damage, leaving her with 4 blood.*
 
 > **ADVANCED RULES**
 > 
-> **Destroy Equipment:** This effect burns an equipment card of the
+> **Destroy equipment:** This effect burns an equipment card of the
 > opposing minion. If there is more than one piece of equipment on the
 > opposing minion, the striking minion chooses which one is burned. The
 > equipment can still be used up to the point at which the destroy
 > equipment strike resolves. The effect may specify destroy weapon
 > instead of equipment, in which case a weapon must be chosen.
 > 
-> **Steal Equipment:** This effect is like destroy equipment, except
+> **Steal equipment:** This effect is like destroy equipment, except
 > that instead of being burned, the equipment card is moved to the
 > striking minion. The stolen equipment may not be used by the bearer
 > during the current round of combat. The equipment is kept by the
 > stealing minion after combat ends.
 > 
-> **First Strike:** A strike done with first strike is resolved before
+> **First strike:** A strike done with first strike is resolved before
 > a normal strike. Thus, if the opposing minion is burned or sent to
 > torpor by a strike done with first strike, their strike will not be
 > resolved at all. If the opposing minion was striking with a weapon
@@ -1905,6 +1913,8 @@ damage, leaving her with 4 blood.*
 > strike done with first strike will still not resolve before a combat
 > ends effect (which always resolves first), and a dodge still works
 > against the effects of a strike done with first strike.
+>
+> **Send to torpor:** The vampire affected by this strike becomes wounded and goes to torpor. Damage prevention cards cannot be used since there is no damage to prevent, but the strike can be dodged.
 
 
 ### **Torpor**
@@ -1915,7 +1925,7 @@ to attacks from others of their kind. A vampire in torpor may be burned
 by a vampire through the act of diablerie
 (see [**Diablerie**](https://www.vekn.net/rulebook#diablerie) below).*
 
-If a vampire cannot mend their wounds, they go into torpor. Vampires in
+If a vampire cannot mend their wounds, is sent to torpor or is otherwise wounded, they are no longer ready and go to torpor (if this happens during combat, they are considered as "going to torpor" until the combat is over). Vampires in
 torpor are placed in an area to one side of the uncontrolled region. Any
 retainers, equipment, and other cards on the vampire stay with the
 vampire when they go into torpor.
@@ -1968,7 +1978,7 @@ burned.
 > be used to interrupt the diablerie; effects may be played either
 > before or after, as appropriate.
 
-
+If the diablerie occurs during combat, the victim is considered as "being diablerized/burned" until the combat is over. Only once the combat is over is the diablerie conducted as instructed above.
 
 **The Blood Hunt**
 
