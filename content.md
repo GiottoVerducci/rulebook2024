@@ -330,7 +330,10 @@ ready minion who meets the requirements of a master card can play it.
 Some of the effects listed on cards may require one of the Disciplines
 listed, while other effects require another listed Discipline, and some
 effects may require the vampire to possess several Disciplines. Each
-effect shows the icon(s) of the Discipline(s) required.
+effect shows the icon(s) of the Discipline(s) required. When played, 
+a multi-Disciplines card counts as requiring the Discipline(s) being used. 
+In the hand, library, or ash heap, the card is considered to require 
+any and/or all Disciplines listed on it.
 
 A number in a red drop represents blood cost (the amount of blood the
 vampire must burn). Only a vampire with enough blood on them can play a
