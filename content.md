@@ -655,46 +655,6 @@ uncontrolled region at any time during the game.
 
 
 
-## **IMPORTANT TERMS IN THE GAME**
-
-**Burn:** When a card is burned, it is placed into its owner's ash heap
-(discard pile). The ash heap can be examined by any Methuselah at any
-time. When a counter is burned, it is returned to the blood bank.
-Sometimes, an instruction may say to remove a card from the game. While
-some cards and effects can retrieve cards from the ash heap, cards that
-are removed from the game cannot be retrieved or affected in any way.
-When a card is burned or removed from the game, any counters or other
-cards on it are burned.
-
-**Control:** Vampires put into play by a Methuselah are controlled by
-that Methuselah.
-
-A master card in play is controlled by the Methuselah who played it,
-even if it is played on a card controlled by another Methuselah.
-
-A minion card in play is controlled by the controller of the minion it
-is on. If a minion card is just in play and not on another controlled
-card, then it is controlled by the Methuselah who played it.
-
-Control can change through game effects and this is clearly noted when
-using those effects.
-
-**Locking and Unlocking:** During play, you will turn cards sideways 90º
-to lock them, indicating that the cards have been used for some
-particular purpose or effect. Unlocking a card restores it to its
-original position, indicating that the card is reset and will be able to
-be locked again later. Only unlocked minions can perform actions or
-block the actions of other minions.
-
-**Rules of Card Ownership:** The cards you start the game with are
-referred to as "owned". Your cards can become controlled by other
-Methuselahs but are never owned by them. At the end of the game, the
-cards you own are returned to you. If you are ousted before the end of
-the game, any cards that you own that other Methuselahs control remain
-in play until burned as normal.
-
-**The Golden Rule for Cards:** Whenever the cards contradict the rules,
-the cards take precedence.
 ## **GENERAL RULES**
 
 ### **The Golden Rule for Cards:** 
@@ -790,17 +750,6 @@ action (even if using a different Discipline level).
 A reacting minion cannot play the **same reaction card** more than once during a single
 action (even if using a different Discipline level). 
 
-### **Targeting of Cards**
-
-If a card is played on another card, or targets another card, the target
-card must be in play (that is, controlled). Vampires in the torpor
-region are eligible targets by default, but vampires in the uncontrolled
-region and contested cards are not. 
-
-**Target:** A Methuselah or a card being affected by another card or effect (usually an action) that is not a referendum. Many cards or effects will have one or more targets, and the specific 
-eligible targets are defined in their card texts. 
-Targeting a card attached to another card does not target the latter, it is therefore possible to target a card on a vampire with a directed action, even when the vampire cannot be the target of directed actions. Sets of counters on a card (such as blood on a vampire) or possessed by a Methuselah (such as pool) are never targeted directly: they can only be targeted as a quantity via the card or the Methuselah. The card or Methuselah does not need to have that exact quantity: if they not have enough of these counters, then as many counters as possible are affected. For instance, a card that steals 2 blood from a vampire targets that vampire, whatever quantity of blood they have, and moves as much blood as possible if there is 1 or 0 blood counters.
-
 ### Sequencing
 If two or more Methuselahs want to play a card or effect, the acting
 Methuselah plays first. At every stage, the acting Methuselah always
@@ -813,6 +762,17 @@ during an undirected action, the prey first and the predator second.
 Then every other Methuselah in clockwise order gets the impulse until everyone passes.
 Note that if at any point any Methuselah uses a card or effect, the acting Methuselah
 again gets the impulse back.
+
+### **Targeting of Cards**
+
+If a card is played on another card, or targets another card, the target
+card must be in play (that is, controlled). Vampires in the torpor
+region are eligible targets by default, but vampires in the uncontrolled
+region and contested cards are not. 
+
+**Target:** A Methuselah or a card being affected by another card or effect (usually an action) that is not a referendum. Many cards or effects will have one or more targets, and the specific 
+eligible targets are defined in their card texts. 
+Targeting a card attached to another card does not target the latter, it is therefore possible to target a card on a vampire with a directed action, even when the vampire cannot be the target of directed actions. Sets of counters on a card (such as blood on a vampire) or possessed by a Methuselah (such as pool) are never targeted directly: they can only be targeted as a quantity via the card or the Methuselah. The card or Methuselah does not need to have that exact quantity: if they not have enough of these counters, then as many counters as possible are affected. For instance, a card that steals 2 blood from a vampire targets that vampire, whatever quantity of blood they have, and moves as much blood as possible if there is 1 or 0 blood counters.
 
 ### **IMPORTANT TERMS IN THE GAME**
 
