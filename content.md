@@ -773,6 +773,22 @@ Optional cost reducers can be used when the card is played (in order to play the
 ![](bin/media/image16.png)
 
 
+### Restrictions for Playing Cards
+**Actions**
+Some actions cannot be repeated more than once per turn by the same minion, even if the unlock (unless cancelled).
+* A minion cannot perform more than **one bleed action** 
+* A vampire cannot perform more than **one political action** 
+* A minion cannot perform more than one action with the **same named action card from hand**
+* A minion cannot perform each action via the **same copy of a card in play** (including from the minion’s own card text) more than once each turn.
+* An ally can perform actions first in the turn after they are recruited. 
+
+**Action modifier cards:**\
+An acting minion cannot play the **same action modifier** card more than once during a single
+action (even if using a different Discipline level). 
+
+**Reaction cards:**\
+A reacting minion cannot play the **same reaction card** more than once during a single
+action (even if using a different Discipline level). 
 
 ### **Targeting of Cards**
 
@@ -784,17 +800,6 @@ region and contested cards are not.
 **Target:** A Methuselah or a card being affected by another card or effect (usually an action) that is not a referendum. Many cards or effects will have one or more targets, and the specific 
 eligible targets are defined in their card texts. 
 Targeting a card attached to another card does not target the latter, it is therefore possible to target a card on a vampire with a directed action, even when the vampire cannot be the target of directed actions. Sets of counters on a card (such as blood on a vampire) or possessed by a Methuselah (such as pool) are never targeted directly: they can only be targeted as a quantity via the card or the Methuselah. The card or Methuselah does not need to have that exact quantity: if they not have enough of these counters, then as many counters as possible are affected. For instance, a card that steals 2 blood from a vampire targets that vampire, whatever quantity of blood they have, and moves as much blood as possible if there is 1 or 0 blood counters.
-
-### Non-Repeat Rules
-**Actions**
-Some actions cannot be repeated more than once per turn by the same minion, even if the unlock.
-* A minion cannot perform more than **one bleed action** 
-* A vampire cannot perform more than **one political action** 
-* A minion cannot perform an action with the **same action card** from hand or in play.
-
-**Action modifier cards:**\
-A minion cannot play the **same action modifier** card more than once during a single
-action (even if using a different Discipline level). 
 
 ### Sequencing
 If two or more Methuselahs want to play a card or effect, the acting
