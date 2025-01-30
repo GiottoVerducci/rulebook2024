@@ -649,6 +649,7 @@ and deal the top four crypt cards face down into your uncontrolled
 region (6). You can look at the cards in your hand and in your
 uncontrolled region at any time during the game.
 
+When a card is discarded, it is placed into its owner's ash heap (discard pile). Cards in the ash heap have no given order and can be examined by any Methuselah at any time. Sometimes, an instruction may say to remove a card from the game. While some cards and effects can retrieve cards from the ash heap, cards that are removed from the game cannot be retrieved or affected in any way.
 
 
 ![](bin/media/image30.png)
@@ -657,14 +658,8 @@ uncontrolled region at any time during the game.
 
 ## **IMPORTANT TERMS IN THE GAME**
 
-**Burn:** When a card is burned, it is placed into its owner's ash heap
-(discard pile). The ash heap can be examined by any Methuselah at any
-time. When a counter is burned, it is returned to the blood bank.
-Sometimes, an instruction may say to remove a card from the game. While
-some cards and effects can retrieve cards from the ash heap, cards that
-are removed from the game cannot be retrieved or affected in any way.
-When a card is burned or removed from the game, any counters or other
-cards on it are burned.
+**Burn:** When a card is burned, it is placed into its owner's ash heap. When a counter is burned, it is returned to the blood bank.
+When a card is burned or removed from the game, any counters or other cards on it are burned.
 
 **Control:** Vampires put into play by a Methuselah are controlled by
 that Methuselah.
