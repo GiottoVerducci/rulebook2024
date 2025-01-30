@@ -532,7 +532,7 @@ and deal the top four crypt cards face down into your uncontrolled
 region (6). You can look at the cards in your hand and in your
 uncontrolled region at any time during the game.
 
-
+When a card is discarded, it is placed into its owner's ash heap (discard pile). Cards in the ash heap have no given order and can be examined by any Methuselah at any time. Sometimes, an instruction may say to remove a card from the game. While some cards and effects can retrieve cards from the ash heap, cards that are removed from the game cannot be retrieved or affected in any way.
 
 ![](bin/media/image30.png)
 
@@ -560,6 +560,12 @@ cards in hand. Whenever an effect changes your hand size or adds or
 removes cards from your hand, immediately discard down to or draw up to
 match your hand size.
 
+> **ADVANCED RULES**\
+> Some effects can cancel a card "as it is played." These effects, as
+> well as [**wake effects**](https://www.vekn.net/rulebook/8-glossaries#wake),
+> are the only effects allowed during the "as played" time period of
+> another card. Even drawing to replace cards, comes after this time
+> period.
 
 ### **Using effects**
 Effects can only be used if their requirements are met. They always resolve in full. They are not interruptible nor pre-emptible, and their resolution cannot be split unless they set up an explicit sequence. 
@@ -621,27 +627,21 @@ Optional cost reducers can be used when the card is played (in order to play the
 ![](bin/media/image16.png)
 
 
-
-### **Targeting of Cards**
-
-If a card is played on another card, or targets another card, the target
-card must be controlled. Vampires in the torpor
-region are eligible targets by default, but vampires in the uncontrolled
-region and contested cards are not. 
-
-**Target:** A Methuselah or a card being affected by another card or effect (usually an action) that is not a referendum. Many cards or effects will have one or more targets, and the specific 
-eligible targets are defined in their card texts. 
-Targeting a card attached to another card does not target the latter, it is therefore possible to target a card on a vampire with a directed action, even when the vampire cannot be the target of directed actions. Sets of counters on a card (such as blood on a vampire) or possessed by a Methuselah (such as pool) are never targeted directly: they can only be targeted as a quantity via the card or the Methuselah. The card or Methuselah does not need to have that exact quantity: if they not have enough of these counters, then as many counters as possible are affected. For instance, a card that steals 2 blood from a vampire targets that vampire, whatever quantity of blood they have, and moves as much blood as possible if there is 1 or 0 blood counters.
-
-### Non-Repeat Rules
+### Restrictions for Playing Cards
 **Actions**
-Some actions cannot be repeated more than once per turn by the same minion, even if the unlock.
+Some actions cannot be repeated more than once per turn by the same minion, even if the unlock (unless cancelled).
 * A minion cannot perform more than **one bleed action** 
 * A vampire cannot perform more than **one political action** 
-* A minion cannot perform an action with the **same action card** from hand or in play.
+* A minion cannot perform more than one action with the **same named action card from hand**
+* A minion cannot perform each action via the **same copy of a card in play** (including from the minion’s own card text) more than once each turn.
+* An ally can perform actions first in the turn after they are recruited. 
 
 **Action modifier cards:**\
-A minion cannot play the **same action modifier** card more than once during a single
+An acting minion cannot play the **same action modifier** card more than once during a single
+action (even if using a different Discipline level). 
+
+**Reaction cards:**\
+A reacting minion cannot play the **same reaction card** more than once during a single
 action (even if using a different Discipline level). 
 
 ### Sequencing
@@ -657,6 +657,16 @@ Then every other Methuselah in clockwise order gets the impulse until everyone p
 Note that if at any point any Methuselah uses a card or effect, the acting Methuselah
 again gets the impulse back.
 
+### **Targeting of Cards**
+
+If a card is played on another card, or targets another card, the target
+card must be controlled. Vampires in the torpor
+region are eligible targets by default, but vampires in the uncontrolled
+region and contested cards are not. 
+
+**Target:** A Methuselah or a card being affected by another card or effect (usually an action) that is not a referendum. Many cards or effects will have one or more targets, and the specific 
+eligible targets are defined in their card texts. 
+Targeting a card attached to another card does not target the latter, it is therefore possible to target a card on a vampire with a directed action, even when the vampire cannot be the target of directed actions. Sets of counters on a card (such as blood on a vampire) or possessed by a Methuselah (such as pool) are never targeted directly: they can only be targeted as a quantity via the card or the Methuselah. The card or Methuselah does not need to have that exact quantity: if they not have enough of these counters, then as many counters as possible are affected. For instance, a card that steals 2 blood from a vampire targets that vampire, whatever quantity of blood they have, and moves as much blood as possible if there is 1 or 0 blood counters.
 
 ### **IMPORTANT TERMS IN THE GAME**
 
@@ -678,12 +688,7 @@ that Methuselah.
 Control can change through game effects and this is clearly noted when
 using those effects.\
 \
-**Burn:** When a card is burned, it is placed into its owner's ash heap
-(discard pile). The ash heap can be examined by any Methuselah at any
-time. When a counter is burned, it is returned to the blood bank.
-Sometimes, an instruction may say to remove a card from the game. While
-some cards and effects can retrieve cards from the ash heap, cards that
-are removed from the game cannot be retrieved or affected in any way.
+**Burn:** When a card is burned, it is placed into its owner's ash heap. When a counter is burned, it is returned to the blood bank.
 When a card is burned or removed from the game, any counters or other
 cards on it are burned.\
 \
