@@ -1249,9 +1249,10 @@ than once per action.
 
 **1. Announce the Action**
 
-All details of the action are defined when the action is announced,
-including the target(s), the cost, the effects, and so on. Any card
-required for the action is played (face up) at this time, but is temporarily set aside (out of play) until the action resolves. Lock the
+All details of the action must be defined when the action is announced,
+including the target(s), the cost, the effects, and so on. Choices that depend on the outcome of the action must be made during resolution, e.g. the target of a bleed or a specific bleed amount.\
+\
+Any card required for the action is played (face up) at this time, but is temporarily set aside (out of play) until the action resolves. Lock the
 acting minion (only ready unlocked minions can perform actions).
 
 Some cards are played "as the action is announced”, those cards must be played before regular action modifier cards and reaction cards.
