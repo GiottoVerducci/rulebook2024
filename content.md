@@ -345,6 +345,8 @@ the Methuselah must control the Edge to burn it for a cost, or discard one of th
 Minions controlled by a Methuselah have access to that Methuselah's resources in order to pay costs: for instance,
 a minion can discard a card from their controller's hand.
 
+In short, those two types of cost can be distinguished of where they are written: Card costs are solely the costs written in the blood or skull symbol whereas effect costs are mentioned in card text.
+
 Optional cost reducers can be used when the card is played (in order to play the card) or upon resolution (you may wait until you know the action is successful). If the card is cancelled, then the effect is not used.
 
 ![](bin/media/image16.png)
