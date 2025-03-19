@@ -321,7 +321,6 @@ playing that card.
 ![](bin/media/image15.png)
 
 
-
 Some cards will have other requirements (such as capacity or title)
 stated in the card text. Only a minion who meets the requirements given
 on a minion card can play it, whereas only a Methuselah who controls a
@@ -332,14 +331,16 @@ listed, while other effects require another listed Discipline, and some
 effects may require the vampire to possess several Disciplines. Each
 effect shows the icon(s) of the Discipline(s) required.
 
-A number in a red drop represents blood cost (the amount of blood the
+**Costs** 
+Costs may only be paid with the Methuselah's or the minion's own resources. Costs are paid immediately, except for all actions. Action costs are paid during action resolution [link]. An effect or card can only be used if the cost can be paid in full.
+
+On a card, a number in a red drop represents the cards blood cost (the amount of blood the
 vampire must burn). Only a vampire with enough blood on them can play a
 card with a blood cost. A number in a white diamond with a skull
-represents pool cost (the amount of pool the Methuselah must burn). Only
+represents a cards pool cost (the amount of pool the Methuselah must burn). Only
 a Methuselah with enough pool can play a card with a pool cost.
 
-Costs may only be paid with the Methuselah's or the minion's own resources. For instance, 
-some cards or effects have an alternative cost such as burning the Edge or discarding a card; 
+Some cards or effects have an effect cost. This uses the template **do x to y**, such as burning the Edge or discarding a card; 
 the Methuselah must control the Edge to burn it for a cost, or discard one of their own card in hand.
 Minions controlled by a Methuselah have access to that Methuselah's resources in order to pay costs: for instance,
 a minion can discard a card from their controller's hand.
