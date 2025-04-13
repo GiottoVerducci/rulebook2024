@@ -624,7 +624,7 @@ a minion can discard a card from their controller's hand.
 
 Optional cost reducers can be used when the card is played (in order to play the card) or upon resolution (you may wait until you know the action is successful). If the card is cancelled, then the effect is not used.
 
-> ADVANCED RULES
+> **ADVANCED RULES**\
 > A minion with the corresponding card text can imitate a requirement if they "can play cards as" or "can use cards as" they were from a certain clan or sect, would have a title or would have the discipline on the indicated level.
 > To be able to play a card which has several requirements, e.g. a title and a clan; the minion needs to imitate all requirements they lack. If a title belongs to a sect (e.g. Prince), they are treated as if they were from the corresponding sect.
 > Cards are playable via imitation effects only if their ability matches with the necessary requirements literally.
