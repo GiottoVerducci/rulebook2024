@@ -2298,7 +2298,7 @@ There may be other Traits that allow vampires and minions to play cards.
 
 ![](bin/media/image119.png) Pool Cost
 
-# ADVANCED RULES
+# 8. ADVANCED RULES
 
 ## CARD TYPES
 
