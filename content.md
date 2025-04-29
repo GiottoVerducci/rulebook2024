@@ -1245,11 +1245,61 @@ directed at another Methuselah, the card's text will usually include a
 The Dowager's action to recruit the Underbridge Stray, an ally, is not directed at another Methuselah, so it is undirected. It can be blocked by the ready unlocked minions of Sarah's prey or Sarah's predator. 
 If her prey's first attempt fails, another can be made and so on until her prey declines to make any further attempts, at which point her predator may begin attempting to block.*
 
-**Stealth and Intercept**
-Stealth represents the measures that the acting minion is taking to conduct their business discreetly, to avoid attracting the attention of those who would oppose them. 
-Intercept represents the blocking minion's efforts to discover the plans of the acting minion and to stalk or chase them in order to detain them (by fighting with them) before they can accomplish their goal.
+**Stealth and Intercept**\
+\
+**Stealth** represents the measures that the acting minion is taking to
+conduct their business discreetly, to avoid attracting the attention of
+those who would oppose them. **Intercept** represents the blocking
+minion's efforts to discover the plans of the acting minion and to stalk
+or chase them in order to detain them (by fighting with them) before
+they can accomplish their goal.
 
+To see if a block attempt succeeds, compare the acting minion's stealth
+to the blocking minion's intercept. The action is blocked if the
+blocker's intercept is equal to or greater than the acting minion's
+stealth. By default, minions have 0 stealth and 0 intercept. So a block
+attempt will normally succeed unless the action has inherent stealth
+(such as hunting) or a card or effect is used to increase the acting
+minion's stealth.
 
+Some actions have an inherent stealth, as noted in the action list and
+on some action cards. The minion taking such an action starts with
+greater stealth than normal.
+
+Additionally, some cards and other effects can be used to increase or decrease (even below 0) a
+minion's stealth or intercept, as noted on card text.
+
+Stealth can be added during an action only when needed, that is, only if
+the action is currently being blocked and the blocking minion has enough
+intercept to block the acting minion. Likewise, intercept can be added
+during an action only when needed, only by a blocking minion when the
+acting minion's stealth exceeds their intercept.
+
+Note that all modifications made to a minion's stealth or intercept
+remain in effect for the duration of the action. Increased stealth and
+intercept return to normal after the action is resolved.
+
+*Sarah announces that Wauneka is hunting and locks Wauneka. The action
+is undirected and has a default of +1 stealth. Her prey declines to
+block.*
+
+*Her predator, however, plays a reaction card to give +1 intercept to
+one of her ready unlocked minions, Ayelech. Sarah has no cards to play
+to increase Wauneka's stealth, so the action is blocked. Ayelech is
+locked, and combat begins.*
+
+If a block attempt fails, either another attempt is made or the
+defending Methuselah declares that they will not make any further
+attempts to block the action. 
+
+Once all Methuselahs have declined to block, the impulse goes back to the acting Methuselah (then the other Methuselahs
+following the order previously given) to play more cards and effects before resolving the action.
+
+*Sarah announces that Sully is bleeding Alexis. Sarah has no effects
+that she wishes to play before Alexis decides whether to block, so Sarah
+says "Do you block?" Alexis decides not to block, so then Sarah plays
+Bonding (an action modifier that adds 1 to the bleed). Alexis is bled
+for 2 pool.*
 
 ## **SUMMARY OF THE COURSE OF AN ACTION**
 
@@ -1309,113 +1359,6 @@ Underbridge Stray, announcing: "The Dowager recruits the Underbridge
 Stray at +1 stealth, costing The Dowager 1 blood." (The blood is not
 paid until the action succeeds.)*
 
-
-
-**2. Resolve Any Block Attempts**
-
-**Who May Attempt to Block**
-
-If the action targets one or more other Methuselahs or things controlled
-by other Methuselahs, then the action is called directed, and only the
-Methuselahs who are targeted may use their ready unlocked minions to
-attempt to block the action. If more than one Methuselah has been
-targeted by the action, block attempts are made in a clockwise order.
-
-If the action is not directed at another Methuselah or at something
-controlled by another Methuselah, then the action is called undirected
-and can be blocked by the acting Methuselah's prey or predator, with the
-prey getting the first opportunity to block.
-
-A minion can attempt to block as many times as they wish as long as
-another minion is not already blocking.
-
-If one attempt to block fails, another can be made as often as the
-blocking Methuselah wishes.
-
-Once a Methuselah decides not to make any further attempts to block,
-that decision is final.
-If the target of the action is changed (e.g. a bleed action is redirected), this will reopen block attempts, following the normal rules.
-
-As a reminder, when a card describes an action that is typically
-directed at another Methuselah, the card's text will usually include a
-(D) symbol as a reminder that the action is typically directed.
-
-
-
-![](bin/media/image43.png)
-
-
-
-Remember, political actions are always undirected.
-
-*Belinde's action to bleed Alexis is directed at Alexis, so only Alexis's
-ready unlocked minions can attempt to block. If one block attempt fails,
-another can be made.
-
-The Dowager's action to recruit the Underbridge Stray, an ally, is not
-directed at another Methuselah, so it is undirected. It can be blocked
-by the ready unlocked minions of Sarah's prey or Sarah's predator. If
-her prey's first attempt fails, another can be made and so on until her
-prey declines to make any further attempts, at which point her predator
-may begin attempting to block.*
-
-
-
-**Stealth and Intercept**
-
-**Stealth** represents the measures that the acting minion is taking to
-conduct their business discreetly, to avoid attracting the attention of
-those who would oppose them. **Intercept** represents the blocking
-minion's efforts to discover the plans of the acting minion and to stalk
-or chase them in order to detain them (by fighting with them) before
-they can accomplish their goal.
-
-To see if a block attempt succeeds, compare the acting minion's stealth
-to the blocking minion's intercept. The action is blocked if the
-blocker's intercept is equal to or greater than the acting minion's
-stealth. By default, minions have 0 stealth and 0 intercept. So a block
-attempt will normally succeed unless the action has inherent stealth
-(such as hunting) or a card or effect is used to increase the acting
-minion's stealth.
-
-Some actions have an inherent stealth, as noted in the action list and
-on some action cards. The minion taking such an action starts with
-greater stealth than normal.
-
-Additionally, some cards and other effects can be used to increase or decrease (even below 0) a
-minion's stealth or intercept, as noted on card text.
-
-Stealth can be added during an action only when needed, that is, only if
-the action is currently being blocked and the blocking minion has enough
-intercept to block the acting minion. Likewise, intercept can be added
-during an action only when needed, only by a blocking minion when the
-acting minion's stealth exceeds their intercept.
-
-Note that all modifications made to a minion's stealth or intercept
-remain in effect for the duration of the action. Increased stealth and
-intercept return to normal after the action is resolved.
-
-*Sarah announces that Wauneka is hunting and locks Wauneka. The action
-is undirected and has a default of +1 stealth. Her prey declines to
-block.*
-
-*Her predator, however, plays a reaction card to give +1 intercept to
-one of her ready unlocked minions, Ayelech. Sarah has no cards to play
-to increase Wauneka's stealth, so the action is blocked. Ayelech is
-locked, and combat begins.*
-
-If a block attempt fails, either another attempt is made or the
-defending Methuselah declares that they will not make any further
-attempts to block the action. 
-
-Once all Methuselahs have declined to block, the impulse goes back to the acting Methuselah (then the other Methuselahs
-following the order previously given) to play more cards and effects before resolving the action.
-
-*Sarah announces that Sully is bleeding Alexis. Sarah has no effects
-that she wishes to play before Alexis decides whether to block, so Sarah
-says "Do you block?" Alexis decides not to block, so then Sarah plays
-Bonding (an action modifier that adds 1 to the bleed). Alexis is bled
-for 2 pool.*
 
 
 > **DETAILED COURSE OF AN ACTION**
