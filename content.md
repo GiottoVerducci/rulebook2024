@@ -1415,7 +1415,7 @@ burned and the block is resolved with these two simultaneous
 consequences: the blocking minion is locked and enters combat with the
 acting minion
 (see [**Combat**](https://www.vekn.net/rulebook#combat)). If
-an effect ends the action before the block resolution or one of these
+an effect ends the action before either the block resolution or one of these
 two consequences (such as entering combat), neither consequence occurs.
 The effects of the action do not take place when the action is blocked.
 Note that the action's cost, if any, is only paid if the action
