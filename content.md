@@ -283,10 +283,18 @@ allies) the Methuselah controls.
 
 ### **Playing a Card**
 
-A card is played by announcing its effects, showing the card and placing
-it from the hand in the ash heap upon resolution. Sometimes a card will state to put it
-into play, you should announce its effects and place the card in the
-play area upon resolution.
+A card is played in three steps:
+
+1. announce the card\
+All details are defined, including (but not limited to):
+    * its effects and targets (if any)
+    * which minion is playing it (for minion cards)
+    * its cost and how it is paid (if any)
+    * its requirements and how they are met (if any), for instance which Discipline(s) are used
+2. reveal the card to all Methuselahs\
+The card is usually taken from the hand. Some effects allow to play cards from other places as if they were in the hand.
+3. resolve the card\
+The card is resolved by paying its cost and resolving its effects. By default, a card go the ash heap upon resolution, unless stated otherwise (some cards are put in the play area for instance).
 Some cards such as action cards are not resolved immediately; in that case, they are temporarily out of play between the moment they are played and the moment they reach resolution.
 
 > **ADVANCED RULES**\
@@ -1251,7 +1259,7 @@ than once per action.
 
 All details of the action are defined when the action is announced,
 including the target(s), the cost, the effects, and so on. Any card
-required for the action is played (face up) at this time, but is temporarily set aside (out of play) until the action resolves. Lock the
+required for the action is played (face up) at this time (see **Playing a Card**), but is temporarily set aside (out of play) until the action resolves. Lock the
 acting minion (only ready unlocked minions can perform actions).
 
 Some cards are played "as the action is announced”, those cards must be played before regular action modifier cards and reaction cards.
