@@ -2115,11 +2115,12 @@ be saved for later.
 
 
 When a Methuselah runs out of pool counters, they are ousted from the
-game. If you are ousted, all the cards you control are removed from the
-game. Any of your rivals' cards you control are returned to them at the
-end of the game. Any of your cards controlled by other Methuselahs
-remain in play as normal. The game continues until only one Methuselah
-is left.
+game. If you are ousted, you immediately yield all contests and all the
+cards you own that are not controlled by other Methuselahs and any cards
+owned by other Methuselahs that you control or are in your uncontrolled
+region are removed from the game. Any of your rivals' cards you control
+are returned to them at the end of the game. The game continues until
+only one Methuselah is left.
 
 You get 1 victory point and 6 pool counters from the blood bank whenever
 your prey is ousted (no matter how or by whom your prey was ousted). You
