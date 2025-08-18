@@ -588,6 +588,8 @@ card does not lock the minion playing it.
 > \
 > A minion can play a reflex card to cancel a specified kind of card
 > played against them as it is played (see [**Playing a Card**](https://www.vekn.net/rulebook#playing-a-card)).
+> Note that a card with reflex is its own cardtype and can be played at anytime, even during combat.
+> The card *Taking the Skin: Vulture*, which has a main card type of reaction, can use the reflex option to counter a card in combat. Even in the owners turn.
 
 
 ![](bin/media/image28.png)
