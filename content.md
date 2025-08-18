@@ -1847,7 +1847,7 @@ strength of 1.
 
 **Dodge:** A dodge strike deals no damage, but it protects the dodging
 minion and their possessions from the effects of the opposing strike.
-Retainers are not protected, however. A dodge is effective at any range.
+A dodge is effective at any range.
 A dodge protects even from the effects of a strike done with first
 strike (see [**First Strike**](https://www.vekn.net/rulebook#first-strike)). A
 dodge is a strike, even though it is solely defensive. It represents the
