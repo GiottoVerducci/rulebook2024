@@ -1440,27 +1440,21 @@ until the action itself is successful.
 
 **The Referendum**
 
-If a political action is successful, its cost is paid, and the
-referendum is called. The referendum consists of three steps:
-
-**1. Choose the terms**, if any, of the referendum.
-
-**2. Polling:** Cards that are usable "during the polling step" but
-"before votes and ballots are cast" are used at this time. Then, all
-Methuselahs may now cast any votes and ballots they have (see below) at
-this time, in any order. They call out their votes and ballots freely,
-and there is no obligation to cast votes or ballots. Once a vote or a
-ballot has been cast, however, it cannot be changed. The polling stage
-is completed only when all Methuselahs are finished casting votes and
-ballots. If you need a time limit, the Methuselahs can agree to wait 15
-seconds after the last vote or ballot cast to close the polling stage.
-
-**3. Resolve the Referendum:** If there are more votes for the
-referendum than against, it passes, and the effects take place.
-Otherwise, the referendum fails and has no effect. Tied referendums
-fail.
-
-
+> **1. Choose the terms**, if any, of the referendum.\
+> \
+> **2. Polling:**\
+> \
+> **2.a Before votes and ballots are cast**\
+> Cards that are usable "during the polling step" but "before votes and ballots are cast" are used at this time.\
+> **2.b polling step**\
+> All Methuselahs may then cast any votes and ballots they have (see below) at this time, in any order. They call out their votes and ballots freely, and there is no obligation to cast votes or ballots. 
+> Once a vote or ballot has been cast, however, it cannot be changed. The polling stage is completed only when all Methuselahs are finished casting votes and ballots. 
+> \
+> If you need a time limit, the Methuselahs can agree to wait 15 seconds after the last vote cast to close the polling stage.\
+> \
+> **3. Resolve the Referendum:**\
+> If there are more votes for the referendum than against, it passes, and the effects take place. 
+> Otherwise, the referendum fails and has no effect. Tied referendums fail.
 
 **Gaining Votes**
 
